@@ -42,30 +42,32 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            <div className="relative group">
+            <div
+              className="relative group"
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
               <button
                 className="flex items-center gap-1 hover:text-primary transition-colors"
-                onMouseEnter={() => setServicesOpen(true)}
-                onMouseLeave={() => setServicesOpen(false)}
               >
                 Послуги
                 <ChevronDown className="w-4 h-4" />
               </button>
               {servicesOpen && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-56 bg-white shadow-xl rounded-lg overflow-hidden"
-                  onMouseEnter={() => setServicesOpen(true)}
-                  onMouseLeave={() => setServicesOpen(false)}
+                  className="absolute top-full left-0 pt-2"
                 >
-                  {services.map((service) => (
-                    <Link
-                      key={service.href}
-                      href={service.href}
-                      className="block px-4 py-3 hover:bg-primary hover:text-white transition-colors"
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
+                  <div className="bg-white shadow-xl rounded-lg overflow-hidden w-56">
+                    {services.map((service) => (
+                      <Link
+                        key={service.href}
+                        href={service.href}
+                        className="block px-4 py-3 hover:bg-primary hover:text-white transition-colors"
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
