@@ -1,8 +1,7 @@
 "use client";
 
-import { testimonials } from "@/data/testimonials";
 import Card from "@/components/ui/Card";
-import { Star, Quote } from "lucide-react";
+import { MessageSquare, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
@@ -17,51 +16,32 @@ export default function TestimonialsSection() {
           <p>{t("description")}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <motion.div
-              key={testimonial.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <Card className="h-full bg-white relative">
-                <Quote className="absolute top-6 right-6 w-10 h-10 text-primary/10" />
-                
-                {/* Rating */}
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="w-5 h-5 fill-yellow-400 text-yellow-400"
-                    />
-                  ))}
-                </div>
-
-                {/* Content */}
-                <p className="text-muted mb-6 relative z-10">
-                  "{testimonial.content}"
-                </p>
-
-                {/* Author */}
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">
-                      {testimonial.name.charAt(0)}
-                    </span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-sm text-muted">
-                      {testimonial.position}, {testimonial.company}
-                    </p>
-                  </div>
-                </div>
-              </Card>
-            </motion.div>
-          ))}
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <Card className="max-w-2xl mx-auto text-center py-12 bg-white">
+            <div className="w-20 h-20 bg-gradient-to-br from-primary/10 to-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <MessageSquare className="w-10 h-10 text-primary" />
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-4">{t("coming_soon_title")}</h3>
+            <p className="text-muted mb-6 max-w-md mx-auto">
+              {t("coming_soon_text")}
+            </p>
+            
+            <div className="flex justify-center gap-1">
+              {[...Array(5)].map((_, i) => (
+                <Star
+                  key={i}
+                  className="w-6 h-6 text-gray-200"
+                />
+              ))}
+            </div>
+          </Card>
+        </motion.div>
       </div>
     </section>
   );

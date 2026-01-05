@@ -24,10 +24,10 @@
     "cta_primary": "Book consultation",
     "cta_secondary": "Our services",
     "stats": {
-      "experience": "Years of experience",
-      "projects": "Projects",
-      "clients": "Satisfied clients",
-      "support": "Support"
+      "individual": "Individual approach",
+      "modern": "Modern technologies",
+      "partnership": "Partnership cooperation",
+      "quality": "Quality guarantee"
     }
   },
   "services": {
@@ -149,7 +149,12 @@
       "launch": { "title": "Launch and Support", "description": "We launch the project and provide technical support" }
     }
   },
-  "testimonials": { "title": "Client Reviews", "description": "What our clients say about us" },
+  "testimonials": { 
+    "title": "Client Reviews", 
+    "description": "What our clients say about us",
+    "coming_soon_title": "Your review could be the first!",
+    "coming_soon_text": "We are a new company and are just building our reputation. We would appreciate your feedback after working together."
+  },
   "cta": {
     "title": "Ready to start your project?",
     "description": "Get a free consultation from our experts and learn how we can help your business grow",
@@ -233,10 +238,11 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "description": "Explore our completed projects",
+    "description": "Sample demo projects showcasing our capabilities",
     "all": "All",
     "view": "View",
-    "no_projects": "No projects in this category"
+    "no_projects": "No projects in this category",
+    "demo_note": "Projects marked [Demo] are demonstration projects showing our technical capabilities"
   },
   "blog": {
     "title": "Blog",

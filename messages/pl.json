@@ -24,10 +24,10 @@
     "cta_primary": "Zamów konsultację",
     "cta_secondary": "Nasze usługi",
     "stats": {
-      "experience": "Lat doświadczenia",
-      "projects": "Projektów",
-      "clients": "Zadowolonych klientów",
-      "support": "Wsparcie"
+      "individual": "Indywidualne podejście",
+      "modern": "Nowoczesne technologie",
+      "partnership": "Partnerska współpraca",
+      "quality": "Gwarancja jakości"
     }
   },
   "services": {
@@ -149,7 +149,12 @@
       "launch": { "title": "Uruchomienie i wsparcie", "description": "Uruchamiamy projekt i zapewniamy wsparcie techniczne" }
     }
   },
-  "testimonials": { "title": "Opinie klientów", "description": "Co mówią o nas nasi klienci" },
+  "testimonials": { 
+    "title": "Opinie klientów", 
+    "description": "Co mówią o nas nasi klienci",
+    "coming_soon_title": "Twoja opinia może być pierwsza!",
+    "coming_soon_text": "Jesteśmy nową firmą i dopiero budujemy naszą reputację. Będziemy wdzięczni za Twoją opinię po zakończeniu współpracy."
+  },
   "cta": {
     "title": "Gotowy do rozpoczęcia projektu?",
     "description": "Uzyskaj bezpłatną konsultację od naszych ekspertów i dowiedz się, jak możemy pomóc Twojemu biznesowi się rozwijać",
@@ -233,10 +238,11 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "description": "Poznaj nasze zrealizowane projekty",
+    "description": "Przykładowe projekty demonstracyjne pokazujące nasze możliwości",
     "all": "Wszystkie",
     "view": "Zobacz",
-    "no_projects": "Brak projektów w tej kategorii"
+    "no_projects": "Brak projektów w tej kategorii",
+    "demo_note": "Projekty oznaczone [Demo] to projekty demonstracyjne pokazujące nasze możliwości techniczne"
   },
   "blog": {
     "title": "Blog",

@@ -79,10 +79,10 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             {[
-              { value: "5+", label: t("stats.experience") },
-              { value: "150+", label: t("stats.projects") },
-              { value: "98%", label: t("stats.clients") },
-              { value: "24/7", label: t("stats.support") },
+              { icon: "🎯", label: t("stats.individual") },
+              { icon: "⚡", label: t("stats.modern") },
+              { icon: "🤝", label: t("stats.partnership") },
+              { icon: "🛡️", label: t("stats.quality") },
             ].map((stat, index) => (
               <motion.div 
                 key={index} 
@@ -91,10 +91,10 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.9 + index * 0.1 }}
               >
-                <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">
-                  {stat.value}
+                <div className="text-3xl md:text-4xl mb-2">
+                  {stat.icon}
                 </div>
-                <div className="text-sm text-muted">{stat.label}</div>
+                <div className="text-sm text-muted font-medium">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>
