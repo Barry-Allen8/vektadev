@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const serviceKeys = [
-  { key: "websites", icon: Globe, href: "/services/websites", color: "from-blue-500 to-cyan-500" },
-  { key: "chatbots", icon: Bot, href: "/services/chatbots", color: "from-violet-500 to-purple-500" },
-  { key: "ai_solutions", icon: Brain, href: "/services/ai-solutions", color: "from-pink-500 to-rose-500" },
-  { key: "mobile_apps", icon: Smartphone, href: "/services/mobile-apps", color: "from-orange-500 to-amber-500" },
-  { key: "cloud", icon: Cloud, href: "/services/cloud", color: "from-emerald-500 to-teal-500" },
-  { key: "consulting", icon: Lightbulb, href: "/services/consulting", color: "from-indigo-500 to-blue-500" },
+  { key: "websites", icon: Globe, href: "/services/websites", color: "from-blue-500 to-cyan-500", shadow: "hover:shadow-blue-500/25" },
+  { key: "chatbots", icon: Bot, href: "/services/chatbots", color: "from-violet-500 to-purple-500", shadow: "hover:shadow-violet-500/25" },
+  { key: "ai_solutions", icon: Brain, href: "/services/ai-solutions", color: "from-pink-500 to-rose-500", shadow: "hover:shadow-pink-500/25" },
+  { key: "mobile_apps", icon: Smartphone, href: "/services/mobile-apps", color: "from-orange-500 to-amber-500", shadow: "hover:shadow-orange-500/25" },
+  { key: "cloud", icon: Cloud, href: "/services/cloud", color: "from-emerald-500 to-teal-500", shadow: "hover:shadow-emerald-500/25" },
+  { key: "consulting", icon: Lightbulb, href: "/services/consulting", color: "from-indigo-500 to-blue-500", shadow: "hover:shadow-indigo-500/25" },
 ];
 
 const containerVariants = {
@@ -76,57 +76,42 @@ export default function ServicesSection() {
             return (
               <motion.div key={service.key} variants={itemVariants}>
                 <Link href={service.href} className="block h-full">
-                  <Card className="h-full cursor-pointer group relative overflow-hidden bg-white border border-gray-100 hover:border-transparent transition-all duration-500">
-                    {/* Gradient border on hover */}
-                    <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10`} />
-                    <div className="absolute inset-[1px] bg-white rounded-xl group-hover:bg-white/95 transition-colors duration-500" />
-
-                    {/* Content */}
-                    <div className="relative z-10">
-                      {/* Icon with animated background */}
-                      <div className="relative mb-6">
-                        <motion.div
-                          className={`absolute inset-0 bg-gradient-to-br ${service.color} rounded-2xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500`}
-                          whileHover={{ scale: 1.2 }}
-                        />
-                        <div className={`relative w-16 h-16 bg-gradient-to-br ${service.color} bg-opacity-10 rounded-2xl flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500`}>
-                          <div className={`absolute inset-0 bg-gradient-to-br ${service.color} rounded-2xl opacity-10 group-hover:opacity-100 transition-opacity duration-500`} />
-                          <Icon className="w-8 h-8 text-gray-700 group-hover:text-white transition-colors duration-300 relative z-10" />
-                        </div>
+                  <Card className={`h-full cursor-pointer group bg-white border border-gray-100 hover:border-gray-200 shadow-sm hover:shadow-xl ${service.shadow} transition-all duration-300 hover:-translate-y-2`}>
+                    {/* Icon with animated background */}
+                    <div className="relative mb-6">
+                      <div className={`absolute -inset-2 bg-gradient-to-br ${service.color} rounded-3xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
+                      <div className={`relative w-16 h-16 rounded-2xl flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 bg-gradient-to-br ${service.color}`}>
+                        <Icon className="w-8 h-8 text-white" />
                       </div>
+                    </div>
 
-                      {/* Title */}
-                      <h3 className="text-xl font-bold mb-3 group-hover:text-foreground transition-colors">
-                        {t(`${service.key}.title`)}
-                      </h3>
+                    {/* Title */}
+                    <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                      {t(`${service.key}.title`)}
+                    </h3>
 
-                      {/* Description */}
-                      <p className="text-muted mb-5 line-clamp-2">
-                        {t(`${service.key}.description`)}
-                      </p>
+                    {/* Description */}
+                    <p className="text-muted mb-5 line-clamp-2">
+                      {t(`${service.key}.description`)}
+                    </p>
 
-                      {/* Features */}
-                      <ul className="space-y-2 mb-6">
-                        {(t.raw(`${service.key}.features`) as string[]).slice(0, 3).map((feature: string, idx: number) => (
-                          <motion.li
-                            key={idx}
-                            className="flex items-start gap-2 text-sm"
-                            initial={{ opacity: 0, x: -10 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: 0.3 + idx * 0.1 }}
-                          >
-                            <span className={`mt-1 w-1.5 h-1.5 rounded-full bg-gradient-to-r ${service.color}`} />
-                            <span className="text-muted group-hover:text-foreground transition-colors">{feature}</span>
-                          </motion.li>
-                        ))}
-                      </ul>
+                    {/* Features */}
+                    <ul className="space-y-2 mb-6">
+                      {(t.raw(`${service.key}.features`) as string[]).slice(0, 3).map((feature: string, idx: number) => (
+                        <li
+                          key={idx}
+                          className="flex items-start gap-2 text-sm"
+                        >
+                          <span className={`mt-1.5 w-1.5 h-1.5 rounded-full bg-gradient-to-r ${service.color} flex-shrink-0`} />
+                          <span className="text-muted group-hover:text-foreground transition-colors">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
 
-                      {/* CTA */}
-                      <div className="flex items-center gap-2 text-primary font-medium group-hover:gap-3 transition-all duration-300">
-                        <span>{t("learn_more")}</span>
-                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </div>
+                    {/* CTA */}
+                    <div className="flex items-center gap-2 text-primary font-medium group-hover:gap-3 transition-all duration-300">
+                      <span>{t("learn_more")}</span>
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </Card>
                 </Link>
