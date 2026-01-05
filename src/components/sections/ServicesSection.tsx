@@ -19,12 +19,18 @@ export default function ServicesSection() {
   const t = useTranslations("services");
 
   return (
-    <section id="services" className="section bg-white">
+    <section id="services" className="section bg-white hexagon-bg relative">
       <div className="container">
-        <div className="section-title">
+        <motion.div 
+          className="section-title"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
           <h2>{t("title")}</h2>
           <p>{t("description")}</p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {serviceKeys.map((service, index) => {
@@ -32,17 +38,17 @@ export default function ServicesSection() {
             return (
               <motion.div
                 key={service.key}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Link href={service.href}>
-                  <Card className="h-full cursor-pointer group">
-                    <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary group-hover:scale-110 transition-all">
-                      <Icon className="w-7 h-7 text-primary group-hover:text-white" />
+                  <Card className="h-full cursor-pointer group card-hover bg-white/80 backdrop-blur-sm">
+                    <div className="w-14 h-14 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:scale-110 transition-all duration-300">
+                      <Icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">
+                    <h3 className="text-xl font-semibold mb-3 group-hover:text-primary transition-colors">
                       {t(`${service.key}.title`)}
                     </h3>
                     <p className="text-muted mb-4">
@@ -50,8 +56,8 @@ export default function ServicesSection() {
                     </p>
                     <ul className="space-y-2">
                       {(t.raw(`${service.key}.features`) as string[]).map((feature: string, idx: number) => (
-                        <li key={idx} className="flex items-start gap-2 text-sm">
-                          <span className="text-primary mt-1">✓</span>
+                        <li key={idx} className="flex items-start gap-2 text-sm group/item">
+                          <span className="text-primary mt-0.5 transition-transform group-hover/item:scale-125">✓</span>
                           <span>{feature}</span>
                         </li>
                       ))}

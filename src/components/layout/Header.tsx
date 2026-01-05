@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
@@ -25,6 +25,7 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +34,12 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+    setServicesOpen(false);
+  }, [pathname]);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -85,7 +92,7 @@ export default function Header() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "bg-white shadow-md py-4" : "bg-white/95 backdrop-blur-sm py-6"
+        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg py-3" : "bg-white/90 backdrop-blur-sm py-4"
       )}
     >
       <div className="container">
@@ -232,127 +239,150 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2"
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            <div className="relative w-6 h-6">
+              <Menu className={cn(
+                "w-6 h-6 absolute inset-0 transition-all duration-300",
+                isMobileMenuOpen ? "opacity-0 rotate-90 scale-0" : "opacity-100 rotate-0 scale-100"
+              )} />
+              <X className={cn(
+                "w-6 h-6 absolute inset-0 transition-all duration-300",
+                isMobileMenuOpen ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-90 scale-0"
+              )} />
+            </div>
           </button>
         </div>
 
-        {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="fixed inset-0 top-[72px] bg-white z-40 lg:hidden overflow-y-auto">
-            <nav className="container py-6 flex flex-col gap-4">
-              {/* Language Switcher Mobile - Pill Style */}
-              <div className="flex gap-2 pb-4 border-b border-border">
-                {locales.map((loc) => (
-                  <button
-                    key={loc}
-                    onClick={() => switchLocale(loc)}
-                    className={cn(
-                      "px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200",
-                      locale === loc 
-                        ? "bg-primary text-white" 
-                        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                    )}
-                  >
-                    {localeLabels[loc]}
-                  </button>
-                ))}
-              </div>
-
-              <div>
+        {/* Mobile Menu - Accordion Style */}
+        <div 
+          ref={mobileMenuRef}
+          className={cn(
+            "lg:hidden overflow-hidden transition-all duration-500 ease-out",
+            isMobileMenuOpen ? "max-h-[600px] opacity-100 mt-4" : "max-h-0 opacity-0 mt-0"
+          )}
+        >
+          <nav className="py-4 border-t border-gray-100">
+            {/* Language Switcher Mobile - Pill Style */}
+            <div className="flex gap-2 pb-4 mb-4 border-b border-gray-100">
+              {locales.map((loc) => (
                 <button
+                  key={loc}
+                  onClick={() => switchLocale(loc)}
                   className={cn(
-                    "w-full text-left flex items-center justify-between py-2 font-medium",
-                    isServicesActive && "text-primary"
+                    "px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200",
+                    locale === loc 
+                      ? "bg-primary text-white shadow-md" 
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   )}
-                  onClick={() => setServicesOpen(!servicesOpen)}
                 >
-                  {t("services")}
-                  <ChevronDown
-                    className={cn(
-                      "w-4 h-4 transition-transform",
-                      servicesOpen && "rotate-180"
-                    )}
-                  />
+                  {localeLabels[loc]}
                 </button>
-                {servicesOpen && (
-                  <div className="pl-4 mt-2 space-y-2">
-                    {services.map((service) => (
-                      <Link
-                        key={service.href}
-                        href={service.href}
-                        className={cn(
-                          "block py-2",
-                          isActive(service.href) ? "text-primary font-medium" : "hover:text-primary"
-                        )}
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        {service.name}
-                      </Link>
-                    ))}
-                  </div>
+              ))}
+            </div>
+
+            {/* Services Accordion */}
+            <div className="border-b border-gray-100">
+              <button
+                className={cn(
+                  "w-full text-left flex items-center justify-between py-3 font-medium transition-colors",
+                  isServicesActive ? "text-primary" : "hover:text-primary"
                 )}
+                onClick={() => setServicesOpen(!servicesOpen)}
+              >
+                {t("services")}
+                <ChevronDown
+                  className={cn(
+                    "w-5 h-5 transition-transform duration-300",
+                    servicesOpen && "rotate-180"
+                  )}
+                />
+              </button>
+              <div className={cn(
+                "overflow-hidden transition-all duration-300 ease-out",
+                servicesOpen ? "max-h-[300px] opacity-100 pb-2" : "max-h-0 opacity-0"
+              )}>
+                <div className="pl-4 space-y-1">
+                  {services.map((service) => (
+                    <Link
+                      key={service.href}
+                      href={service.href}
+                      className={cn(
+                        "block py-2.5 px-3 rounded-lg transition-all duration-200",
+                        isActive(service.href) 
+                          ? "text-primary bg-primary/10 font-medium" 
+                          : "text-gray-600 hover:text-primary hover:bg-gray-50"
+                      )}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
               </div>
-              <Link 
-                href="/courses" 
-                className={cn(
-                  "py-2 font-medium",
-                  isActive("/courses") ? "text-primary" : "hover:text-primary"
-                )} 
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t("courses")}
+            </div>
+
+            {/* Other Links */}
+            <Link 
+              href="/courses" 
+              className={cn(
+                "block py-3 font-medium border-b border-gray-100 transition-colors",
+                isActive("/courses") ? "text-primary" : "hover:text-primary"
+              )} 
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("courses")}
+            </Link>
+            <Link 
+              href="/portfolio" 
+              className={cn(
+                "block py-3 font-medium border-b border-gray-100 transition-colors",
+                isActive("/portfolio") ? "text-primary" : "hover:text-primary"
+              )} 
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("portfolio")}
+            </Link>
+            <Link 
+              href="/about" 
+              className={cn(
+                "block py-3 font-medium border-b border-gray-100 transition-colors",
+                isActive("/about") ? "text-primary" : "hover:text-primary"
+              )} 
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("about")}
+            </Link>
+            <Link 
+              href="/blog" 
+              className={cn(
+                "block py-3 font-medium border-b border-gray-100 transition-colors",
+                isActive("/blog") ? "text-primary" : "hover:text-primary"
+              )} 
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("blog")}
+            </Link>
+            <Link 
+              href="/contact" 
+              className={cn(
+                "block py-3 font-medium border-b border-gray-100 transition-colors",
+                isActive("/contact") ? "text-primary" : "hover:text-primary"
+              )} 
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("contact")}
+            </Link>
+            
+            <Button className="w-full mt-4" asChild>
+              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+                {t("consultation")}
               </Link>
-              <Link 
-                href="/portfolio" 
-                className={cn(
-                  "py-2 font-medium",
-                  isActive("/portfolio") ? "text-primary" : "hover:text-primary"
-                )} 
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t("portfolio")}
-              </Link>
-              <Link 
-                href="/about" 
-                className={cn(
-                  "py-2 font-medium",
-                  isActive("/about") ? "text-primary" : "hover:text-primary"
-                )} 
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t("about")}
-              </Link>
-              <Link 
-                href="/blog" 
-                className={cn(
-                  "py-2 font-medium",
-                  isActive("/blog") ? "text-primary" : "hover:text-primary"
-                )} 
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t("blog")}
-              </Link>
-              <Link 
-                href="/contact" 
-                className={cn(
-                  "py-2 font-medium",
-                  isActive("/contact") ? "text-primary" : "hover:text-primary"
-                )} 
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t("contact")}
-              </Link>
-              <Button className="mt-4" asChild>
-                <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                  {t("consultation")}
-                </Link>
-              </Button>
-            </nav>
-          </div>
-        )}
+            </Button>
+          </nav>
+        </div>
       </div>
     </header>
   );
