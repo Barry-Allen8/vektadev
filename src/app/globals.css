@@ -391,3 +391,24 @@ h3 {
     text-wrap: balance;
   }
 }
+
+/* Performance-optimized CSS animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+@keyframes scrollDot {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(12px);
+    opacity: 0.3;
+  }
+}
