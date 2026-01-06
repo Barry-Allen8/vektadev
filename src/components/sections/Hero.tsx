@@ -83,7 +83,7 @@ export default function Hero() {
           >
             <m.div variants={itemVariants}>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-primary/10 mb-6">
-                <Sparkles className="w-4 h-4 text-primary" />
+              <Sparkles className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-foreground">{t("badge")}</span>
             </div>
           </m.div>
@@ -216,8 +216,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator - CSS animation */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      {/* Scroll indicator - hidden on mobile */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
         <div className="w-6 h-10 rounded-full border-2 border-primary/30 flex justify-center pt-2">
           <div className="w-1.5 h-3 rounded-full bg-primary/50 animate-[scrollDot_2s_ease-in-out_infinite]" />
         </div>
