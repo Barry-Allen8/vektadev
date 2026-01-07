@@ -41,7 +41,10 @@
     "websites": {
       "title": "Développement Web",
       "description": "Nous créons des sites web modernes, rapides et conviviaux pour votre entreprise",
+      "hero_title": "Développez Votre Entreprise avec un Site Web Professionnel",
+      "hero_subtitle": "Des sites rapides, mobile-first, qui convertissent les visiteurs en clients",
       "hero_description": "Nous créons des sites web modernes, rapides et conviviaux qui aident les entreprises à croître",
+      "hero_cta": "Demander un devis gratuit",
       "features": ["Pages d'atterrissage et sites promotionnels", "Sites d'entreprise", "Boutiques e-commerce", "Applications web"],
       "benefits": {
         "design": { "title": "Design moderne", "description": "Design unique reflétant votre individualité" },
@@ -50,6 +53,70 @@
         "seo": { "title": "Optimisation SEO", "description": "Paramètres pour des positions élevées dans les moteurs de recherche" },
         "security": { "title": "Sécurité", "description": "Protection contre les attaques de hackers et la perte de données" },
         "support": { "title": "Support", "description": "Support technique après le lancement du projet" }
+      },
+      "who_its_for": {
+        "title": "Ce service est-il fait pour vous ?",
+        "best_for_title": "Idéal pour :",
+        "best_for": [
+          "Les entreprises sans site web qui perdent des clients face à la concurrence",
+          "Les sociétés avec des sites obsolètes qui ne convertissent pas",
+          "Les startups lançant de nouveaux produits ou services",
+          "Les entreprises prêtes à établir une forte présence en ligne"
+        ],
+        "not_for_title": "Pas adapté pour :",
+        "not_for": [
+          "Ceux qui ont besoin uniquement de design graphique sans développement",
+          "Les grandes entreprises avec des équipes IT internes",
+          "Les projets nécessitant uniquement des mises à jour de contenu sur des sites existants"
+        ]
+      },
+      "problem_solution": {
+        "title": "De l'invisibilité au succès",
+        "problem_title": "Le Problème",
+        "problem_text": "Sans site web professionnel, vous êtes invisible pour les clients potentiels. Chaque jour sans présence en ligne signifie des prospects perdus, des opportunités manquées et des revenus qui vont à vos concurrents.",
+        "solution_title": "Notre Solution",
+        "solution_text": "Nous créons des sites web modernes et ultra-rapides, optimisés pour les moteurs de recherche et les conversions. Design sur mesure, approche mobile-first et code propre qui performe.",
+        "result_title": "Le Résultat",
+        "result_text": "Plus de prospects qualifiés, une meilleure crédibilité de marque et un canal de vente 24/7 qui travaille pendant que vous dormez. Votre site web devient votre meilleur commercial."
+      },
+      "trust_signals": {
+        "title": "Pourquoi nous choisir",
+        "items": [
+          { "title": "Design sur mesure", "description": "Pas de templates — chaque site est conçu spécifiquement pour votre marque et vos objectifs" },
+          { "title": "Mobile-First", "description": "Plus de 60% du trafic vient du mobile. Nous concevons d'abord pour les smartphones" },
+          { "title": "SEO inclus", "description": "Optimisation SEO technique incluse pour être trouvé sur Google" },
+          { "title": "Support après lancement", "description": "Nous ne disparaissons pas après le lancement. Support et maintenance continus disponibles" }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "Combien de temps prend le développement d'un site web ?",
+            "answer": "Le temps de développement dépend de la complexité du projet. Une landing page prend 2-3 semaines, un site d'entreprise 4-6 semaines, et une boutique e-commerce 6-8 semaines. Nous fournirons un planning précis après avoir discuté de vos besoins."
+          },
+          {
+            "question": "Qu'est-ce qui est inclus dans le prix ?",
+            "answer": "Nos tarifs incluent le design, le développement, l'optimisation mobile, la configuration SEO de base, les formulaires de contact et l'intégration initiale du contenu. L'hébergement, le domaine et la maintenance continue sont facturés séparément."
+          },
+          {
+            "question": "Proposez-vous l'hébergement ?",
+            "answer": "Oui, nous pouvons configurer et gérer l'hébergement sur des plateformes fiables comme Vercel, Netlify ou des hébergeurs traditionnels. Nous recommanderons la meilleure option selon vos besoins et budget."
+          },
+          {
+            "question": "Puis-je modifier le contenu moi-même ?",
+            "answer": "Absolument. Nous pouvons intégrer un système de gestion de contenu (CMS) qui vous permet de mettre à jour facilement les textes, images et autres contenus sans aucune connaissance technique."
+          },
+          {
+            "question": "Qu'en est-il du SEO ?",
+            "answer": "Chaque site que nous créons inclut l'optimisation SEO technique : structure HTML correcte, balises meta, vitesse de chargement rapide, responsive mobile et sitemap. Pour le marketing SEO continu, nous pouvons discuter de services additionnels."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Prêt à commencer ?",
+        "description": "Obtenez un devis gratuit et sans engagement pour votre projet. Nous discuterons de vos objectifs et fournirons une proposition détaillée sous 24 heures.",
+        "button": "Demander un devis gratuit"
       },
       "packages": {
         "landing": {

@@ -41,7 +41,10 @@
     "websites": {
       "title": "Web Development",
       "description": "We create modern, fast and user-friendly websites for your business",
+      "hero_title": "Grow Your Business with a Professional Website",
+      "hero_subtitle": "Fast-loading, mobile-first websites that convert visitors into customers",
       "hero_description": "We create modern, fast and user-friendly websites that help businesses grow",
+      "hero_cta": "Get a Free Quote",
       "features": ["Landing pages and promo sites", "Corporate websites", "E-commerce stores", "Web applications"],
       "benefits": {
         "design": { "title": "Modern design", "description": "Unique design reflecting your individuality" },
@@ -50,6 +53,70 @@
         "seo": { "title": "SEO optimization", "description": "Settings for high positions in search engines" },
         "security": { "title": "Security", "description": "Protection against hacker attacks and data loss" },
         "support": { "title": "Support", "description": "Technical support after project launch" }
+      },
+      "who_its_for": {
+        "title": "Is This Service Right for You?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Businesses without a website losing customers to competitors",
+          "Companies with outdated sites that don't convert",
+          "Startups launching new products or services",
+          "Businesses ready to establish a strong online presence"
+        ],
+        "not_for_title": "Not the best fit for:",
+        "not_for": [
+          "Those needing only graphic design without development",
+          "Large enterprises with internal IT teams",
+          "Projects requiring only content updates to existing sites"
+        ]
+      },
+      "problem_solution": {
+        "title": "From Invisible to Unstoppable",
+        "problem_title": "The Problem",
+        "problem_text": "Without a professional website, you're invisible to potential customers. Every day without an online presence means lost leads, missed opportunities, and revenue going to your competitors.",
+        "solution_title": "Our Solution",
+        "solution_text": "We build modern, lightning-fast websites optimized for search engines and conversions. Custom design, mobile-first approach, and clean code that performs.",
+        "result_title": "The Result",
+        "result_text": "More qualified leads, stronger brand credibility, and a 24/7 sales channel that works while you sleep. Your website becomes your most effective salesperson."
+      },
+      "trust_signals": {
+        "title": "Why Choose Us",
+        "items": [
+          { "title": "Custom Design", "description": "No templates — every website is designed specifically for your brand and goals" },
+          { "title": "Mobile-First", "description": "Over 60% of traffic comes from mobile. We design for smartphones first" },
+          { "title": "SEO Built-In", "description": "Technical SEO optimization included so you can be found on Google" },
+          { "title": "Post-Launch Support", "description": "We don't disappear after launch. Ongoing support and maintenance available" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How long does website development take?",
+            "answer": "Development time depends on project complexity. A landing page takes 2-3 weeks, a corporate website 4-6 weeks, and an e-commerce store 6-8 weeks. We'll provide an exact timeline after discussing your requirements."
+          },
+          {
+            "question": "What's included in the price?",
+            "answer": "Our pricing includes design, development, mobile optimization, basic SEO setup, contact forms, and initial content integration. Hosting, domain, and ongoing maintenance are quoted separately."
+          },
+          {
+            "question": "Do you provide hosting?",
+            "answer": "Yes, we can set up and manage hosting for you on reliable platforms like Vercel, Netlify, or traditional hosting providers. We'll recommend the best option based on your needs and budget."
+          },
+          {
+            "question": "Can I edit content myself?",
+            "answer": "Absolutely. We can integrate a content management system (CMS) that allows you to easily update text, images, and other content without any technical knowledge."
+          },
+          {
+            "question": "What about SEO?",
+            "answer": "Every website we build includes technical SEO optimization: proper HTML structure, meta tags, fast loading speed, mobile responsiveness, and sitemap. For ongoing SEO marketing, we can discuss additional services."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready to Get Started?",
+        "description": "Get a free, no-obligation quote for your project. We'll discuss your goals and provide a detailed proposal within 24 hours.",
+        "button": "Get a Free Quote"
       },
       "packages": {
         "landing": {

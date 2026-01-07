@@ -41,7 +41,10 @@
     "websites": {
       "title": "Tworzenie stron",
       "description": "Tworzymy nowoczesne, szybkie i wygodne strony dla Twojego biznesu",
+      "hero_title": "Rozwiń Swój Biznes z Profesjonalną Stroną WWW",
+      "hero_subtitle": "Szybkie, responsywne strony, które zamieniają odwiedzających w klientów",
       "hero_description": "Tworzymy nowoczesne, szybkie i wygodne strony, które pomagają biznesowi rosnąć",
+      "hero_cta": "Zamów bezpłatną wycenę",
       "features": ["Landing page i strony promocyjne", "Strony korporacyjne", "Sklepy internetowe", "Aplikacje webowe"],
       "benefits": {
         "design": { "title": "Nowoczesny design", "description": "Unikalny design odzwierciedlający Twoją indywidualność" },
@@ -50,6 +53,70 @@
         "seo": { "title": "Optymalizacja SEO", "description": "Ustawienia dla wysokich pozycji w wyszukiwarkach" },
         "security": { "title": "Bezpieczeństwo", "description": "Ochrona przed atakami hakerskimi i utratą danych" },
         "support": { "title": "Wsparcie", "description": "Wsparcie techniczne po uruchomieniu projektu" }
+      },
+      "who_its_for": {
+        "title": "Czy ta usługa jest dla Ciebie?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm bez strony internetowej, które tracą klientów na rzecz konkurencji",
+          "Przedsiębiorstw z przestarzałymi stronami, które nie konwertują",
+          "Startupów wprowadzających nowe produkty lub usługi",
+          "Firm gotowych na silną obecność online"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Osób potrzebujących tylko projektów graficznych bez developmentu",
+          "Dużych korporacji z własnymi zespołami IT",
+          "Projektów wymagających tylko aktualizacji treści na istniejących stronach"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od niewidoczności do sukcesu",
+        "problem_title": "Problem",
+        "problem_text": "Bez profesjonalnej strony internetowej jesteś niewidoczny dla potencjalnych klientów. Każdy dzień bez obecności online oznacza utracone leady, przegapione okazje i przychody trafiające do konkurencji.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Budujemy nowoczesne, błyskawicznie szybkie strony zoptymalizowane pod wyszukiwarki i konwersje. Indywidualny design, podejście mobile-first i czysty kod, który działa.",
+        "result_title": "Rezultat",
+        "result_text": "Więcej wartościowych leadów, silniejsza wiarygodność marki i kanał sprzedaży działający 24/7, który pracuje gdy Ty odpoczywasz. Twoja strona staje się najskuteczniejszym sprzedawcą."
+      },
+      "trust_signals": {
+        "title": "Dlaczego my",
+        "items": [
+          { "title": "Indywidualny design", "description": "Żadnych szablonów — każda strona jest projektowana specjalnie dla Twojej marki i celów" },
+          { "title": "Mobile-First", "description": "Ponad 60% ruchu pochodzi z urządzeń mobilnych. Projektujemy najpierw dla smartfonów" },
+          { "title": "SEO w standardzie", "description": "Techniczna optymalizacja SEO w cenie, abyś mógł być znaleziony w Google" },
+          { "title": "Wsparcie po uruchomieniu", "description": "Nie znikamy po starcie. Oferujemy bieżące wsparcie i konserwację" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "Jak długo trwa tworzenie strony?",
+            "answer": "Czas realizacji zależy od złożoności projektu. Landing page zajmuje 2-3 tygodnie, strona korporacyjna 4-6 tygodni, a sklep internetowy 6-8 tygodni. Dokładny harmonogram przedstawimy po omówieniu wymagań."
+          },
+          {
+            "question": "Co zawiera cena?",
+            "answer": "Nasza cena obejmuje projekt graficzny, development, optymalizację mobilną, podstawową konfigurację SEO, formularze kontaktowe i początkową integrację treści. Hosting, domena i bieżąca konserwacja są wyceniane osobno."
+          },
+          {
+            "question": "Czy zapewniacie hosting?",
+            "answer": "Tak, możemy skonfigurować i zarządzać hostingiem na niezawodnych platformach jak Vercel, Netlify lub tradycyjnych hostingach. Doradzimy najlepszą opcję w zależności od potrzeb i budżetu."
+          },
+          {
+            "question": "Czy mogę samodzielnie edytować treści?",
+            "answer": "Oczywiście. Możemy zintegrować system zarządzania treścią (CMS), który pozwoli Ci łatwo aktualizować teksty, zdjęcia i inne treści bez wiedzy technicznej."
+          },
+          {
+            "question": "A co z SEO?",
+            "answer": "Każda strona, którą tworzymy, zawiera techniczną optymalizację SEO: poprawną strukturę HTML, meta tagi, szybkie ładowanie, responsywność mobilną i mapę strony. W kwestii bieżącego marketingu SEO możemy omówić dodatkowe usługi."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Gotowy, aby zacząć?",
+        "description": "Uzyskaj bezpłatną, niezobowiązującą wycenę swojego projektu. Omówimy Twoje cele i przedstawimy szczegółową propozycję w ciągu 24 godzin.",
+        "button": "Zamów bezpłatną wycenę"
       },
       "packages": {
         "landing": {

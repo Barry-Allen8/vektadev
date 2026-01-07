@@ -41,7 +41,10 @@
     "websites": {
       "title": "Webentwicklung",
       "description": "Wir erstellen moderne, schnelle und benutzerfreundliche Websites für Ihr Unternehmen",
+      "hero_title": "Wachsen Sie Ihr Unternehmen mit einer Professionellen Website",
+      "hero_subtitle": "Schnell ladende, Mobile-First Websites, die Besucher in Kunden verwandeln",
       "hero_description": "Wir erstellen moderne, schnelle und benutzerfreundliche Websites, die Unternehmen beim Wachstum helfen",
+      "hero_cta": "Kostenloses Angebot anfordern",
       "features": ["Landing Pages und Promo-Seiten", "Unternehmenswebsites", "E-Commerce-Shops", "Webanwendungen"],
       "benefits": {
         "design": { "title": "Modernes Design", "description": "Einzigartiges Design, das Ihre Individualität widerspiegelt" },
@@ -50,6 +53,70 @@
         "seo": { "title": "SEO-Optimierung", "description": "Einstellungen für hohe Positionen in Suchmaschinen" },
         "security": { "title": "Sicherheit", "description": "Schutz vor Hackerangriffen und Datenverlust" },
         "support": { "title": "Support", "description": "Technischer Support nach Projektstart" }
+      },
+      "who_its_for": {
+        "title": "Ist dieser Service das Richtige für Sie?",
+        "best_for_title": "Ideal für:",
+        "best_for": [
+          "Unternehmen ohne Website, die Kunden an die Konkurrenz verlieren",
+          "Firmen mit veralteten Websites, die nicht konvertieren",
+          "Startups, die neue Produkte oder Dienstleistungen einführen",
+          "Unternehmen, die eine starke Online-Präsenz aufbauen möchten"
+        ],
+        "not_for_title": "Nicht geeignet für:",
+        "not_for": [
+          "Diejenigen, die nur Grafikdesign ohne Entwicklung benötigen",
+          "Großunternehmen mit internen IT-Teams",
+          "Projekte, die nur Inhaltsaktualisierungen bestehender Websites erfordern"
+        ]
+      },
+      "problem_solution": {
+        "title": "Von unsichtbar zu unaufhaltsam",
+        "problem_title": "Das Problem",
+        "problem_text": "Ohne eine professionelle Website sind Sie für potenzielle Kunden unsichtbar. Jeder Tag ohne Online-Präsenz bedeutet verlorene Leads, verpasste Chancen und Umsatz, der zu Ihren Wettbewerbern geht.",
+        "solution_title": "Unsere Lösung",
+        "solution_text": "Wir erstellen moderne, blitzschnelle Websites, optimiert für Suchmaschinen und Conversions. Individuelles Design, Mobile-First-Ansatz und sauberer Code, der performt.",
+        "result_title": "Das Ergebnis",
+        "result_text": "Mehr qualifizierte Leads, stärkere Markenglaubwürdigkeit und ein 24/7-Vertriebskanal, der arbeitet, während Sie schlafen. Ihre Website wird zu Ihrem effektivsten Verkäufer."
+      },
+      "trust_signals": {
+        "title": "Warum uns wählen",
+        "items": [
+          { "title": "Individuelles Design", "description": "Keine Vorlagen — jede Website wird speziell für Ihre Marke und Ziele gestaltet" },
+          { "title": "Mobile-First", "description": "Über 60% des Traffics kommt von Mobilgeräten. Wir designen zuerst für Smartphones" },
+          { "title": "SEO inklusive", "description": "Technische SEO-Optimierung inklusive, damit Sie bei Google gefunden werden" },
+          { "title": "Support nach dem Start", "description": "Wir verschwinden nicht nach dem Launch. Laufende Unterstützung und Wartung verfügbar" }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "question": "Wie lange dauert die Website-Entwicklung?",
+            "answer": "Die Entwicklungszeit hängt von der Projektkomplexität ab. Eine Landing Page dauert 2-3 Wochen, eine Unternehmenswebsite 4-6 Wochen und ein E-Commerce-Shop 6-8 Wochen. Nach Besprechung Ihrer Anforderungen erhalten Sie einen genauen Zeitplan."
+          },
+          {
+            "question": "Was ist im Preis enthalten?",
+            "answer": "Unsere Preise beinhalten Design, Entwicklung, mobile Optimierung, grundlegende SEO-Einrichtung, Kontaktformulare und initiale Content-Integration. Hosting, Domain und laufende Wartung werden separat angeboten."
+          },
+          {
+            "question": "Bieten Sie Hosting an?",
+            "answer": "Ja, wir können Hosting auf zuverlässigen Plattformen wie Vercel, Netlify oder traditionellen Hosting-Anbietern einrichten und verwalten. Wir empfehlen die beste Option basierend auf Ihren Bedürfnissen und Budget."
+          },
+          {
+            "question": "Kann ich Inhalte selbst bearbeiten?",
+            "answer": "Absolut. Wir können ein Content-Management-System (CMS) integrieren, mit dem Sie Texte, Bilder und andere Inhalte ohne technische Kenntnisse einfach aktualisieren können."
+          },
+          {
+            "question": "Was ist mit SEO?",
+            "answer": "Jede Website, die wir erstellen, beinhaltet technische SEO-Optimierung: korrekte HTML-Struktur, Meta-Tags, schnelle Ladezeit, mobile Responsivität und Sitemap. Für laufendes SEO-Marketing können wir zusätzliche Dienstleistungen besprechen."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Bereit loszulegen?",
+        "description": "Erhalten Sie ein kostenloses, unverbindliches Angebot für Ihr Projekt. Wir besprechen Ihre Ziele und liefern einen detaillierten Vorschlag innerhalb von 24 Stunden.",
+        "button": "Kostenloses Angebot anfordern"
       },
       "packages": {
         "landing": {
