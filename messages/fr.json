@@ -467,13 +467,79 @@
     "cloud": {
       "title": "Solutions Cloud",
       "description": "DevOps, hébergement et configuration d'infrastructure cloud",
-      "hero_description": "DevOps, hébergement et configuration d'infrastructure cloud",
+      "hero_title": "Infrastructure fiable qui évolue avec vous",
+      "hero_subtitle": "Concentrez-vous sur votre produit — nous gérons les serveurs",
+      "hero_description": "AWS, GCP, Azure, CI/CD, Docker, Kubernetes. Configuration et gestion professionnelle d'infrastructure cloud pour que vous puissiez vous concentrer sur la croissance de votre entreprise.",
+      "hero_cta": "Demander un audit d'infrastructure",
       "features": ["AWS / Google Cloud / Azure", "Configuration CI/CD", "Docker / Kubernetes", "Surveillance et sécurité"],
       "benefits": {
-        "scalability": { "title": "Évolutivité", "description": "Mise à l'échelle flexible des ressources" },
-        "reliability": { "title": "Fiabilité", "description": "Haute disponibilité et tolérance aux pannes" },
-        "security": { "title": "Sécurité", "description": "Protection des données et conformité" },
-        "automation": { "title": "Automatisation", "description": "CI/CD et déploiements automatiques" }
+        "scalability": { "title": "Évolutivité", "description": "Auto-scaling selon la demande — payez uniquement ce que vous utilisez" },
+        "reliability": { "title": "Fiabilité", "description": "99,9% de disponibilité avec redondance et basculement automatique" },
+        "security": { "title": "Sécurité", "description": "Chiffrement, sauvegardes, conformité RGPD et bonnes pratiques" },
+        "automation": { "title": "Automatisation", "description": "Pipelines CI/CD — chaque commit automatiquement déployé en production" }
+      },
+      "who_its_for": {
+        "title": "Les services cloud sont-ils faits pour vous ?",
+        "best_for_title": "Idéal pour :",
+        "best_for": [
+          "Les startups en croissance confrontées à des problèmes de scaling",
+          "Les équipes passant trop de temps sur le DevOps au lieu du produit",
+          "Les entreprises migrant vers le cloud",
+          "Les sociétés ayant besoin d'une configuration CI/CD"
+        ],
+        "not_for_title": "Pas adapté pour :",
+        "not_for": [
+          "Les sites web statiques simples",
+          "Les entreprises avec des équipes DevOps dédiées"
+        ]
+      },
+      "problem_solution": {
+        "title": "Du chaos à la stabilité",
+        "problem_title": "Le Problème",
+        "problem_text": "Des pannes aux moments critiques, des déploiements lents, des coûts imprévisibles. Le scaling est un cauchemar et chaque mise à jour est stressante. Votre équipe éteint des incendies au lieu de développer le produit.",
+        "solution_title": "Notre Solution",
+        "solution_text": "Infrastructure cloud moderne avec automatisation complète. CI/CD, conteneurisation, monitoring, alertes et auto-scaling. Tout configuré selon les meilleures pratiques.",
+        "result_title": "Le Résultat",
+        "result_text": "99,9% de disponibilité, déploiements en minutes au lieu d'heures, coûts prévisibles et optimisés. Votre équipe se concentre sur le produit pendant que l'infrastructure fonctionne simplement."
+      },
+      "trust_signals": {
+        "title": "Pourquoi nous choisir",
+        "items": [
+          { "title": "Expertise multi-cloud", "description": "AWS, GCP, Azure — nous choisissons la solution selon vos besoins, pas nos préférences" },
+          { "title": "Approche sécurité d'abord", "description": "Sécurité intégrée dès le départ — chiffrement, audits, conformité réglementaire" },
+          { "title": "Monitoring inclus", "description": "Surveillance proactive et alertes — nous résolvons les problèmes avant qu'ils n'impactent les utilisateurs" },
+          { "title": "Focus sur l'optimisation des coûts", "description": "Revue et optimisation régulières des dépenses cloud — économisez 30% en moyenne" }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "Quel fournisseur cloud recommandez-vous ?",
+            "answer": "Cela dépend de vos besoins. AWS offre la plus grande variété de services, GCP est excellent pour les projets data/ML, Azure s'intègre bien avec l'écosystème Microsoft. Nous analyserons vos exigences et recommanderons la meilleure option — ou une solution multi-cloud."
+          },
+          {
+            "question": "Pouvez-vous migrer notre infrastructure existante ?",
+            "answer": "Oui, nous effectuons des migrations complètes du on-premise vers le cloud et entre fournisseurs. Nous commençons par un audit, planifions la migration avec un temps d'arrêt minimal, et l'exécutons par étapes avec un plan de rollback complet."
+          },
+          {
+            "question": "Qu'en est-il de la sécurité et de la conformité ?",
+            "answer": "La sécurité est notre priorité. Nous configurons selon les meilleures pratiques : chiffrement au repos et en transit, gestion des secrets, VPC, firewall, IAM. Nous aidons aussi avec RGPD, SOC 2 et autres standards de conformité."
+          },
+          {
+            "question": "Combien coûte l'hébergement cloud ?",
+            "answer": "Les coûts dépendent de l'échelle et des exigences. Une petite startup peut commencer à 15-50 €/mois, une app moyenne à 150-500 €, les grands projets à plusieurs milliers. Lors de l'audit, nous fournirons une estimation détaillée des coûts."
+          },
+          {
+            "question": "Proposez-vous une surveillance 24/7 ?",
+            "answer": "Oui, nous mettons en place le monitoring avec alertes et pouvons fournir une réponse 24/7 dans le cadre des forfaits de support. Le monitoring couvre les métriques applicatives, l'infrastructure, les coûts et la sécurité."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Prêt pour une infrastructure stable ?",
+        "description": "Obtenez un audit d'infrastructure gratuit. Nous analyserons votre configuration actuelle et vous montrerons où nous pouvons améliorer les performances et réduire les coûts.",
+        "button": "Demander un audit d'infrastructure"
       }
     }
   },

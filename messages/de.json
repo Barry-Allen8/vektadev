@@ -467,13 +467,79 @@
     "cloud": {
       "title": "Cloud-Lösungen",
       "description": "DevOps, Hosting und Cloud-Infrastruktur-Einrichtung",
-      "hero_description": "DevOps, Hosting und Cloud-Infrastruktur-Einrichtung",
+      "hero_title": "Zuverlässige Infrastruktur, die mit Ihnen skaliert",
+      "hero_subtitle": "Konzentrieren Sie sich auf Ihr Produkt — wir kümmern uns um die Server",
+      "hero_description": "AWS, GCP, Azure, CI/CD, Docker, Kubernetes. Professionelle Cloud-Infrastruktur-Einrichtung und -Verwaltung, damit Sie sich auf Ihr Geschäftswachstum konzentrieren können.",
+      "hero_cta": "Infrastruktur-Audit anfordern",
       "features": ["AWS / Google Cloud / Azure", "CI/CD-Einrichtung", "Docker / Kubernetes", "Überwachung und Sicherheit"],
       "benefits": {
-        "scalability": { "title": "Skalierbarkeit", "description": "Flexible Ressourcenskalierung" },
-        "reliability": { "title": "Zuverlässigkeit", "description": "Hohe Verfügbarkeit und Fehlertoleranz" },
-        "security": { "title": "Sicherheit", "description": "Datenschutz und Compliance" },
-        "automation": { "title": "Automatisierung", "description": "CI/CD und automatische Bereitstellungen" }
+        "scalability": { "title": "Skalierbarkeit", "description": "Auto-Skalierung nach Bedarf — zahlen Sie nur für das, was Sie nutzen" },
+        "reliability": { "title": "Zuverlässigkeit", "description": "99,9% Uptime mit Redundanz und automatischem Failover" },
+        "security": { "title": "Sicherheit", "description": "Verschlüsselung, Backups, DSGVO-Konformität und Best Practices" },
+        "automation": { "title": "Automatisierung", "description": "CI/CD-Pipelines — jeder Commit automatisch in Produktion deployed" }
+      },
+      "who_its_for": {
+        "title": "Sind Cloud-Services das Richtige für Sie?",
+        "best_for_title": "Ideal für:",
+        "best_for": [
+          "Wachsende Startups, die auf Skalierungsprobleme stoßen",
+          "Teams, die zu viel Zeit mit DevOps statt Produktentwicklung verbringen",
+          "Unternehmen, die in die Cloud migrieren",
+          "Firmen, die CI/CD-Einrichtung benötigen"
+        ],
+        "not_for_title": "Nicht geeignet für:",
+        "not_for": [
+          "Einfache statische Websites",
+          "Unternehmen mit dedizierten DevOps-Teams"
+        ]
+      },
+      "problem_solution": {
+        "title": "Von Chaos zu Stabilität",
+        "problem_title": "Das Problem",
+        "problem_text": "Ausfälle in kritischen Momenten, langsame Deployments, unvorhersehbare Kosten. Skalierung ist ein Albtraum und jedes Update ist stressig. Ihr Team bekämpft Brände statt Produkte zu entwickeln.",
+        "solution_title": "Unsere Lösung",
+        "solution_text": "Moderne Cloud-Infrastruktur mit vollständiger Automatisierung. CI/CD, Containerisierung, Monitoring, Alerts und Auto-Skalierung. Alles nach Best Practices konfiguriert.",
+        "result_title": "Das Ergebnis",
+        "result_text": "99,9% Uptime, Deployments in Minuten statt Stunden, vorhersehbare und optimierte Kosten. Ihr Team konzentriert sich auf das Produkt, während die Infrastruktur einfach funktioniert."
+      },
+      "trust_signals": {
+        "title": "Warum uns wählen",
+        "items": [
+          { "title": "Multi-Cloud-Expertise", "description": "AWS, GCP, Azure — wir wählen die Lösung nach Ihren Bedürfnissen, nicht nach unseren Präferenzen" },
+          { "title": "Security-First-Ansatz", "description": "Sicherheit von Anfang an eingebaut — Verschlüsselung, Audits, regulatorische Compliance" },
+          { "title": "Monitoring inklusive", "description": "Proaktives Monitoring und Alerts — wir lösen Probleme, bevor sie Nutzer beeinträchtigen" },
+          { "title": "Fokus auf Kostenoptimierung", "description": "Regelmäßige Überprüfung und Optimierung der Cloud-Ausgaben — durchschnittlich 30% Ersparnis" }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "question": "Welchen Cloud-Anbieter empfehlen Sie?",
+            "answer": "Das hängt von Ihren Anforderungen ab. AWS bietet die größte Vielfalt an Services, GCP ist hervorragend für Data/ML-Projekte, Azure integriert sich gut mit dem Microsoft-Ökosystem. Wir analysieren Ihre Anforderungen und empfehlen die beste Option — oder eine Multi-Cloud-Lösung."
+          },
+          {
+            "question": "Können Sie unsere bestehende Infrastruktur migrieren?",
+            "answer": "Ja, wir führen vollständige Migrationen von On-Premise zur Cloud und zwischen Anbietern durch. Wir beginnen mit einem Audit, planen die Migration mit minimaler Downtime und führen sie stufenweise mit vollständigem Rollback-Plan durch."
+          },
+          {
+            "question": "Wie sieht es mit Sicherheit und Compliance aus?",
+            "answer": "Sicherheit ist unsere Priorität. Wir konfigurieren nach Best Practices: Verschlüsselung im Ruhezustand und bei der Übertragung, Secrets-Management, VPC, Firewall, IAM. Wir helfen auch bei DSGVO, SOC 2 und anderen Compliance-Standards."
+          },
+          {
+            "question": "Wie viel kostet Cloud-Hosting?",
+            "answer": "Die Kosten hängen von Umfang und Anforderungen ab. Ein kleines Startup kann bei 15-50 €/Monat beginnen, eine mittlere App liegt bei 150-500 €, große Projekte bei mehreren Tausend. Beim Audit erstellen wir eine detaillierte Kostenschätzung."
+          },
+          {
+            "question": "Bieten Sie 24/7-Monitoring an?",
+            "answer": "Ja, wir richten Monitoring mit Alerts ein und können 24/7-Reaktion als Teil von Support-Paketen anbieten. Das Monitoring umfasst Anwendungsmetriken, Infrastruktur, Kosten und Sicherheit."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Bereit für stabile Infrastruktur?",
+        "description": "Fordern Sie ein kostenloses Infrastruktur-Audit an. Wir analysieren Ihr aktuelles Setup und zeigen Ihnen, wo wir Leistung verbessern und Kosten senken können.",
+        "button": "Infrastruktur-Audit anfordern"
       }
     }
   },

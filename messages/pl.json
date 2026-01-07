@@ -467,13 +467,79 @@
     "cloud": {
       "title": "Rozwiązania chmurowe",
       "description": "DevOps, hosting i konfiguracja infrastruktury chmurowej",
-      "hero_description": "DevOps, hosting i konfiguracja infrastruktury chmurowej",
+      "hero_title": "Niezawodna infrastruktura, która skaluje się razem z Tobą",
+      "hero_subtitle": "Skup się na produkcie — my zajmiemy się serwerami",
+      "hero_description": "AWS, GCP, Azure, CI/CD, Docker, Kubernetes. Profesjonalna konfiguracja i zarządzanie infrastrukturą chmurową, żebyś mógł skupić się na rozwijaniu biznesu.",
+      "hero_cta": "Zamów audyt infrastruktury",
       "features": ["AWS / Google Cloud / Azure", "Konfiguracja CI/CD", "Docker / Kubernetes", "Monitoring i bezpieczeństwo"],
       "benefits": {
-        "scalability": { "title": "Skalowalność", "description": "Elastyczne skalowanie zasobów" },
-        "reliability": { "title": "Niezawodność", "description": "Wysoka dostępność i odporność na awarie" },
-        "security": { "title": "Bezpieczeństwo", "description": "Ochrona danych i zgodność z przepisami" },
-        "automation": { "title": "Automatyzacja", "description": "CI/CD i automatyczne wdrożenia" }
+        "scalability": { "title": "Skalowalność", "description": "Automatyczne skalowanie pod obciążenie — płacisz tylko za to, czego używasz" },
+        "reliability": { "title": "Niezawodność", "description": "99,9% uptime dzięki redundancji i automatycznemu failover" },
+        "security": { "title": "Bezpieczeństwo", "description": "Szyfrowanie, backup, zgodność z RODO i najlepsze praktyki" },
+        "automation": { "title": "Automatyzacja", "description": "CI/CD pipelines — każdy commit automatycznie na produkcji" }
+      },
+      "who_its_for": {
+        "title": "Czy usługi cloud są dla Ciebie?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Rozwijających się startupów, które napotykają problemy ze skalowaniem",
+          "Zespołów spędzających zbyt dużo czasu na DevOps zamiast na produkcie",
+          "Firm planujących migrację do chmury",
+          "Przedsiębiorstw potrzebujących konfiguracji CI/CD"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Prostych statycznych stron internetowych",
+          "Firm z dedykowanymi zespołami DevOps"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od chaosu do stabilności",
+        "problem_title": "Problem",
+        "problem_text": "Awarie w kluczowych momentach, wolne deploymenty, nieprzewidywalne koszty. Skalowanie to koszmar, a każda aktualizacja to stres. Twój zespół gasi pożary zamiast rozwijać produkt.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Nowoczesna infrastruktura chmurowa z pełną automatyzacją. CI/CD, konteneryzacja, monitoring, alerty i autoskalowanie. Wszystko skonfigurowane zgodnie z najlepszymi praktykami.",
+        "result_title": "Rezultat",
+        "result_text": "99,9% uptime, deploymenty w minuty zamiast godzin, przewidywalne i zoptymalizowane koszty. Twój zespół skupia się na produkcie, a infrastruktura po prostu działa."
+      },
+      "trust_signals": {
+        "title": "Dlaczego my",
+        "items": [
+          { "title": "Ekspertyza multi-cloud", "description": "AWS, GCP, Azure — dobieramy rozwiązanie do Twoich potrzeb, nie do naszych preferencji" },
+          { "title": "Security-first", "description": "Bezpieczeństwo wbudowane od początku — szyfrowanie, audyty, zgodność z regulacjami" },
+          { "title": "Monitoring w cenie", "description": "Proaktywny monitoring i alerty — problemy rozwiązujemy zanim wpłyną na użytkowników" },
+          { "title": "Optymalizacja kosztów", "description": "Regularny przegląd i optymalizacja wydatków na chmurę — oszczędzasz średnio 30%" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "Którego dostawcę chmury polecacie?",
+            "answer": "To zależy od Twoich potrzeb. AWS oferuje największą różnorodność usług, GCP jest świetny dla projektów data/ML, Azure dobrze integruje się z ekosystemem Microsoft. Przeanalizujemy Twoje wymagania i doradzimy najlepszą opcję — lub rozwiązanie multi-cloud."
+          },
+          {
+            "question": "Czy możecie zmigrować naszą istniejącą infrastrukturę?",
+            "answer": "Tak, przeprowadzamy pełne migracje z on-premise do chmury oraz między dostawcami. Zaczynamy od audytu, planujemy migrację z minimalnym downtime i przeprowadzamy ją etapami z pełnym rollback plan."
+          },
+          {
+            "question": "Jak wygląda kwestia bezpieczeństwa i compliance?",
+            "answer": "Bezpieczeństwo to dla nas priorytet. Konfigurujemy zgodnie z najlepszymi praktykami: szyfrowanie w spoczynku i w tranzycie, zarządzanie sekretami, VPC, firewall, IAM. Pomagamy też z zgodnością RODO, SOC 2 i innymi standardami."
+          },
+          {
+            "question": "Ile kosztuje hosting w chmurze?",
+            "answer": "Koszty zależą od skali i wymagań. Mały startup może zacząć od 50-200 zł miesięcznie, średnia aplikacja to 500-2000 zł, duże projekty kilka tysięcy. Podczas audytu przedstawimy szczegółową estymację kosztów."
+          },
+          {
+            "question": "Czy zapewniacie monitoring 24/7?",
+            "answer": "Tak, konfigurujemy monitoring z alertami i możemy zapewnić reakcję 24/7 w ramach pakietów wsparcia. Monitoring obejmuje metryki aplikacji, infrastruktury, koszty i bezpieczeństwo."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Gotowy na stabilną infrastrukturę?",
+        "description": "Zamów bezpłatny audyt infrastruktury. Przeanalizujemy Twoje obecne rozwiązanie i pokażemy, gdzie możemy poprawić wydajność i obniżyć koszty.",
+        "button": "Zamów audyt infrastruktury"
       }
     }
   },

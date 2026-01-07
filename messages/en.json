@@ -467,13 +467,79 @@
     "cloud": {
       "title": "Cloud Solutions",
       "description": "DevOps, hosting and cloud infrastructure setup",
-      "hero_description": "DevOps, hosting and cloud infrastructure setup",
+      "hero_title": "Reliable Infrastructure That Scales With You",
+      "hero_subtitle": "Focus on your product — we'll handle the servers",
+      "hero_description": "AWS, GCP, Azure, CI/CD, Docker, Kubernetes. Professional cloud infrastructure setup and management so you can focus on growing your business.",
+      "hero_cta": "Get infrastructure audit",
       "features": ["AWS / Google Cloud / Azure", "CI/CD setup", "Docker / Kubernetes", "Monitoring and security"],
       "benefits": {
-        "scalability": { "title": "Scalability", "description": "Flexible resource scaling" },
-        "reliability": { "title": "Reliability", "description": "High availability and fault tolerance" },
-        "security": { "title": "Security", "description": "Data protection and compliance" },
-        "automation": { "title": "Automation", "description": "CI/CD and automatic deployments" }
+        "scalability": { "title": "Scalability", "description": "Auto-scaling based on demand — pay only for what you use" },
+        "reliability": { "title": "Reliability", "description": "99.9% uptime with redundancy and automatic failover" },
+        "security": { "title": "Security", "description": "Encryption, backups, GDPR compliance, and best practices" },
+        "automation": { "title": "Automation", "description": "CI/CD pipelines — every commit automatically deployed to production" }
+      },
+      "who_its_for": {
+        "title": "Are cloud services right for you?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Growing startups hitting scaling issues",
+          "Teams spending too much time on DevOps instead of product",
+          "Companies migrating to cloud",
+          "Businesses needing CI/CD setup"
+        ],
+        "not_for_title": "Not for:",
+        "not_for": [
+          "Simple static websites",
+          "Companies with dedicated DevOps teams"
+        ]
+      },
+      "problem_solution": {
+        "title": "From chaos to stability",
+        "problem_title": "The Problem",
+        "problem_text": "Downtime at critical moments, slow deployments, unpredictable costs. Scaling is a nightmare, and every update is stressful. Your team fights fires instead of building product.",
+        "solution_title": "Our Solution",
+        "solution_text": "Modern cloud infrastructure with full automation. CI/CD, containerization, monitoring, alerts, and auto-scaling. Everything configured according to best practices.",
+        "result_title": "The Result",
+        "result_text": "99.9% uptime, deployments in minutes instead of hours, predictable and optimized costs. Your team focuses on product while infrastructure just works."
+      },
+      "trust_signals": {
+        "title": "Why Choose Us",
+        "items": [
+          { "title": "Multi-cloud expertise", "description": "AWS, GCP, Azure — we choose the solution based on your needs, not our preferences" },
+          { "title": "Security-first approach", "description": "Security built in from the start — encryption, audits, regulatory compliance" },
+          { "title": "Monitoring included", "description": "Proactive monitoring and alerts — we solve problems before they impact users" },
+          { "title": "Cost optimization focus", "description": "Regular review and optimization of cloud spending — save 30% on average" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Which cloud provider do you recommend?",
+            "answer": "It depends on your needs. AWS offers the widest variety of services, GCP is excellent for data/ML projects, Azure integrates well with the Microsoft ecosystem. We'll analyze your requirements and recommend the best option — or a multi-cloud solution."
+          },
+          {
+            "question": "Can you migrate our existing infrastructure?",
+            "answer": "Yes, we perform full migrations from on-premise to cloud and between providers. We start with an audit, plan the migration with minimal downtime, and execute in stages with a full rollback plan."
+          },
+          {
+            "question": "What about security and compliance?",
+            "answer": "Security is our priority. We configure according to best practices: encryption at rest and in transit, secrets management, VPC, firewall, IAM. We also help with GDPR, SOC 2, and other compliance standards."
+          },
+          {
+            "question": "How much does cloud hosting cost?",
+            "answer": "Costs depend on scale and requirements. A small startup might start at $15-50/month, a medium app is $150-500, large projects several thousand. During the audit, we'll provide a detailed cost estimate."
+          },
+          {
+            "question": "Do you provide 24/7 monitoring?",
+            "answer": "Yes, we set up monitoring with alerts and can provide 24/7 response as part of support packages. Monitoring covers application metrics, infrastructure, costs, and security."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready for stable infrastructure?",
+        "description": "Get a free infrastructure audit. We'll analyze your current setup and show you where we can improve performance and reduce costs.",
+        "button": "Get infrastructure audit"
       }
     }
   },
