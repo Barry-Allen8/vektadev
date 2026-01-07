@@ -311,13 +311,79 @@
     "consulting": {
       "title": "IT-Beratung",
       "description": "Professionelle Beratung zur digitalen Transformation",
-      "hero_description": "Professionelle Beratung zur digitalen Transformation Ihres Unternehmens",
+      "hero_title": "Treffen Sie klügere Technologieentscheidungen",
+      "hero_subtitle": "Expertenberatung vor Ihrer Investition",
+      "hero_description": "IT-Audits, Strategie für digitale Transformation und Technologieauswahl. Wir helfen Unternehmen, mit Zuversicht in Technologie zu investieren — ohne kostspielige Fehler.",
+      "hero_cta": "Strategiesitzung buchen",
       "features": ["IT-Infrastruktur-Audit", "Entwicklungsstrategie", "Technologieauswahl", "Prozessoptimierung"],
       "benefits": {
-        "audit": { "title": "Audit", "description": "Vollständige Analyse der aktuellen IT-Infrastruktur" },
-        "strategy": { "title": "Strategie", "description": "Entwicklung eines Technologie-Wachstumsplans" },
-        "optimization": { "title": "Optimierung", "description": "Verbesserung der Prozesseffizienz" },
-        "training": { "title": "Schulung", "description": "Teamschulung zu neuen Tools" }
+        "audit": { "title": "IT-Audit", "description": "Umfassende Analyse der aktuellen Infrastruktur, Prozesse und Tools" },
+        "strategy": { "title": "Digitale Strategie", "description": "Klare Transformations-Roadmap mit konkreten Schritten und Zeitplan" },
+        "optimization": { "title": "Kostenoptimierung", "description": "Einsparungen identifizieren und unnötige IT-Ausgaben eliminieren" },
+        "training": { "title": "Implementierungsunterstützung", "description": "Hilfe bei der Umsetzung von Empfehlungen und Schulung Ihres Teams" }
+      },
+      "who_its_for": {
+        "title": "Ist IT-Beratung das Richtige für Sie?",
+        "best_for_title": "Ideal für:",
+        "best_for": [
+          "Unternehmen, die digitale Transformation oder IT-Modernisierung planen",
+          "Firmen, die unsicher sind, welche Technologie sie wählen sollen",
+          "Teams mit leistungsschwachen IT-Systemen, die das Wachstum bremsen",
+          "Startups, die eine fachkundige technische Ausrichtung benötigen"
+        ],
+        "not_for_title": "Nicht geeignet für:",
+        "not_for": [
+          "Diejenigen, die nur kostenlose Beratung ohne Verpflichtung suchen",
+          "Unternehmen mit einem vollständigen internen IT-Strategie-Team"
+        ]
+      },
+      "problem_solution": {
+        "title": "Von Chaos zu Klarheit",
+        "problem_title": "Das Problem",
+        "problem_text": "Falsche Technologieentscheidungen kosten Unternehmen Zehntausende. Investitionen in die falschen Tools, ineffiziente Prozesse und fehlende Strategie — das ist verschwendetes Budget, verlorene Zeit und Frustration im Team.",
+        "solution_title": "Unsere Lösung",
+        "solution_text": "Unabhängige Expertenanalyse, klare Empfehlungen und ein konkreter Aktionsplan. Wir untersuchen Ihre Prozesse, identifizieren Probleme und schlagen Lösungen vor, die auf Ihre Geschäftsziele und Ihr Budget zugeschnitten sind.",
+        "result_title": "Das Ergebnis",
+        "result_text": "Sichere Technologieentscheidungen, optimierte IT-Ausgaben und schnelleres Geschäftswachstum. Sie investieren nur in das, was tatsächlich Ergebnisse liefert."
+      },
+      "trust_signals": {
+        "title": "Warum uns vertrauen",
+        "items": [
+          { "title": "Herstellerneutrale Beratung", "description": "Wir verkaufen keine bestimmten Tools — wir empfehlen, was am besten für Ihr Unternehmen ist" },
+          { "title": "Business-First-Ansatz", "description": "Wir denken zuerst an Geschäftsziele, dann an Technologie" },
+          { "title": "Klare Ergebnisse", "description": "Sie erhalten einen konkreten Bericht mit Empfehlungen und Aktionsplan" },
+          { "title": "Implementierungsunterstützung", "description": "Wir helfen bei der Umsetzung — wir lassen Sie nicht mit nur einem Bericht zurück" }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "question": "Wie sieht der Beratungsprozess aus?",
+            "answer": "Wir beginnen mit einem kostenlosen Erstgespräch (30 Min.), um Ihre Bedürfnisse zu verstehen. Dann führen wir eine detaillierte Analyse durch — Teaminterviews, Überprüfung von Systemen und Prozessen. Schließlich liefern wir einen Bericht mit spezifischen Empfehlungen und einem Aktionsplan."
+          },
+          {
+            "question": "Wie viel kostet eine Beratung?",
+            "answer": "Die Preise hängen vom Projektumfang ab. Ein einmaliges IT-Audit beginnt bei 800 €. Umfassende Strategie für digitale Transformation ab 2.000 €. Das Erstgespräch ist kostenlos — dabei legen wir den genauen Umfang und die Preisgestaltung fest."
+          },
+          {
+            "question": "Setzen Sie Empfehlungen auch um?",
+            "answer": "Ja. Wir können bei der Umsetzung von Empfehlungen helfen — von der Anbieterauswahl über die Projektaufsicht bis zur Teamschulung. Den Unterstützungsumfang legen wir individuell fest."
+          },
+          {
+            "question": "Wie lange dauert ein typisches Projekt?",
+            "answer": "Ein schnelles IT-Audit dauert 1-2 Wochen. Eine umfassende Strategie für digitale Transformation 3-6 Wochen. Langfristige Beratung kann mehrere Monate dauern — je nach Umfang der Veränderungen in der Organisation."
+          },
+          {
+            "question": "Mit welchen Branchen arbeiten Sie?",
+            "answer": "Wir arbeiten mit Unternehmen aus verschiedenen Branchen — E-Commerce, Dienstleistungen, Fertigung, Finanzen. Unser Ansatz ist universell: Wir analysieren Geschäftsprozesse und passen Technologie an spezifische Bedürfnisse an."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Beginnen Sie mit einem kostenlosen Gespräch",
+        "description": "30-minütige Strategiesitzung, in der wir Ihre Herausforderungen besprechen und zeigen, wie wir helfen können. Ohne Verpflichtung.",
+        "button": "Strategiesitzung buchen"
       }
     },
     "mobile_apps": {

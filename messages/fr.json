@@ -311,13 +311,79 @@
     "consulting": {
       "title": "Conseil IT",
       "description": "Conseil professionnel en transformation numérique",
-      "hero_description": "Conseil professionnel en transformation numérique de votre entreprise",
+      "hero_title": "Prenez des décisions technologiques plus intelligentes",
+      "hero_subtitle": "Accompagnement expert avant d'investir",
+      "hero_description": "Audits IT, stratégie de transformation numérique et sélection de technologies. Nous aidons les entreprises à investir dans la technologie en toute confiance — sans erreurs coûteuses.",
+      "hero_cta": "Réserver une session stratégique",
       "features": ["Audit de l'infrastructure IT", "Stratégie de développement", "Sélection de technologies", "Optimisation des processus"],
       "benefits": {
-        "audit": { "title": "Audit", "description": "Analyse complète de l'infrastructure IT actuelle" },
-        "strategy": { "title": "Stratégie", "description": "Développement d'un plan de croissance technologique" },
-        "optimization": { "title": "Optimisation", "description": "Amélioration de l'efficacité des processus" },
-        "training": { "title": "Formation", "description": "Formation de l'équipe sur les nouveaux outils" }
+        "audit": { "title": "Audit IT", "description": "Analyse complète de l'infrastructure, des processus et des outils actuels" },
+        "strategy": { "title": "Stratégie numérique", "description": "Feuille de route de transformation claire avec étapes concrètes et calendrier" },
+        "optimization": { "title": "Optimisation des coûts", "description": "Identifier les économies et éliminer les dépenses IT inutiles" },
+        "training": { "title": "Accompagnement à la mise en œuvre", "description": "Aide à l'implémentation des recommandations et formation de votre équipe" }
+      },
+      "who_its_for": {
+        "title": "Le conseil IT est-il fait pour vous ?",
+        "best_for_title": "Idéal pour :",
+        "best_for": [
+          "Les entreprises planifiant une transformation numérique ou une modernisation IT",
+          "Les sociétés incertaines de la technologie à choisir",
+          "Les équipes avec des systèmes IT sous-performants freinant la croissance",
+          "Les startups ayant besoin d'une direction technique experte"
+        ],
+        "not_for_title": "Pas pour :",
+        "not_for": [
+          "Ceux qui cherchent uniquement des conseils gratuits sans engagement",
+          "Les entreprises disposant d'une équipe de stratégie IT interne complète"
+        ]
+      },
+      "problem_solution": {
+        "title": "Du chaos à la clarté",
+        "problem_title": "Le Problème",
+        "problem_text": "Les mauvais choix technologiques coûtent des dizaines de milliers aux entreprises. Investir dans les mauvais outils, des processus inefficaces et l'absence de stratégie — c'est du budget gaspillé, du temps perdu et de la frustration d'équipe.",
+        "solution_title": "Notre Solution",
+        "solution_text": "Analyse experte indépendante, recommandations claires et plan d'action concret. Nous examinons vos processus, identifions les problèmes et proposons des solutions adaptées à vos objectifs commerciaux et à votre budget.",
+        "result_title": "Le Résultat",
+        "result_text": "Des décisions technologiques confiantes, des dépenses IT optimisées et une croissance plus rapide de l'entreprise. Vous n'investissez que dans ce qui apportera réellement des résultats."
+      },
+      "trust_signals": {
+        "title": "Pourquoi nous faire confiance",
+        "items": [
+          { "title": "Conseil neutre", "description": "Nous ne vendons pas d'outils spécifiques — nous recommandons ce qui est le mieux pour votre entreprise" },
+          { "title": "Approche business-first", "description": "Nous pensons d'abord aux objectifs commerciaux, ensuite à la technologie" },
+          { "title": "Livrables clairs", "description": "Vous recevez un rapport concret avec recommandations et plan d'action" },
+          { "title": "Accompagnement à la mise en œuvre", "description": "Nous aidons à implémenter les recommandations — nous ne vous laissons pas avec juste un rapport" }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "À quoi ressemble le processus de conseil ?",
+            "answer": "Nous commençons par un appel découverte gratuit (30 min) pour comprendre vos besoins. Ensuite, nous menons une analyse détaillée — entretiens avec l'équipe, revue des systèmes et processus. Enfin, nous livrons un rapport avec des recommandations spécifiques et un plan d'action."
+          },
+          {
+            "question": "Combien coûte une consultation ?",
+            "answer": "Les tarifs dépendent de l'ampleur du projet. Un audit IT ponctuel commence à 800 €. Une stratégie complète de transformation numérique à partir de 2 000 €. Le premier appel de consultation est gratuit — nous y déterminerons le périmètre exact et le devis."
+          },
+          {
+            "question": "Mettez-vous aussi en œuvre les recommandations ?",
+            "answer": "Oui. Nous pouvons aider à implémenter les recommandations — de la sélection des fournisseurs à la supervision du projet, en passant par la formation de l'équipe. Nous déterminons le périmètre d'accompagnement individuellement."
+          },
+          {
+            "question": "Quelle est la durée typique d'un engagement ?",
+            "answer": "Un audit IT rapide prend 1-2 semaines. Une stratégie complète de transformation numérique 3-6 semaines. Le conseil à long terme peut durer plusieurs mois — selon l'ampleur des changements dans l'organisation."
+          },
+          {
+            "question": "Avec quels secteurs travaillez-vous ?",
+            "answer": "Nous travaillons avec des entreprises de divers secteurs — e-commerce, services, industrie, finance. Notre approche est universelle : nous analysons les processus métier et adaptons la technologie aux besoins spécifiques."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Commencez par une conversation gratuite",
+        "description": "Session stratégique de 30 minutes où nous discuterons de vos défis et montrerons comment nous pouvons aider. Sans engagement.",
+        "button": "Réserver une session stratégique"
       }
     },
     "mobile_apps": {

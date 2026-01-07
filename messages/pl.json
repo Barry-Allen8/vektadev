@@ -311,13 +311,79 @@
     "consulting": {
       "title": "Konsulting IT",
       "description": "Profesjonalne doradztwo w zakresie transformacji cyfrowej",
-      "hero_description": "Profesjonalne doradztwo w zakresie transformacji cyfrowej Twojego biznesu",
+      "hero_title": "Podejmuj mądrzejsze decyzje technologiczne",
+      "hero_subtitle": "Eksperckie wsparcie przed inwestycją w technologię",
+      "hero_description": "Audyty IT, strategia transformacji cyfrowej i dobór technologii. Pomagamy firmom inwestować w technologię z pewnością — bez kosztownych błędów.",
+      "hero_cta": "Zarezerwuj sesję strategiczną",
       "features": ["Audyt infrastruktury IT", "Strategia rozwoju", "Wybór technologii", "Optymalizacja procesów"],
       "benefits": {
-        "audit": { "title": "Audyt", "description": "Pełna analiza obecnej infrastruktury IT" },
-        "strategy": { "title": "Strategia", "description": "Opracowanie planu rozwoju technologicznego" },
-        "optimization": { "title": "Optymalizacja", "description": "Poprawa efektywności procesów" },
-        "training": { "title": "Szkolenia", "description": "Szkolenie zespołu z nowych narzędzi" }
+        "audit": { "title": "Audyt IT", "description": "Kompleksowa analiza obecnej infrastruktury, procesów i narzędzi" },
+        "strategy": { "title": "Strategia cyfrowa", "description": "Jasny plan transformacji z konkretnymi krokami i harmonogramem" },
+        "optimization": { "title": "Optymalizacja kosztów", "description": "Identyfikacja oszczędności i eliminacja zbędnych wydatków na IT" },
+        "training": { "title": "Wsparcie wdrożeniowe", "description": "Pomoc we wdrożeniu rekomendacji i szkolenie zespołu" }
+      },
+      "who_its_for": {
+        "title": "Czy konsulting IT jest dla Ciebie?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm planujących transformację cyfrową lub modernizację IT",
+          "Przedsiębiorstw niepewnych, jaką technologię wybrać",
+          "Zespołów z nieefektywnymi systemami IT, które spowalniają rozwój",
+          "Startupów potrzebujących kierunku technologicznego od ekspertów"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Osób szukających wyłącznie darmowych porad bez zobowiązań",
+          "Firm z kompletnym wewnętrznym zespołem strategii IT"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od chaosu do klarowności",
+        "problem_title": "Problem",
+        "problem_text": "Złe decyzje technologiczne kosztują firmy dziesiątki tysięcy złotych. Inwestycja w niewłaściwe narzędzia, nieefektywne procesy i brak strategii — to zmarnowany budżet, stracony czas i frustracja zespołu.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Niezależna analiza ekspercka, jasne rekomendacje i konkretny plan działania. Badamy Twoje procesy, identyfikujemy problemy i proponujemy rozwiązania dopasowane do Twoich celów biznesowych i budżetu.",
+        "result_title": "Rezultat",
+        "result_text": "Pewne decyzje technologiczne, zoptymalizowane wydatki na IT i szybszy rozwój firmy. Inwestujesz tylko w to, co naprawdę przyniesie rezultaty."
+      },
+      "trust_signals": {
+        "title": "Dlaczego warto nam zaufać",
+        "items": [
+          { "title": "Niezależne doradztwo", "description": "Nie sprzedajemy konkretnych narzędzi — rekomendujemy to, co najlepsze dla Twojego biznesu" },
+          { "title": "Podejście biznesowe", "description": "Myślimy najpierw o celach biznesowych, potem o technologii" },
+          { "title": "Jasne rezultaty", "description": "Otrzymujesz konkretny raport z rekomendacjami i planem działania" },
+          { "title": "Wsparcie we wdrożeniu", "description": "Pomagamy wdrożyć rekomendacje — nie zostawiamy Cię z samym raportem" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "Jak wygląda proces konsultingu?",
+            "answer": "Zaczynamy od bezpłatnej rozmowy wstępnej (30 min), aby zrozumieć Twoje potrzeby. Następnie przeprowadzamy szczegółową analizę — wywiady z zespołem, przegląd systemów i procesów. Na końcu dostarczamy raport z konkretnymi rekomendacjami i planem działania."
+          },
+          {
+            "question": "Ile kosztuje konsultacja?",
+            "answer": "Ceny zależą od zakresu projektu. Jednorazowy audyt IT zaczyna się od 3 000 zł. Kompleksowa strategia transformacji cyfrowej od 8 000 zł. Pierwsza rozmowa konsultacyjna jest bezpłatna — podczas niej ustalimy dokładny zakres i wycenę."
+          },
+          {
+            "question": "Czy wdrażacie też swoje rekomendacje?",
+            "answer": "Tak. Możemy pomóc we wdrożeniu rekomendacji — od wyboru dostawców, przez nadzór nad projektem, po szkolenie zespołu. Zakres wsparcia ustalamy indywidualnie."
+          },
+          {
+            "question": "Jak długo trwa typowe zlecenie?",
+            "answer": "Szybki audyt IT zajmuje 1-2 tygodnie. Kompleksowa strategia transformacji cyfrowej 3-6 tygodni. Długoterminowe doradztwo może trwać kilka miesięcy — zależnie od skali zmian w organizacji."
+          },
+          {
+            "question": "Z jakimi branżami pracujecie?",
+            "answer": "Pracujemy z firmami z różnych branż — e-commerce, usługi, produkcja, finanse. Nasze podejście jest uniwersalne: analizujemy procesy biznesowe i dopasowujemy technologię do konkretnych potrzeb."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Zacznij od bezpłatnej rozmowy",
+        "description": "30-minutowa sesja strategiczna, podczas której omówimy Twoje wyzwania i pokażemy, jak możemy pomóc. Bez zobowiązań.",
+        "button": "Zarezerwuj sesję strategiczną"
       }
     },
     "mobile_apps": {

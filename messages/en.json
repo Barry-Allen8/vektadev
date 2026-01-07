@@ -311,13 +311,79 @@
     "consulting": {
       "title": "IT Consulting",
       "description": "Professional consulting on digital transformation",
-      "hero_description": "Professional consulting on digital transformation of your business",
+      "hero_title": "Make smarter technology decisions",
+      "hero_subtitle": "Expert guidance before you invest",
+      "hero_description": "IT audits, digital transformation strategy, and technology selection. We help businesses invest in technology with confidence — without costly mistakes.",
+      "hero_cta": "Book strategy session",
       "features": ["IT infrastructure audit", "Development strategy", "Technology selection", "Process optimization"],
       "benefits": {
-        "audit": { "title": "Audit", "description": "Full analysis of current IT infrastructure" },
-        "strategy": { "title": "Strategy", "description": "Development of technology growth plan" },
-        "optimization": { "title": "Optimization", "description": "Improving process efficiency" },
-        "training": { "title": "Training", "description": "Team training on new tools" }
+        "audit": { "title": "IT Audit", "description": "Comprehensive analysis of current infrastructure, processes, and tools" },
+        "strategy": { "title": "Digital Strategy", "description": "Clear transformation roadmap with concrete steps and timeline" },
+        "optimization": { "title": "Cost Optimization", "description": "Identify savings and eliminate unnecessary IT spending" },
+        "training": { "title": "Implementation Support", "description": "Help implementing recommendations and training your team" }
+      },
+      "who_its_for": {
+        "title": "Is IT consulting right for you?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Companies planning digital transformation or IT modernization",
+          "Businesses unsure which technology to choose",
+          "Teams with underperforming IT systems slowing growth",
+          "Startups needing expert technical direction"
+        ],
+        "not_for_title": "Not for:",
+        "not_for": [
+          "Those looking for free advice only with no commitment",
+          "Companies with a complete internal IT strategy team"
+        ]
+      },
+      "problem_solution": {
+        "title": "From chaos to clarity",
+        "problem_title": "The Problem",
+        "problem_text": "Wrong technology choices cost businesses tens of thousands. Investing in the wrong tools, inefficient processes, and lack of strategy — that's wasted budget, lost time, and team frustration.",
+        "solution_title": "Our Solution",
+        "solution_text": "Independent expert analysis, clear recommendations, and a concrete action plan. We examine your processes, identify problems, and propose solutions tailored to your business goals and budget.",
+        "result_title": "The Result",
+        "result_text": "Confident technology decisions, optimized IT spending, and faster business growth. You invest only in what will actually deliver results."
+      },
+      "trust_signals": {
+        "title": "Why trust us",
+        "items": [
+          { "title": "Vendor-neutral advice", "description": "We don't sell specific tools — we recommend what's best for your business" },
+          { "title": "Business-first approach", "description": "We think about business goals first, technology second" },
+          { "title": "Clear deliverables", "description": "You get a concrete report with recommendations and action plan" },
+          { "title": "Implementation support", "description": "We help implement recommendations — we don't leave you with just a report" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What does the consulting process look like?",
+            "answer": "We start with a free discovery call (30 min) to understand your needs. Then we conduct detailed analysis — team interviews, systems and processes review. Finally, we deliver a report with specific recommendations and an action plan."
+          },
+          {
+            "question": "How much does a consultation cost?",
+            "answer": "Pricing depends on project scope. A one-time IT audit starts from $800. Comprehensive digital transformation strategy from $2,000. The first consultation call is free — we'll determine the exact scope and pricing during it."
+          },
+          {
+            "question": "Do you implement recommendations too?",
+            "answer": "Yes. We can help implement recommendations — from vendor selection, to project oversight, to team training. We determine the support scope individually."
+          },
+          {
+            "question": "How long is a typical engagement?",
+            "answer": "A quick IT audit takes 1-2 weeks. Comprehensive digital transformation strategy 3-6 weeks. Long-term advisory can last several months — depending on the scale of changes in the organization."
+          },
+          {
+            "question": "What industries do you work with?",
+            "answer": "We work with companies from various industries — e-commerce, services, manufacturing, finance. Our approach is universal: we analyze business processes and match technology to specific needs."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Start with a free conversation",
+        "description": "30-minute strategy session where we'll discuss your challenges and show how we can help. No commitment required.",
+        "button": "Book strategy session"
       }
     },
     "mobile_apps": {
