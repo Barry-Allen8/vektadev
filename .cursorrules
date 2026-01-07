@@ -1,0 +1,55 @@
+# VektaDev Project Rules
+
+## Git Workflow
+After making code changes, always run:
+```bash
+git add . && git commit -m "descriptive message" && git push
+```
+This project auto-deploys to Vercel on push.
+
+## Translations (IMPORTANT!)
+This project has 4 languages. All text/copy changes must be updated in ALL files:
+- messages/pl.json (Polish - default locale)
+- messages/en.json (English)
+- messages/de.json (German)
+- messages/fr.json (French)
+
+Never hardcode text in components - always use translations via useTranslations() hook.
+
+## Tech Stack
+- Next.js 14 with App Router
+- TypeScript
+- Tailwind CSS
+- next-intl for internationalization
+- Framer Motion for animations (use LazyMotion for performance)
+
+## Project Structure
+- /src/app/[locale]/ - Pages with locale routing
+- /src/components/ - Reusable components
+- /src/i18n/ - Internationalization config
+- /messages/ - Translation JSON files
+
+## Company Contact Info
+- Company: VektaDev
+- Address: ul. Michała Kajki 10-12, 10-547 Olsztyn, Poland
+- Phones: +48 537 890 776 / +48 733 264 543
+- Email: vektadev@gmail.com
+
+## Available Locales
+- pl (Polish) - default
+- en (English)
+- de (German)
+- fr (French)
+
+## Performance Guidelines
+- Use CSS animations instead of JS when possible
+- Use LazyMotion from framer-motion
+- Optimize images with Next.js Image component
+- Keep animations simple on mobile
+
+## Code Style
+- Use TypeScript strict mode
+- Prefer functional components
+- Use Tailwind CSS for styling
+- Follow existing code patterns in the project
+
