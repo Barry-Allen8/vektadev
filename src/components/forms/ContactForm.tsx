@@ -121,6 +121,7 @@ export default function ContactForm() {
           <option value="chatbots">{tServices("chatbots")}</option>
           <option value="ai">{tServices("ai_solutions")}</option>
           <option value="mobile">{tServices("mobile_apps")}</option>
+          <option value="cloud">{tServices("cloud")}</option>
           <option value="consulting">{tServices("consulting")}</option>
         </select>
       </div>

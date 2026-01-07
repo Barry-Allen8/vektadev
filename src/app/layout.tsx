@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://it-service.com"),
+  metadataBase: new URL("https://vektadev.com"),
   alternates: {
     canonical: "/",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: "Tworzenie stron, chatbotów, rozwiązań AI i konsulting IT",
     type: "website",
     locale: "pl_PL",
-    url: "https://it-service.com",
+    url: "https://vektadev.com",
     siteName: "VektaDev",
   },
   twitter: {

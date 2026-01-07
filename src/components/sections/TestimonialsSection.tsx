@@ -6,7 +6,7 @@ import { Star, Quote, ChevronLeft, ChevronRight, MessageSquare } from "lucide-re
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-// Demo testimonials - будуть замінені на справжні
+// Demo testimonials - will be replaced with real ones
 const demoTestimonials = [
   {
     id: 1,
@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
-  const hasTestimonials = false; // Змініть на true коли будуть справжні відгуки
+  const hasTestimonials = false; // Change to true when real testimonials are available
 
   const slideVariants = {
     enter: (direction: number) => ({

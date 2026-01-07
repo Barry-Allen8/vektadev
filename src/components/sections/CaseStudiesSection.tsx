@@ -167,9 +167,9 @@ export default function CaseStudiesSection() {
                       ))}
                     </div>
 
-                    {/* Link */}
+                    {/* Link to portfolio */}
                     <Link
-                      href={`/portfolio/${study.slug}`}
+                      href="/portfolio"
                       locale={locale}
                       className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all group/link"
                     >

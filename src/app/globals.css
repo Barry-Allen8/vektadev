@@ -107,7 +107,7 @@ h3 {
   animation: hexFloat 20s ease-in-out infinite;
   pointer-events: none;
   z-index: 0;
-  /* Плавне зникнення сітки внизу */
+  /* Smooth grid fade at bottom */
   -webkit-mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
 }

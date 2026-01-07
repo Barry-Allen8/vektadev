@@ -92,9 +92,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-                { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-                { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+                { icon: Facebook, href: "https://facebook.com/vektadev", label: "Facebook" },
+                { icon: Instagram, href: "https://instagram.com/vektadev", label: "Instagram" },
+                { icon: Linkedin, href: "https://linkedin.com/company/vektadev", label: "LinkedIn" },
               ].map((social) => (
                 <motion.a
                   key={social.label}
@@ -190,7 +190,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="https://maps.google.com"
+                  href="https://maps.google.com/?q=ul.+Michała+Kajki+10-12,+10-547+Olsztyn,+Poland"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors group"
