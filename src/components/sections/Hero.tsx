@@ -28,29 +28,6 @@ const itemVariants = {
   },
 };
 
-const floatVariants = {
-  animate: {
-    y: [-10, 10, -10],
-    rotate: [0, 5, -5, 0],
-    transition: {
-      duration: 6,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  },
-};
-
-const orbitVariants = {
-  animate: {
-    rotate: 360,
-    transition: {
-      duration: 20,
-      repeat: Infinity,
-      ease: "linear",
-    },
-  },
-};
-
 export default function Hero() {
   const t = useTranslations("hero");
   const locale = useLocale() as Locale;
