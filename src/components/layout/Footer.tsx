@@ -128,6 +128,7 @@ export default function Footer() {
                 { href: "/services/chatbots", key: "chatbots" },
                 { href: "/services/ai-solutions", key: "ai_solutions" },
                 { href: "/services/mobile-apps", key: "mobile_apps" },
+                { href: "/services/cloud", key: "cloud" },
                 { href: "/services/consulting", key: "consulting" },
               ].map((item) => (
                 <li key={item.key}>
