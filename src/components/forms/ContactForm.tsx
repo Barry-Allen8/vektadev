@@ -10,11 +10,16 @@ import Button from "@/components/ui/Button";
 import { Send } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+interface ApiContactFormData extends ContactFormData {
+  website?: string; // Honeypot field
+}
+
 export default function ContactForm() {
   const t = useTranslations("contact.form");
   const tServices = useTranslations("services_menu");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const {
     register,
@@ -28,14 +33,39 @@ export default function ContactForm() {
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     setSubmitStatus(null);
+    setErrorMessage(null);
 
     try {
-      console.log("Form data:", data);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      // Get honeypot value from hidden field
+      const honeypotInput = document.getElementById("website") as HTMLInputElement;
+      const honeypotValue = honeypotInput?.value || "";
+
+      const payload: ApiContactFormData = {
+        ...data,
+        website: honeypotValue,
+      };
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "Failed to send message");
+      }
+
       setSubmitStatus("success");
       reset();
-    } catch {
+    } catch (error) {
       setSubmitStatus("error");
+      if (error instanceof Error) {
+        setErrorMessage(error.message);
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -43,6 +73,20 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+      {/* Honeypot field - hidden from users, visible to bots */}
+      <div className="absolute -left-[9999px] opacity-0" aria-hidden="true">
+        <label htmlFor="website">
+          Leave this field empty
+          <input
+            type="text"
+            id="website"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+          />
+        </label>
+      </div>
+
       <Input
         label={t("name")}
         placeholder={t("name_placeholder")}
@@ -97,11 +141,13 @@ export default function ContactForm() {
         <div
           className={`p-4 rounded-lg ${
             submitStatus === "success"
-              ? "bg-green-50 text-green-800"
-              : "bg-red-50 text-red-800"
+              ? "bg-green-50 text-green-800 dark:bg-green-900/20 dark:text-green-400"
+              : "bg-red-50 text-red-800 dark:bg-red-900/20 dark:text-red-400"
           }`}
         >
-          {submitStatus === "success" ? t("success") : t("error")}
+          {submitStatus === "success" 
+            ? t("success") 
+            : errorMessage || t("error")}
         </div>
       )}
     </form>

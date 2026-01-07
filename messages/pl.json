@@ -587,7 +587,8 @@
     "newsletter_title": "Bądź na bieżąco",
     "newsletter_desc": "Zapisz się do newslettera i otrzymuj najnowsze informacje o technologiach i trendach IT.",
     "newsletter_placeholder": "Twój email",
-    "newsletter_button": "Zapisz się"
+    "newsletter_button": "Zapisz się",
+    "newsletter_coming_soon": "Newsletter wkrótce"
   },
   "contact": {
     "title": "Skontaktuj się z nami",
@@ -611,8 +612,9 @@
       "message_placeholder": "Opowiedz o swoim projekcie...",
       "submit": "Wyślij",
       "submitting": "Wysyłanie...",
-      "success": "Dziękujemy! Twoja wiadomość została wysłana.",
-      "error": "Wystąpił błąd. Spróbuj ponownie."
+      "success": "Dziękujemy! Twoja wiadomość została wysłana. Wkrótce się z Tobą skontaktujemy.",
+      "error": "Wystąpił błąd. Spróbuj ponownie później.",
+      "rate_limit": "Zbyt wiele prób. Poczekaj chwilę i spróbuj ponownie."
     }
   },
   "about": {

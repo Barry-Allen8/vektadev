@@ -587,7 +587,8 @@
     "newsletter_title": "Stay updated",
     "newsletter_desc": "Subscribe to our newsletter and receive the latest information about technologies and IT trends.",
     "newsletter_placeholder": "Your email",
-    "newsletter_button": "Subscribe"
+    "newsletter_button": "Subscribe",
+    "newsletter_coming_soon": "Newsletter launching soon"
   },
   "contact": {
     "title": "Contact Us",
@@ -611,8 +612,9 @@
       "message_placeholder": "Tell us about your project...",
       "submit": "Send",
       "submitting": "Sending...",
-      "success": "Thank you! Your message has been sent.",
-      "error": "An error occurred. Please try again."
+      "success": "Thank you! Your message has been sent. We will contact you shortly.",
+      "error": "An error occurred. Please try again later.",
+      "rate_limit": "Too many requests. Please wait a moment and try again."
     }
   },
   "about": {

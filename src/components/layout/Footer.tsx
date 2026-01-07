@@ -4,7 +4,6 @@ import { Link } from "@/i18n/navigation";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, ArrowRight, Send } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
-import { useState } from "react";
 import { type Locale } from "@/i18n";
 
 export default function Footer() {
@@ -13,7 +12,6 @@ export default function Footer() {
   const tServices = useTranslations("services_menu");
   const locale = useLocale() as Locale;
   const currentYear = new Date().getFullYear();
-  const [email, setEmail] = useState("");
 
   return (
     <footer className="bg-gradient-to-b from-slate-900 to-slate-950 text-white relative overflow-hidden">
@@ -37,25 +35,25 @@ export default function Footer() {
               <p className="text-gray-300">{t("newsletter_desc")}</p>
             </div>
             <div>
-              <form className="flex gap-3">
+              <div className="flex gap-3">
                 <div className="flex-1 relative">
                   <input
                     type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    disabled
                     placeholder={t("newsletter_placeholder")}
-                    className="w-full px-5 py-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
+                    className="w-full px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-gray-500 placeholder-gray-500 cursor-not-allowed opacity-60"
                   />
                 </div>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-6 py-4 bg-primary hover:bg-primary-dark rounded-xl font-semibold flex items-center gap-2 transition-colors"
+                <button
+                  type="button"
+                  disabled
+                  className="px-6 py-4 bg-gray-600 rounded-xl font-semibold flex items-center gap-2 cursor-not-allowed opacity-60"
                 >
                   <Send className="w-5 h-5" />
                   <span className="hidden sm:inline">{t("newsletter_button")}</span>
-                </motion.button>
-              </form>
+                </button>
+              </div>
+              <p className="text-sm text-gray-400 mt-3">{t("newsletter_coming_soon")}</p>
             </div>
           </div>
         </motion.div>
