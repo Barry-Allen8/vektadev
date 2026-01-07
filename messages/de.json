@@ -1,7 +1,6 @@
 {
   "navigation": {
     "services": "Dienstleistungen",
-    "courses": "Kurse",
     "portfolio": "Portfolio",
     "about": "Über uns",
     "blog": "Blog",
@@ -635,123 +634,6 @@
     "cta_title": "Bereit zur Zusammenarbeit?",
     "cta_description": "Kontaktieren Sie uns, um Ihr Projekt zu besprechen",
     "cta_button": "Kontaktieren Sie uns"
-  },
-  "courses": {
-    "title": "Unsere Kurse",
-    "description": "Lernen Sie von den besten Experten und erwerben Sie praktische Fähigkeiten",
-    "duration": "Dauer",
-    "lessons": "Lektionen",
-    "format": "Format",
-    "from": "Ab",
-    "details": "Details",
-    "for_whom": "Für wen ist dieser Kurs",
-    "benefits": "Kursvorteile",
-    "instructor": "Dozent",
-    "pricing": "Preise",
-    "recommended": "Empfohlen",
-    "choose": "Auswählen",
-    "program": "Kursprogramm",
-    "enroll": "Zum Kurs anmelden",
-    "hours": "Stunden",
-    "online": "online",
-    "course_list": {
-      "web_dev": {
-        "title": "Grundlagen der Webentwicklung",
-        "shortDescription": "Umfassender Kurs für Einsteiger in die Webentwicklung",
-        "description": "Lernen Sie, moderne Websites von Grund auf zu erstellen. HTML, CSS, JavaScript und React-Grundlagen.",
-        "duration": "40 Stunden",
-        "format": "online",
-        "instructor": {
-          "name": "Andreas Schmidt",
-          "experience": "8 Jahre Erfahrung",
-          "bio": "Senior Webentwickler mit 8 Jahren Erfahrung. Arbeitete an Projekten für internationale Unternehmen."
-        },
-        "benefits": [
-          "Praktische Webentwicklungsfähigkeiten",
-          "Aufbau eines eigenen Portfolios",
-          "Dozentenunterstützung",
-          "Zertifikat nach Abschluss"
-        ],
-        "targetAudience": [
-          "Anfänger ohne Programmiererfahrung",
-          "IT-Studenten",
-          "Fachkräfte, die ihre Karriere ändern möchten",
-          "Unternehmer, die Websites erstellen möchten"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Modul 1: HTML & CSS",
-            "lessons": ["Einführung in HTML", "Semantisches Markup", "CSS-Selektoren und Eigenschaften", "Flexbox und Grid", "Responsives Design"]
-          },
-          "module2": {
-            "title": "Modul 2: JavaScript",
-            "lessons": ["JavaScript-Grundlagen", "DOM-Manipulation", "Events und Handler", "Asynchrones JavaScript", "API und fetch"]
-          },
-          "module3": {
-            "title": "Modul 3: React-Grundlagen",
-            "lessons": ["Komponenten und Props", "State und Lifecycle", "Hooks", "Arbeiten mit Formularen", "Abschlussprojekt"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Zugang zu allen Lektionen", "Hausaufgaben", "Chat-Support", "Zertifikat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Alles aus Standard", "Persönliche Beratungen", "Code-Review", "Unterstützung bei der Jobsuche"]
-          }
-        }
-      },
-      "ai_chatbots": {
-        "title": "KI-Chatbot-Entwicklung",
-        "shortDescription": "Lernen Sie, intelligente Chatbots mit KI zu erstellen",
-        "description": "Erstellen Sie Chatbots für Telegram, Viber mit ChatGPT- und Claude-Integration.",
-        "duration": "30 Stunden",
-        "format": "online",
-        "instructor": {
-          "name": "Maria Müller",
-          "experience": "6 Jahre Erfahrung",
-          "bio": "KI- und Chatbot-Expertin. Hat über 50 Bots für verschiedene Unternehmen erstellt."
-        },
-        "benefits": [
-          "Praktische Bot-Erstellungsfähigkeiten",
-          "Integration mit KI-Modellen",
-          "Bot-Monetarisierung",
-          "Echte Fallstudien"
-        ],
-        "targetAudience": [
-          "Entwickler mit Grundkenntnissen",
-          "Unternehmer, die ihr Geschäft automatisieren möchten",
-          "Marketing-Spezialisten",
-          "Alle, die sich für KI interessieren"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Chatbot-Grundlagen",
-            "lessons": ["Was sind Chatbots", "Telegram Bot API", "Grundlegende Bot-Struktur", "Befehlsverarbeitung"]
-          },
-          "module2": {
-            "title": "KI-Integration",
-            "lessons": ["ChatGPT API", "Claude API", "Prompt Engineering", "Kontext und Speicher"]
-          },
-          "module3": {
-            "title": "Produktion & Monetarisierung",
-            "lessons": ["Bot-Bereitstellung", "Analysen", "Monetarisierung", "Abschlussprojekt"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Zugang zu Lektionen", "Hausaufgaben", "Support", "Zertifikat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Alles aus Standard", "Mentoring", "Code-Review", "Projektunterstützung"]
-          }
-        }
-      }
-    }
   },
   "portfolio": {
     "title": "Portfolio",

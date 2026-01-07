@@ -39,7 +39,7 @@ npm start
     /forms          # Форми
     /layout         # Header, Footer
   /lib              # Утиліти
-  /data             # Дані (курси, послуги)
+  /data             # Дані (послуги, блог, портфоліо)
   /types            # TypeScript типи
 /public             # Статичні файли
 ```
@@ -58,7 +58,6 @@ npm start
 - `/` - Головна
 - `/about` - Про нас
 - `/services` - Послуги
-- `/courses` - Курси
 - `/portfolio` - Портфоліо
 - `/blog` - Блог
 - `/contact` - Контакти

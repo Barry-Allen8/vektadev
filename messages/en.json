@@ -1,7 +1,6 @@
 {
   "navigation": {
     "services": "Services",
-    "courses": "Courses",
     "portfolio": "Portfolio",
     "about": "About",
     "blog": "Blog",
@@ -635,123 +634,6 @@
     "cta_title": "Ready to collaborate?",
     "cta_description": "Contact us to discuss your project",
     "cta_button": "Contact us"
-  },
-  "courses": {
-    "title": "Our Courses",
-    "description": "Learn from the best experts and gain practical skills",
-    "duration": "Duration",
-    "lessons": "lessons",
-    "format": "Format",
-    "from": "From",
-    "details": "Details",
-    "for_whom": "Who is this course for",
-    "benefits": "Course Benefits",
-    "instructor": "Instructor",
-    "pricing": "Pricing",
-    "recommended": "Recommended",
-    "choose": "Choose",
-    "program": "Course Program",
-    "enroll": "Enroll in course",
-    "hours": "hours",
-    "online": "online",
-    "course_list": {
-      "web_dev": {
-        "title": "Web Development Fundamentals",
-        "shortDescription": "Comprehensive course for beginners in web development",
-        "description": "Learn to create modern websites from scratch. HTML, CSS, JavaScript and React basics.",
-        "duration": "40 hours",
-        "format": "online",
-        "instructor": {
-          "name": "Andrew Smith",
-          "experience": "8 years of experience",
-          "bio": "Senior web developer with 8 years of experience. Worked on projects for international companies."
-        },
-        "benefits": [
-          "Practical web development skills",
-          "Building your own portfolio",
-          "Instructor support",
-          "Certificate upon completion"
-        ],
-        "targetAudience": [
-          "Beginners without programming experience",
-          "IT students",
-          "Specialists looking to change careers",
-          "Entrepreneurs who want to build websites"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Module 1: HTML & CSS",
-            "lessons": ["Introduction to HTML", "Semantic markup", "CSS selectors and properties", "Flexbox and Grid", "Responsive design"]
-          },
-          "module2": {
-            "title": "Module 2: JavaScript",
-            "lessons": ["JavaScript basics", "DOM manipulation", "Events and handlers", "Asynchronous JavaScript", "API and fetch"]
-          },
-          "module3": {
-            "title": "Module 3: React Basics",
-            "lessons": ["Components and props", "State and lifecycle", "Hooks", "Working with forms", "Final project"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Access to all lessons", "Homework assignments", "Chat support", "Certificate"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Everything from Standard", "Personal consultations", "Code review", "Job placement assistance"]
-          }
-        }
-      },
-      "ai_chatbots": {
-        "title": "AI Chatbot Development",
-        "shortDescription": "Learn to create intelligent chatbots with AI",
-        "description": "Create chatbots for Telegram, Viber with ChatGPT and Claude integration.",
-        "duration": "30 hours",
-        "format": "online",
-        "instructor": {
-          "name": "Mary Johnson",
-          "experience": "6 years of experience",
-          "bio": "AI and chatbot expert. Created over 50 bots for various businesses."
-        },
-        "benefits": [
-          "Practical bot creation skills",
-          "Integration with AI models",
-          "Bot monetization",
-          "Real case studies"
-        ],
-        "targetAudience": [
-          "Developers with basic knowledge",
-          "Entrepreneurs who want to automate business",
-          "Marketing specialists",
-          "Anyone interested in AI"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Chatbot Basics",
-            "lessons": ["What are chatbots", "Telegram Bot API", "Basic bot structure", "Command handling"]
-          },
-          "module2": {
-            "title": "AI Integration",
-            "lessons": ["ChatGPT API", "Claude API", "Prompt engineering", "Context and memory"]
-          },
-          "module3": {
-            "title": "Production & Monetization",
-            "lessons": ["Bot deployment", "Analytics", "Monetization", "Final project"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Access to lessons", "Homework assignments", "Support", "Certificate"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Everything from Standard", "Mentorship", "Code review", "Project assistance"]
-          }
-        }
-      }
-    }
   },
   "portfolio": {
     "title": "Portfolio",

@@ -1,7 +1,6 @@
 {
   "navigation": {
     "services": "Services",
-    "courses": "Cours",
     "portfolio": "Portfolio",
     "about": "À propos",
     "blog": "Blog",
@@ -635,123 +634,6 @@
     "cta_title": "Prêt à collaborer ?",
     "cta_description": "Contactez-nous pour discuter de votre projet",
     "cta_button": "Contactez-nous"
-  },
-  "courses": {
-    "title": "Nos cours",
-    "description": "Apprenez des meilleurs experts et acquérez des compétences pratiques",
-    "duration": "Durée",
-    "lessons": "leçons",
-    "format": "Format",
-    "from": "À partir de",
-    "details": "Détails",
-    "for_whom": "À qui s'adresse ce cours",
-    "benefits": "Avantages du cours",
-    "instructor": "Instructeur",
-    "pricing": "Tarifs",
-    "recommended": "Recommandé",
-    "choose": "Choisir",
-    "program": "Programme du cours",
-    "enroll": "S'inscrire au cours",
-    "hours": "heures",
-    "online": "en ligne",
-    "course_list": {
-      "web_dev": {
-        "title": "Fondamentaux du développement web",
-        "shortDescription": "Cours complet pour débutants en développement web",
-        "description": "Apprenez à créer des sites web modernes à partir de zéro. HTML, CSS, JavaScript et bases de React.",
-        "duration": "40 heures",
-        "format": "en ligne",
-        "instructor": {
-          "name": "André Martin",
-          "experience": "8 ans d'expérience",
-          "bio": "Développeur web senior avec 8 ans d'expérience. A travaillé sur des projets pour des entreprises internationales."
-        },
-        "benefits": [
-          "Compétences pratiques en développement web",
-          "Création de votre propre portfolio",
-          "Support de l'instructeur",
-          "Certificat à la fin"
-        ],
-        "targetAudience": [
-          "Débutants sans expérience en programmation",
-          "Étudiants en IT",
-          "Professionnels souhaitant changer de carrière",
-          "Entrepreneurs voulant créer des sites web"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Module 1 : HTML & CSS",
-            "lessons": ["Introduction à HTML", "Balisage sémantique", "Sélecteurs et propriétés CSS", "Flexbox et Grid", "Design responsive"]
-          },
-          "module2": {
-            "title": "Module 2 : JavaScript",
-            "lessons": ["Bases de JavaScript", "Manipulation du DOM", "Événements et gestionnaires", "JavaScript asynchrone", "API et fetch"]
-          },
-          "module3": {
-            "title": "Module 3 : Bases de React",
-            "lessons": ["Composants et props", "State et cycle de vie", "Hooks", "Travail avec les formulaires", "Projet final"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Accès à toutes les leçons", "Devoirs", "Support par chat", "Certificat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Tout de Standard", "Consultations personnelles", "Revue de code", "Aide au placement professionnel"]
-          }
-        }
-      },
-      "ai_chatbots": {
-        "title": "Développement de chatbots IA",
-        "shortDescription": "Apprenez à créer des chatbots intelligents avec l'IA",
-        "description": "Créez des chatbots pour Telegram, Viber avec intégration ChatGPT et Claude.",
-        "duration": "30 heures",
-        "format": "en ligne",
-        "instructor": {
-          "name": "Marie Dubois",
-          "experience": "6 ans d'expérience",
-          "bio": "Experte en IA et chatbots. A créé plus de 50 bots pour diverses entreprises."
-        },
-        "benefits": [
-          "Compétences pratiques en création de bots",
-          "Intégration avec les modèles IA",
-          "Monétisation des bots",
-          "Études de cas réelles"
-        ],
-        "targetAudience": [
-          "Développeurs avec connaissances de base",
-          "Entrepreneurs souhaitant automatiser leur entreprise",
-          "Spécialistes marketing",
-          "Toute personne intéressée par l'IA"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Bases des chatbots",
-            "lessons": ["Qu'est-ce qu'un chatbot", "API Telegram Bot", "Structure de base d'un bot", "Gestion des commandes"]
-          },
-          "module2": {
-            "title": "Intégration IA",
-            "lessons": ["API ChatGPT", "API Claude", "Prompt engineering", "Contexte et mémoire"]
-          },
-          "module3": {
-            "title": "Production & Monétisation",
-            "lessons": ["Déploiement de bot", "Analyses", "Monétisation", "Projet final"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Accès aux leçons", "Devoirs", "Support", "Certificat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Tout de Standard", "Mentorat", "Revue de code", "Assistance projet"]
-          }
-        }
-      }
-    }
   },
   "portfolio": {
     "title": "Portfolio",

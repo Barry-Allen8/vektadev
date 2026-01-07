@@ -7,42 +7,6 @@ export interface Service {
   features?: string[];
 }
 
-export interface Course {
-  id: string;
-  slug: string;
-  title: string;
-  description: string;
-  shortDescription: string;
-  image: string;
-  duration: string;
-  lessons: number;
-  price: number;
-  format: "online" | "offline" | "hybrid";
-  level: "beginner" | "intermediate" | "advanced";
-  instructor: {
-    name: string;
-    bio: string;
-    image: string;
-    experience: string;
-  };
-  benefits: string[];
-  targetAudience: string[];
-  modules: CourseModule[];
-  pricing: CoursePricing[];
-}
-
-export interface CourseModule {
-  title: string;
-  lessons: string[];
-}
-
-export interface CoursePricing {
-  name: string;
-  price: number;
-  features: string[];
-  recommended?: boolean;
-}
-
 export interface PortfolioProject {
   id: string;
   slug: string;
@@ -103,10 +67,3 @@ export interface ContactFormData {
   service?: string;
 }
 
-export interface CourseRegistrationData {
-  name: string;
-  email: string;
-  phone: string;
-  plan: string;
-  agreedToTerms: boolean;
-}

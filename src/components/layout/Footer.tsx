@@ -162,7 +162,6 @@ export default function Footer() {
                 { href: "/about", key: "about" },
                 { href: "/portfolio", key: "portfolio" },
                 { href: "/blog", key: "blog" },
-                { href: "/courses", key: "courses" },
                 { href: "/contact", key: "contact" },
               ].map((item) => (
                 <li key={item.key}>

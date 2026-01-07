@@ -1,7 +1,6 @@
 {
   "navigation": {
     "services": "Usługi",
-    "courses": "Kursy",
     "portfolio": "Portfolio",
     "about": "O nas",
     "blog": "Blog",
@@ -635,123 +634,6 @@
     "cta_title": "Gotowy do współpracy?",
     "cta_description": "Skontaktuj się z nami, aby omówić Twój projekt",
     "cta_button": "Skontaktuj się"
-  },
-  "courses": {
-    "title": "Nasze kursy",
-    "description": "Ucz się od najlepszych ekspertów i zdobywaj praktyczne umiejętności",
-    "duration": "Czas trwania",
-    "lessons": "lekcji",
-    "format": "Format",
-    "from": "Od",
-    "details": "Szczegóły",
-    "for_whom": "Dla kogo ten kurs",
-    "benefits": "Korzyści z kursu",
-    "instructor": "Instruktor",
-    "pricing": "Cennik",
-    "recommended": "Polecane",
-    "choose": "Wybierz",
-    "program": "Program kursu",
-    "enroll": "Zapisz się na kurs",
-    "hours": "godzin",
-    "online": "online",
-    "course_list": {
-      "web_dev": {
-        "title": "Podstawy tworzenia stron",
-        "shortDescription": "Kompleksowy kurs dla początkujących w web developmencie",
-        "description": "Naucz się tworzyć nowoczesne strony od zera. HTML, CSS, JavaScript i podstawy React.",
-        "duration": "40 godzin",
-        "format": "online",
-        "instructor": {
-          "name": "Andrzej Kowalski",
-          "experience": "8 lat doświadczenia",
-          "bio": "Starszy web developer z 8-letnim doświadczeniem. Pracował nad projektami dla międzynarodowych firm."
-        },
-        "benefits": [
-          "Praktyczne umiejętności web developmentu",
-          "Budowanie własnego portfolio",
-          "Wsparcie instruktora",
-          "Certyfikat po ukończeniu"
-        ],
-        "targetAudience": [
-          "Początkujący bez doświadczenia w programowaniu",
-          "Studenci IT",
-          "Specjaliści chcący zmienić karierę",
-          "Przedsiębiorcy chcący tworzyć strony"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Moduł 1: HTML i CSS",
-            "lessons": ["Wprowadzenie do HTML", "Semantyczna struktura", "Selektory i właściwości CSS", "Flexbox i Grid", "Responsywny design"]
-          },
-          "module2": {
-            "title": "Moduł 2: JavaScript",
-            "lessons": ["Podstawy JavaScript", "Manipulacja DOM", "Eventy i handlery", "Asynchroniczny JavaScript", "API i fetch"]
-          },
-          "module3": {
-            "title": "Moduł 3: Podstawy React",
-            "lessons": ["Komponenty i props", "State i lifecycle", "Hooki", "Praca z formularzami", "Projekt końcowy"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Dostęp do wszystkich lekcji", "Zadania domowe", "Wsparcie na czacie", "Certyfikat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Wszystko ze Standardu", "Konsultacje indywidualne", "Przegląd kodu", "Pomoc w znalezieniu pracy"]
-          }
-        }
-      },
-      "ai_chatbots": {
-        "title": "Tworzenie chatbotów AI",
-        "shortDescription": "Naucz się tworzyć inteligentne chatboty z AI",
-        "description": "Twórz chatboty dla Telegrama, Vibera z integracją ChatGPT i Claude.",
-        "duration": "30 godzin",
-        "format": "online",
-        "instructor": {
-          "name": "Maria Kowalczyk",
-          "experience": "6 lat doświadczenia",
-          "bio": "Ekspertka AI i chatbotów. Stworzyła ponad 50 botów dla różnych biznesów."
-        },
-        "benefits": [
-          "Praktyczne umiejętności tworzenia botów",
-          "Integracja z modelami AI",
-          "Monetyzacja botów",
-          "Prawdziwe case studies"
-        ],
-        "targetAudience": [
-          "Programiści z podstawową wiedzą",
-          "Przedsiębiorcy chcący automatyzować biznes",
-          "Specjaliści od marketingu",
-          "Wszyscy zainteresowani AI"
-        ],
-        "modules": {
-          "module1": {
-            "title": "Podstawy chatbotów",
-            "lessons": ["Czym są chatboty", "Telegram Bot API", "Podstawowa struktura bota", "Obsługa poleceń"]
-          },
-          "module2": {
-            "title": "Integracja z AI",
-            "lessons": ["ChatGPT API", "Claude API", "Prompt engineering", "Kontekst i pamięć"]
-          },
-          "module3": {
-            "title": "Produkcja i monetyzacja",
-            "lessons": ["Wdrażanie bota", "Analityka", "Monetyzacja", "Projekt końcowy"]
-          }
-        },
-        "pricing": {
-          "standard": {
-            "name": "Standard",
-            "features": ["Dostęp do lekcji", "Zadania domowe", "Wsparcie", "Certyfikat"]
-          },
-          "premium": {
-            "name": "Premium",
-            "features": ["Wszystko ze Standardu", "Mentoring", "Przegląd kodu", "Pomoc przy projekcie"]
-          }
-        }
-      }
-    }
   },
   "portfolio": {
     "title": "Portfolio",
