@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { defaultLocale } from "@/i18n";
 
-export default function NotFound() {
+// This is the root not-found page for requests outside locale routing.
+// It provides a basic fallback in English and redirects to the default locale.
+export default function RootNotFound() {
   return (
-    <html lang="pl">
+    <html lang={defaultLocale}>
       <body className="font-sans antialiased">
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-purple-50 to-green-50">
           <div className="max-w-2xl mx-auto text-center px-4">
@@ -17,13 +20,13 @@ export default function NotFound() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/pl"
+                href={`/${defaultLocale}`}
                 className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
               >
                 🏠 Home
               </Link>
               <Link
-                href="/pl/contact"
+                href={`/${defaultLocale}/contact`}
                 className="px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition-colors inline-flex items-center gap-2"
               >
                 ✉️ Contact us
