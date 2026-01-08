@@ -867,5 +867,13 @@
     "case_3_result_2": "Wzrost produktywności",
     "view_case": "Zobacz szczegóły",
     "view_all": "Zobacz wszystkie projekty"
+  },
+  "cookies": {
+    "title": "Zgoda na pliki cookie",
+    "description": "Używamy plików cookie, aby ulepszyć Twoje doświadczenie przeglądania. Niezbędne pliki cookie są konieczne do prawidłowego funkcjonowania strony. Opcjonalne pliki cookie pomagają nam zrozumieć, jak korzystasz z naszej strony i ulepszać nasze usługi.",
+    "essential_info": "Niezbędne pliki cookie są zawsze aktywne, ponieważ są konieczne do podstawowej funkcjonalności strony, bezpieczeństwa i zapamiętywania Twoich preferencji.",
+    "accept": "Zaakceptuj wszystkie",
+    "reject": "Odrzuć opcjonalne",
+    "privacy_link": "Dowiedz się więcej w Polityce prywatności"
   }
 }

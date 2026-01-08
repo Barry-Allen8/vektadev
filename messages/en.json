@@ -867,5 +867,13 @@
     "case_3_result_2": "Productivity increase",
     "view_case": "View details",
     "view_all": "View all projects"
+  },
+  "cookies": {
+    "title": "Cookie Consent",
+    "description": "We use cookies to enhance your browsing experience. Essential cookies are necessary for the website to function properly. Non-essential cookies help us understand how you use our site and improve our services.",
+    "essential_info": "Essential cookies are always active as they are necessary for basic website functionality, security, and to remember your preferences.",
+    "accept": "Accept all",
+    "reject": "Reject non-essential",
+    "privacy_link": "Learn more in our Privacy Policy"
   }
 }

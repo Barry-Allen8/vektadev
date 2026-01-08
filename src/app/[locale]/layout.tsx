@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/i18n";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ClientLayout from "@/components/layout/ClientLayout";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -28,9 +29,11 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="font-sans antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          <main className="pt-20">{children}</main>
-          <Footer />
+          <ClientLayout>
+            <Header />
+            <main className="pt-20">{children}</main>
+            <Footer />
+          </ClientLayout>
         </NextIntlClientProvider>
       </body>
     </html>
