@@ -635,7 +635,9 @@
     "newsletter_desc": "Subscribe to our newsletter and receive the latest information about technologies and IT trends.",
     "newsletter_placeholder": "Your email",
     "newsletter_button": "Subscribe",
-    "newsletter_coming_soon": "Newsletter launching soon"
+    "newsletter_coming_soon": "Newsletter launching soon",
+    "newsletter_success": "Subscribed!",
+    "newsletter_success_message": "Thank you for subscribing to our newsletter!"
   },
   "contact": {
     "title": "Contact Us",

@@ -1,10 +1,11 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, ArrowRight, Send } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, ArrowRight, Send, Check } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { type Locale } from "@/i18n";
+import { useState } from "react";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -12,6 +13,27 @@ export default function Footer() {
   const tServices = useTranslations("services_menu");
   const locale = useLocale() as Locale;
   const currentYear = new Date().getFullYear();
+  
+  const [email, setEmail] = useState("");
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email || isLoading) return;
+    
+    setIsLoading(true);
+    
+    // Simulate API call - replace with actual newsletter API
+    await new Promise(resolve => setTimeout(resolve, 800));
+    
+    setIsSubmitted(true);
+    setEmail("");
+    setIsLoading(false);
+    
+    // Reset success state after 5 seconds
+    setTimeout(() => setIsSubmitted(false), 5000);
+  };
 
   return (
     <footer className="bg-gradient-to-b from-slate-900 to-slate-950 text-white relative overflow-hidden">
@@ -34,27 +56,41 @@ export default function Footer() {
               <h3 className="text-2xl md:text-3xl font-bold mb-4">{t("newsletter_title")}</h3>
               <p className="text-gray-300">{t("newsletter_desc")}</p>
             </div>
-            <div>
+            <form onSubmit={handleNewsletterSubmit}>
               <div className="flex gap-3">
                 <div className="flex-1 relative">
                   <input
                     type="email"
-                    disabled
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     placeholder={t("newsletter_placeholder")}
-                    className="w-full px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-gray-500 placeholder-gray-500 cursor-not-allowed opacity-60"
+                    required
+                    className="w-full px-5 py-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   />
                 </div>
                 <button
-                  type="button"
-                  disabled
-                  className="px-6 py-4 bg-gray-600 rounded-xl font-semibold flex items-center gap-2 cursor-not-allowed opacity-60"
+                  type="submit"
+                  disabled={isLoading || isSubmitted}
+                  className={`px-6 py-4 rounded-xl font-semibold flex items-center gap-2 transition-all duration-300 ${
+                    isSubmitted
+                      ? "bg-green-500 text-white"
+                      : "bg-gradient-to-r from-primary to-accent hover:shadow-lg hover:shadow-primary/25 text-white"
+                  } ${isLoading ? "opacity-70 cursor-wait" : ""}`}
                 >
-                  <Send className="w-5 h-5" />
-                  <span className="hidden sm:inline">{t("newsletter_button")}</span>
+                  {isSubmitted ? (
+                    <Check className="w-5 h-5" />
+                  ) : (
+                    <Send className={`w-5 h-5 ${isLoading ? "animate-pulse" : ""}`} />
+                  )}
+                  <span className="hidden sm:inline">
+                    {isSubmitted ? t("newsletter_success") : t("newsletter_button")}
+                  </span>
                 </button>
               </div>
-              <p className="text-sm text-gray-400 mt-3">{t("newsletter_coming_soon")}</p>
-            </div>
+              {isSubmitted && (
+                <p className="text-sm text-green-400 mt-3">{t("newsletter_success_message")}</p>
+              )}
+            </form>
           </div>
         </motion.div>
 
