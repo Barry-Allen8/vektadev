@@ -12,8 +12,8 @@
       "description": "VektaDev tworzy nowoczesne strony, chatboty i rozwiązania AI, które przekładają ruch na klientów i usprawniają działanie firm."
     },
     "about": {
-      "title": "O VektaDev | Zespół ekspertów IT",
-      "description": "Poznaj nasz zespół deweloperów, specjalistów AI i konsultantów, którzy budują pewne strategie cyfrowe i dostarczają wymierne rezultaty."
+      "title": "O VektaDev | Zespół Software House z Polski | Web Development i AI",
+      "description": "VektaDev to software house z Polski specjalizujący się w tworzeniu stron, automatyzacji i rozwiązaniach AI dla firm z Polski i Europy. Poznaj nasz zespół i sposób pracy."
     },
     "services": {
       "title": "Kompleksowe usługi IT | Strony, chatboty i AI | VektaDev",
@@ -765,12 +765,60 @@
     }
   },
   "about": {
-    "title": "O nas",
-    "description": "Jesteśmy zespołem profesjonalistów tworzących nowoczesne rozwiązania IT dla sukcesu biznesu",
+    "title": "Budujemy oprogramowanie, które rozwija firmy",
+    "description": "Pomagamy ambitnym firmom w Polsce i Europie tworzyć strony, automatyzacje i rozwiązania AI, które przekładają się na mierzalne wyniki biznesowe — więcej klientów, wyższą efektywność i szybszy wzrost.",
+    "value_prop_title": "Dlaczego firmy wybierają VektaDev",
+    "value_prop_intro": "Nie jesteśmy typową agencją IT. Łączymy solidne rzemiosło deweloperskie z myśleniem biznesowym, żeby dostarczać rozwiązania, które naprawdę działają.",
+    "value_prop_points": [
+      "Skupienie na wynikach — każdy projekt zaczyna się od zrozumienia Twoich celów biznesowych, nie tylko wymagań technicznych",
+      "Przejrzystość i przewidywalność — jasne wyceny, regularna komunikacja i dotrzymywanie terminów",
+      "Pełen zakres usług — od strategii przez development po wdrożenie i wsparcie",
+      "Ekspertyza w AI i automatyzacji — praktyczne wdrożenia ChatGPT, chatbotów i procesów automatycznych",
+      "Lokalna obecność, europejskie standardy — zespół w Polsce, praca zgodna z RODO i najlepszymi praktykami UE"
+    ],
     "story_title": "Nasza historia",
-    "story_p1": "VektaDev została założona w 2020 roku z misją dostarczania wysokiej jakości usług IT.",
-    "story_p2": "Nasz zespół składa się z doświadczonych programistów, projektantów i menedżerów projektów.",
-    "story_p3": "Wierzymy w siłę technologii i ich zdolność do transformacji biznesu.",
+    "story_p1": "VektaDev powstała w 2020 roku z prostej obserwacji: wiele firm potrzebuje profesjonalnych rozwiązań IT, ale nie ma dostępu do zespołów, które rozumieją zarówno technologię, jak i biznes. Zbyt często widzieliśmy projekty, które wyglądały dobrze na papierze, ale nie przynosiły realnych rezultatów.",
+    "story_p2": "Założyliśmy VektaDev, żeby to zmienić. Nasz zespół składa się z deweloperów, projektantów i specjalistów AI, którzy przed dołączeniem do nas pracowali nad projektami dla firm różnej wielkości — od startupów po międzynarodowe korporacje. To doświadczenie nauczyło nas, że sukces projektu IT zależy nie tylko od kodu, ale od zrozumienia potrzeb klienta i umiejętności ich przełożenia na działające rozwiązanie.",
+    "story_p3": "Dziś pracujemy z firmami z Polski, Niemiec i całej Europy, pomagając im budować strony, które konwertują, automatyzacje, które oszczędzają czas, i rozwiązania AI, które dają przewagę konkurencyjną. Każdy projekt traktujemy jak partnerstwo — bo tylko wtedy możemy dostarczyć coś, co naprawdę działa.",
+    "approach_title": "Jak pracujemy",
+    "approach_intro": "Współpraca z nami jest przejrzysta i przewidywalna. Wiemy, że Twój czas jest cenny, dlatego zbudowaliśmy proces, który minimalizuje niepewność i maksymalizuje efektywność.",
+    "approach_steps": [
+      {
+        "title": "Rozmowa wstępna",
+        "description": "Zaczynamy od bezpłatnej rozmowy, podczas której poznajemy Twoje cele i wyzwania. Nie naciskamy na sprzedaż — chcemy zrozumieć, czy możemy realnie pomóc."
+      },
+      {
+        "title": "Analiza i propozycja",
+        "description": "Przygotowujemy szczegółową propozycję z jasnym zakresem, harmonogramem i budżetem. Bez ukrytych kosztów i niejasności."
+      },
+      {
+        "title": "Realizacja z regularnymi aktualizacjami",
+        "description": "Podczas pracy regularnie informujemy o postępach. Masz dostęp do wersji roboczych i możesz zgłaszać uwagi na bieżąco."
+      },
+      {
+        "title": "Wdrożenie i wsparcie",
+        "description": "Po uruchomieniu nie znikamy. Oferujemy wsparcie techniczne i jesteśmy dostępni, gdy pojawią się pytania lub potrzeby rozwoju."
+      }
+    ],
+    "trust_title": "Na czym możesz polegać",
+    "trust_signals": [
+      {
+        "title": "5+ lat na rynku",
+        "description": "Od 2020 roku dostarczamy projekty IT dla firm z różnych branż w Polsce i Europie."
+      },
+      {
+        "title": "Zespół z doświadczeniem",
+        "description": "Nasi deweloperzy i projektanci mają za sobą lata pracy nad projektami komercyjnymi różnej skali."
+      },
+      {
+        "title": "Odpowiedzialność za rezultaty",
+        "description": "Nie kończymy współpracy w momencie oddania projektu. Zależy nam na tym, żeby rozwiązanie działało i przynosiło efekty."
+      },
+      {
+        "title": "Jasna komunikacja",
+        "description": "Mówimy wprost o możliwościach, ograniczeniach i ryzykach. Bez obiecywania niemożliwego."
+      }
+    ],
     "values_title": "Nasze wartości",
     "values": {
       "focus": { "title": "Skupienie na rezultatach", "description": "Koncentrujemy się na osiąganiu celów biznesowych klientów" },
@@ -807,9 +855,9 @@
       }
     },
     "stats": { "years": "Lat na rynku", "projects": "Zrealizowanych projektów", "clients": "Zadowolonych klientów", "team": "Specjalistów" },
-    "cta_title": "Gotowy do współpracy?",
-    "cta_description": "Skontaktuj się z nami, aby omówić Twój projekt",
-    "cta_button": "Skontaktuj się"
+    "cta_title": "Porozmawiajmy o Twoim projekcie",
+    "cta_description": "Umów się na bezpłatną, niezobowiązującą rozmowę. Poznamy Twoje cele i powiemy szczerze, czy i jak możemy pomóc.",
+    "cta_button": "Umów rozmowę"
   },
   "portfolio": {
     "title": "Portfolio",

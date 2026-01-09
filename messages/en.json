@@ -12,8 +12,8 @@
       "description": "VektaDev delivers web development, chatbots, and AI-powered automation that convert visitors into customers and streamline operations."
     },
     "about": {
-      "title": "About VektaDev | Experienced IT Team",
-      "description": "Meet the VektaDev team of developers, AI specialists, and strategists who build reliable digital products with clarity and care."
+      "title": "About VektaDev | Poland-Based Software House | Web Development & AI",
+      "description": "VektaDev is a Poland-based software house specializing in web development, automation, and AI solutions for businesses across Europe. Meet our team and learn how we work."
     },
     "services": {
       "title": "Full-Stack IT Services | Web, Chatbots & AI | VektaDev",
@@ -765,12 +765,60 @@
     }
   },
   "about": {
-    "title": "About Us",
-    "description": "We are a team of professionals creating modern IT solutions for business success",
+    "title": "We Build Software That Grows Businesses",
+    "description": "We help ambitious companies across Poland and Europe create websites, automations, and AI solutions that drive measurable results — more customers, higher efficiency, and faster growth.",
+    "value_prop_title": "Why Companies Choose VektaDev",
+    "value_prop_intro": "We're not a typical IT agency. We combine solid development craftsmanship with business thinking to deliver solutions that actually work.",
+    "value_prop_points": [
+      "Results-focused approach — every project starts with understanding your business goals, not just technical requirements",
+      "Transparency and predictability — clear pricing, regular communication, and deadlines we actually meet",
+      "Full-service capability — from strategy through development to deployment and ongoing support",
+      "AI and automation expertise — practical implementations of ChatGPT, chatbots, and automated workflows",
+      "Local presence, European standards — Poland-based team working to GDPR and EU best practices"
+    ],
     "story_title": "Our Story",
-    "story_p1": "VektaDev was founded in 2020 with the mission of providing high-quality IT services.",
-    "story_p2": "Our team consists of experienced developers, designers and project managers.",
-    "story_p3": "We believe in the power of technology and its ability to transform business.",
+    "story_p1": "VektaDev was founded in 2020 based on a simple observation: many businesses need professional IT solutions but struggle to find teams that understand both technology and business. Too often, we saw projects that looked good on paper but failed to deliver real results.",
+    "story_p2": "We started VektaDev to change that. Our team includes developers, designers, and AI specialists who've worked on projects ranging from startups to international enterprises. That experience taught us that successful IT projects depend not just on code, but on truly understanding client needs and translating them into working solutions.",
+    "story_p3": "Today we work with companies from Poland, Germany, and across Europe, helping them build websites that convert, automations that save time, and AI solutions that create competitive advantage. We treat every project as a partnership — because that's the only way to deliver something that truly works.",
+    "approach_title": "How We Work",
+    "approach_intro": "Working with us is transparent and predictable. We know your time is valuable, so we've built a process that minimizes uncertainty and maximizes efficiency.",
+    "approach_steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We start with a free conversation to understand your goals and challenges. No sales pressure — we want to see if we can genuinely help."
+      },
+      {
+        "title": "Analysis and Proposal",
+        "description": "We prepare a detailed proposal with clear scope, timeline, and budget. No hidden costs or ambiguity."
+      },
+      {
+        "title": "Development with Regular Updates",
+        "description": "During the project, we keep you informed of progress. You have access to work-in-progress versions and can provide feedback along the way."
+      },
+      {
+        "title": "Launch and Support",
+        "description": "After launch, we don't disappear. We offer ongoing support and remain available for questions or future development needs."
+      }
+    ],
+    "trust_title": "What You Can Count On",
+    "trust_signals": [
+      {
+        "title": "5+ Years in Business",
+        "description": "Since 2020, we've been delivering IT projects for companies across various industries in Poland and Europe."
+      },
+      {
+        "title": "Experienced Team",
+        "description": "Our developers and designers have years of commercial experience working on projects of various scales."
+      },
+      {
+        "title": "Accountability for Results",
+        "description": "We don't end the relationship when we hand over a project. We care about whether the solution works and delivers value."
+      },
+      {
+        "title": "Clear Communication",
+        "description": "We speak directly about possibilities, limitations, and risks. No unrealistic promises."
+      }
+    ],
     "values_title": "Our Values",
     "values": {
       "focus": { "title": "Result Focus", "description": "We focus on achieving our clients' business goals" },
@@ -807,9 +855,9 @@
       }
     },
     "stats": { "years": "Years in market", "projects": "Completed projects", "clients": "Satisfied clients", "team": "Specialists" },
-    "cta_title": "Ready to collaborate?",
-    "cta_description": "Contact us to discuss your project",
-    "cta_button": "Contact us"
+    "cta_title": "Let's Talk About Your Project",
+    "cta_description": "Book a free, no-obligation call. We'll learn about your goals and tell you honestly if and how we can help.",
+    "cta_button": "Book a Call"
   },
   "portfolio": {
     "title": "Portfolio",
