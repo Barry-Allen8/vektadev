@@ -693,12 +693,6 @@
       "launch": { "title": "Uruchomienie i wsparcie", "description": "Uruchamiamy projekt i zapewniamy wsparcie techniczne" }
     }
   },
-  "testimonials": { 
-    "title": "Opinie klientów", 
-    "description": "Co mówią o nas nasi klienci",
-    "coming_soon_title": "Twoja opinia może być pierwsza!",
-    "coming_soon_text": "Jesteśmy nową firmą i dopiero budujemy naszą reputację. Będziemy wdzięczni za Twoją opinię po zakończeniu współpracy."
-  },
   "cta": {
     "title": "Gotowy do rozpoczęcia projektu?",
     "description": "Uzyskaj bezpłatną konsultację od naszych ekspertów i dowiedz się, jak możemy pomóc Twojemu biznesowi się rozwijać",

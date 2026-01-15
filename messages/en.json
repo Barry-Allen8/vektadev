@@ -693,12 +693,6 @@
       "launch": { "title": "Launch and Support", "description": "We launch the project and provide technical support" }
     }
   },
-  "testimonials": { 
-    "title": "Client Reviews", 
-    "description": "What our clients say about us",
-    "coming_soon_title": "Your review could be the first!",
-    "coming_soon_text": "We are a new company and are just building our reputation. We would appreciate your feedback after working together."
-  },
   "cta": {
     "title": "Ready to start your project?",
     "description": "Get a free consultation from our experts and learn how we can help your business grow",

@@ -6,7 +6,6 @@ import ServicesSection from "@/components/sections/ServicesSection";
 import WhyUsSection from "@/components/sections/WhyUsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import CTASection from "@/components/sections/CTASection";
 import { defaultLocale, locales } from "@/i18n";
 
@@ -47,7 +46,6 @@ export default function Home() {
       <WhyUsSection />
       <CaseStudiesSection />
       <ProcessSection />
-      <TestimonialsSection />
       <CTASection />
     </>
   );
