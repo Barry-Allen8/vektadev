@@ -6,7 +6,7 @@ import { contactFormSchema } from "@/lib/validations";
 // Server-side validation schema using shared error codes
 const contactSchema = contactFormSchema.extend({
   // Honeypot field - should be empty for real submissions
-  website: z.string().max(0, { message: "bot.detected" }).optional(),
+  b_website: z.string().max(0, { message: "bot.detected" }).optional(),
 });
 
 // Simple rate limiting using in-memory store
@@ -62,6 +62,7 @@ export async function POST(request: NextRequest) {
     // Validate input
     const result = contactSchema.safeParse(body);
     if (!result.success) {
+      console.error("validation_failed_details:", JSON.stringify(result.error.format(), null, 2));
       const errors = result.error.flatten().fieldErrors;
       return NextResponse.json(
         { error: "Validation failed", details: errors },
@@ -123,7 +124,7 @@ This email was sent from the VektaDev website contact form.
     });
 
     if (error) {
-      console.error("contact_api_send_error", error?.name ?? "unknown_error");
+      console.error("contact_api_send_error:", JSON.stringify(error, null, 2));
       return NextResponse.json(
         { error: "Failed to send email" },
         { status: 500 }

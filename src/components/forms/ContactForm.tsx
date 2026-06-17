@@ -11,7 +11,7 @@ import { Send, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 interface ApiContactFormData extends ContactFormData {
-  website?: string; // Honeypot field
+  b_website?: string; // Honeypot field
 }
 
 export default function ContactForm() {
@@ -106,12 +106,12 @@ export default function ContactForm() {
       }
 
       // Get honeypot value from hidden field
-      const honeypotInput = document.getElementById("website") as HTMLInputElement;
+      const honeypotInput = document.getElementById("b_website") as HTMLInputElement;
       const honeypotValue = honeypotInput?.value || "";
 
       const payload: ApiContactFormData = {
         ...data,
-        website: honeypotValue,
+        b_website: honeypotValue,
       };
 
       const response = await fetch("/api/contact", {
@@ -148,12 +148,12 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
       {/* Honeypot field - hidden from users, visible to bots */}
       <div className="absolute -left-[9999px] opacity-0" aria-hidden="true">
-        <label htmlFor="website">
+        <label htmlFor="b_website">
           Leave this field empty
           <input
             type="text"
-            id="website"
-            name="website"
+            id="b_website"
+            name="b_website"
             tabIndex={-1}
             autoComplete="off"
           />
