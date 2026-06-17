@@ -19,12 +19,13 @@ export function useCookieConsent() {
   const [consent, setConsent] = useState<CookieConsentValue>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Read consent from localStorage on mount
-  useEffect(() => {
+  const readConsent = useCallback(() => {
     try {
       const stored = localStorage.getItem(COOKIE_CONSENT_KEY);
       if (stored === "all" || stored === "essential") {
         setConsent(stored);
+      } else {
+        setConsent(null);
       }
     } catch {
       // localStorage not available (SSR or blocked)
@@ -33,11 +34,37 @@ export function useCookieConsent() {
     }
   }, []);
 
+  // Read consent on mount and setup event listeners for reactive syncing
+  useEffect(() => {
+    readConsent();
+
+    const handleConsentChange = () => {
+      readConsent();
+    };
+
+    window.addEventListener("cookie-consent-change", handleConsentChange);
+    window.addEventListener("storage", handleConsentChange);
+
+    return () => {
+      window.removeEventListener("cookie-consent-change", handleConsentChange);
+      window.removeEventListener("storage", handleConsentChange);
+    };
+  }, [readConsent]);
+
+  const notifyChange = () => {
+    try {
+      window.dispatchEvent(new Event("cookie-consent-change"));
+    } catch {
+      // ignore
+    }
+  };
+
   // Accept all cookies
   const acceptAll = useCallback(() => {
     try {
       localStorage.setItem(COOKIE_CONSENT_KEY, "all");
       setConsent("all");
+      notifyChange();
     } catch {
       // localStorage not available
     }
@@ -48,6 +75,7 @@ export function useCookieConsent() {
     try {
       localStorage.setItem(COOKIE_CONSENT_KEY, "essential");
       setConsent("essential");
+      notifyChange();
     } catch {
       // localStorage not available
     }
@@ -58,6 +86,7 @@ export function useCookieConsent() {
     try {
       localStorage.removeItem(COOKIE_CONSENT_KEY);
       setConsent(null);
+      notifyChange();
     } catch {
       // localStorage not available
     }
