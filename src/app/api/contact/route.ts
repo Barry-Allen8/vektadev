@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
     const resend = new Resend(resendApiKey);
 
     // Get recipient email from env or use default
-    const toEmail = process.env.CONTACT_EMAIL || "hello@vektadev.com";
+    const toEmail = process.env.CONTACT_EMAIL || "vektadev@gmail.com";
 
     // Send email
     const { data, error } = await resend.emails.send({

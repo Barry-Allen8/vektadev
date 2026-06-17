@@ -53,6 +53,16 @@ export function useCookieConsent() {
     }
   }, []);
 
+  // Reset/Clear consent to show the banner again
+  const resetConsent = useCallback(() => {
+    try {
+      localStorage.removeItem(COOKIE_CONSENT_KEY);
+      setConsent(null);
+    } catch {
+      // localStorage not available
+    }
+  }, []);
+
   // Check if consent has been given
   const hasConsent = consent !== null;
 
@@ -66,5 +76,6 @@ export function useCookieConsent() {
     allowsAnalytics,
     acceptAll,
     rejectNonEssential,
+    resetConsent,
   };
 }

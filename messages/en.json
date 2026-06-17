@@ -586,6 +586,7 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
+    "cookie_settings": "Cookie Settings",
     "newsletter_title": "Stay updated",
     "newsletter_desc": "Subscribe to our newsletter and receive the latest information about technologies and IT trends.",
     "newsletter_placeholder": "Your email",
@@ -611,7 +612,7 @@
       "+48 537 890 776",
       "+48 733 264 543"
     ],
-    "email_address": "hello@vektadev.com",
+    "email_address": "vektadev@gmail.com",
     "form": {
       "name": "Name *",
       "name_placeholder": "Your name",
@@ -820,7 +821,7 @@
         "VektaDev",
         "ul. Michała Kajki 10-12",
         "10-547 Olsztyn, Poland",
-        "Email: hello@vektadev.com",
+        "Email: vektadev@gmail.com",
         "Phone: +48 537 890 776"
       ]
     },
@@ -884,7 +885,7 @@
         "Right to object — You can object to our processing of your data",
         "Right to withdraw consent — You can withdraw your consent at any time"
       ],
-      "exercise": "To exercise any of these rights, please contact us at hello@vektadev.com. We will respond to your request within 30 days."
+      "exercise": "To exercise any of these rights, please contact us at vektadev@gmail.com. We will respond to your request within 30 days."
     },
     "security": {
       "title": "10. Data Security",
@@ -898,7 +899,7 @@
       "title": "12. Contact Us",
       "text": "If you have any questions about this Privacy Policy, your personal data, or wish to exercise your rights, please contact us:",
       "details": [
-        "Email: hello@vektadev.com",
+        "Email: vektadev@gmail.com",
         "Phone: +48 537 890 776",
         "Address: ul. Michała Kajki 10-12, 10-547 Olsztyn, Poland"
       ]
@@ -921,7 +922,7 @@
     "changes": "5. Changes to Terms",
     "changes_text": "We reserve the right to change these terms at any time.",
     "contact_title": "6. Contact",
-    "contact_text": "For terms of use matters, please contact: hello@vektadev.com"
+    "contact_text": "For terms of use matters, please contact: vektadev@gmail.com"
   },
   "common": {
     "loading": "Loading...",

@@ -586,6 +586,7 @@
     "rights": "Wszelkie prawa zastrzeżone.",
     "privacy": "Polityka prywatności",
     "terms": "Warunki użytkowania",
+    "cookie_settings": "Ustawienia cookies",
     "newsletter_title": "Bądź na bieżąco",
     "newsletter_desc": "Zapisz się do newslettera i otrzymuj najnowsze informacje o technologiach i trendach IT.",
     "newsletter_placeholder": "Twój email",
@@ -611,7 +612,7 @@
       "+48 537 890 776",
       "+48 733 264 543"
     ],
-    "email_address": "hello@vektadev.com",
+    "email_address": "vektadev@gmail.com",
     "form": {
       "name": "Imię *",
       "name_placeholder": "Twoje imię",
@@ -820,7 +821,7 @@
         "VektaDev",
         "ul. Michała Kajki 10-12",
         "10-547 Olsztyn, Polska",
-        "Email: hello@vektadev.com",
+        "Email: vektadev@gmail.com",
         "Telefon: +48 537 890 776"
       ]
     },
@@ -884,7 +885,7 @@
         "Prawo do sprzeciwu — możesz sprzeciwić się przetwarzaniu Twoich danych",
         "Prawo do wycofania zgody — możesz wycofać swoją zgodę w dowolnym momencie"
       ],
-      "exercise": "Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami pod adresem hello@vektadev.com. Odpowiemy na Twoje żądanie w ciągu 30 dni."
+      "exercise": "Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami pod adresem vektadev@gmail.com. Odpowiemy na Twoje żądanie w ciągu 30 dni."
     },
     "security": {
       "title": "10. Bezpieczeństwo danych",
@@ -898,7 +899,7 @@
       "title": "12. Kontakt",
       "text": "Jeśli masz pytania dotyczące tej Polityki prywatności, swoich danych osobowych lub chcesz skorzystać ze swoich praw, skontaktuj się z nami:",
       "details": [
-        "Email: hello@vektadev.com",
+        "Email: vektadev@gmail.com",
         "Telefon: +48 537 890 776",
         "Adres: ul. Michała Kajki 10-12, 10-547 Olsztyn, Polska"
       ]
@@ -921,7 +922,7 @@
     "changes": "5. Zmiany warunków",
     "changes_text": "Zastrzegamy sobie prawo do zmiany niniejszych warunków w dowolnym momencie.",
     "contact_title": "6. Kontakt",
-    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: hello@vektadev.com"
+    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: vektadev@gmail.com"
   },
   "common": {
     "loading": "Ładowanie...",

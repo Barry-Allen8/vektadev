@@ -30,7 +30,7 @@ export function getOrganizationSchema() {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer support",
-      email: "hello@vektadev.com",
+      email: "vektadev@gmail.com",
       telephone: "+48-537-890-776",
       availableLanguage: ["en", "pl"],
     },

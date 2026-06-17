@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { LayoutGrid } from "lucide-react";
 import { type Locale } from "@/i18n";
+import { useCookieConsent } from "@/lib/useCookieConsent";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -11,6 +12,7 @@ export default function Footer() {
   const tServices = useTranslations("services_menu");
   const locale = useLocale() as Locale;
   const currentYear = new Date().getFullYear();
+  const { resetConsent } = useCookieConsent();
 
   return (
     <footer className="border-t border-slate-700/45 bg-[#030b1f]/85 py-14">
@@ -42,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm text-slate-400">
               <li><Link href="/about" locale={locale} className="cyber-link">{tNav("about")}</Link></li>
               <li><Link href="/contact" locale={locale} className="cyber-link">{tNav("contact")}</Link></li>
-              <li><a href="mailto:hello@vektadev.com" className="cyber-link">hello@vektadev.com</a></li>
+              <li><a href="mailto:vektadev@gmail.com" className="cyber-link">vektadev@gmail.com</a></li>
             </ul>
           </div>
         </div>
@@ -51,9 +53,16 @@ export default function Footer() {
           <p className="text-xs text-slate-500">
             © {currentYear} VektaDev. {t("rights")}
           </p>
-          <div className="flex gap-7 text-xs text-slate-500">
+          <div className="flex flex-wrap gap-7 text-xs text-slate-500">
             <Link href="/privacy" locale={locale} className="cyber-link">{t("privacy")}</Link>
             <Link href="/terms" locale={locale} className="cyber-link">{t("terms")}</Link>
+            <button
+              onClick={resetConsent}
+              type="button"
+              className="cyber-link text-left hover:text-slate-300 transition-colors"
+            >
+              {t("cookie_settings")}
+            </button>
           </div>
         </div>
       </div>
