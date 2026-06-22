@@ -6,28 +6,29 @@
     "insights": "Insights",
     "about": "About",
     "contact": "Contact",
-    "consultation": "Book consultation"
+    "consultation": "Book consultation",
+    "pricing": "Pricing"
   },
   "seo": {
     "home": {
-      "title": "Professional IT Partner for Growing Businesses | VektaDev",
-      "description": "VektaDev delivers web development, chatbots, and mobile apps that convert visitors into customers and streamline operations."
+      "title": "VektaDev — B2B Websites, AI Assistants & Business Automation",
+      "description": "VektaDev builds B2B websites, AI assistants, and automation systems that help companies get more inquiries, respond faster, and reduce manual work."
     },
     "about": {
-      "title": "About VektaDev | Poland-Based Software House | Web Development, Chatbots & Mobile Apps",
-      "description": "VektaDev is a Poland-based software house specializing in web development, chatbot solutions, and mobile apps for businesses across Europe. Meet our team and learn how we work."
+      "title": "About VektaDev | B2B Websites, AI Assistants & Business Automation",
+      "description": "Meet the Poland-based VektaDev team building B2B websites, AI assistants, business automation, and custom web apps for SMBs in Europe."
     },
     "services": {
-      "title": "IT Services | Web Development, Chatbots & Mobile Apps | VektaDev",
-      "description": "From modern websites to chatbots and mobile apps, VektaDev scopes, builds, and supports solutions that accelerate growth."
+      "title": "B2B Websites, Business Automation and AI Assistants Services | VektaDev",
+      "description": "Explore VektaDev services: B2B websites, business automation, AI assistants, and custom web apps for companies that need practical software outcomes."
     },
     "contact": {
       "title": "Contact VektaDev | Book a Consultation",
-      "description": "Share your project goals and book a discovery call to explore how VektaDev can support your digital transformation."
+      "description": "Get in touch with VektaDev to discuss your B2B website, business automation, or AI assistant project."
     },
     "portfolio": {
-      "title": "Portfolio & Case Studies | Web, AI and Automation Projects | VektaDev",
-      "description": "Explore selected VektaDev projects: websites, chatbots, AI assistants and mobile apps with measurable business outcomes."
+      "title": "Portfolio & Case Studies | B2B Websites, AI & Automation Projects | VektaDev",
+      "description": "Explore selected VektaDev projects across B2B websites, business automation, AI assistants, and web applications."
     },
     "privacy": {
       "title": "Privacy Policy | GDPR and Data Protection | VektaDev",
@@ -38,545 +39,741 @@
       "description": "Read the website terms of use for VektaDev services, intellectual property and liability limitations."
     },
     "insights": {
-      "title": "Insights | Web Development, AI and Product Strategy | VektaDev",
-      "description": "Actionable articles on web performance, AI implementation and product strategy for growing businesses."
+      "title": "Insights | B2B Websites, AI & Business Automation | VektaDev",
+      "description": "Practical notes on B2B website performance, AI implementations, and business process automation."
     }
   },
   "services_menu": {
-    "websites": "Web Development",
-    "chatbots": "Chatbots",
-    "mobile_apps": "Mobile Apps"
+    "b2b_websites": "B2B Websites",
+    "business_automation": "Business Automation",
+    "ai_assistants": "AI Assistants",
+    "web_apps": "Web Apps"
   },
   "hero": {
-    "badge": "Innovative IT solutions since 2020",
-    "title": "Custom Web & AI Solutions",
-    "title_gradient": "that Scale Your Business",
-    "description": "We build websites that convert, chatbots that save time, and apps that give you a competitive edge",
-    "cta_primary": "Book consultation",
-    "cta_secondary": "Our services",
+    "badge": "B2B websites, AI assistants and automation from Poland",
+    "title": "Websites and automation systems",
+    "title_gradient": "for companies that want more leads and less manual work",
+    "description": "We build B2B websites, AI assistants, and business automation tools that help companies attract inquiries, handle clients faster, and reduce repetitive manual tasks.",
+    "cta_primary": "Book a free consultation",
+    "cta_secondary": "See our services",
     "stats": {
-      "individual": "Individual approach",
-      "modern": "Modern technologies",
-      "partnership": "Partnership cooperation",
-      "quality": "Quality guarantee"
+      "individual": "Business-first discovery",
+      "modern": "AI-ready architecture",
+      "partnership": "Senior delivery partner",
+      "quality": "Launch and support"
     }
   },
   "services": {
-    "title": "Our Services",
-    "description": "Comprehensive IT solutions for your business from experienced specialists",
+    "title": "Services built around execution",
+    "description": "Focused website, automation and AI solutions for companies that want to generate more inquiries and handle clients faster.",
     "learn_more": "Learn more",
-    "order": "Order",
+    "order": "Book discovery",
     "what_you_get": "What you get",
-    "packages": "Service packages",
+    "packages": "Engagement options",
     "popular": "Popular",
-    "websites": {
-      "title": "Web Development",
-      "description": "We create modern, fast and user-friendly websites for your business",
+    "b2b_websites": {
+      "title": "B2B Websites",
+      "description": "Modern business websites designed to present your services clearly, build trust, and turn visitors into inquiries.",
       "metadata": {
-        "title": "Web Development Services | Professional Websites | VektaDev",
-        "description": "Professional web development services - landing pages, corporate websites, e-commerce stores. Modern design, fast performance, SEO optimization. Get a free quote!",
-        "keywords": "web development, website design, landing page, corporate website, e-commerce, online store, responsive design, SEO, web development Poland"
+        "title": "B2B Website Development | Professional Corporate Websites | VektaDev",
+        "description": "We design and build high-converting B2B websites, landing pages, and corporate sites integrated with forms, CRM, and analytics.",
+        "keywords": "B2B website development, lead generation website, corporate website, multilingual website, custom web development"
       },
-      "hero_title": "Grow Your Business with a Professional Website",
-      "hero_subtitle": "Fast-loading, mobile-first websites that convert visitors into customers",
-      "hero_description": "We create modern, fast and user-friendly websites that help businesses grow",
-      "hero_cta": "Get a Free Quote",
+      "hero_title": "Websites that generate real business inquiries",
+      "hero_subtitle": "Professional corporate sites that build trust and convert visitors into leads.",
+      "hero_description": "We build fast, mobile-responsive, and SEO-optimized websites connected directly to your email or CRM to capture and organize requests immediately.",
+      "hero_cta": "Plan a website project",
       "features": [
-        "Landing pages and promo sites",
         "Corporate websites",
-        "E-commerce stores",
-        "Web applications"
+        "Landing pages",
+        "Multilingual websites",
+        "Contact and quote request forms",
+        "Basic SEO and analytics",
+        "CRM or email integration"
       ],
       "benefits": {
-        "design": {
-          "title": "Modern design",
-          "description": "Unique design reflecting your individuality"
+        "positioning": {
+          "title": "Clear positioning",
+          "description": "We explain your offer in direct terms so prospective clients understand your value immediately."
         },
-        "speed": {
-          "title": "Fast performance",
-          "description": "Optimization for maximum loading speed"
-        },
-        "responsive": {
-          "title": "Responsiveness",
-          "description": "Perfect look on all devices and screens"
+        "conversion": {
+          "title": "Conversion optimized",
+          "description": "Strategic layout and forms designed to turn interest into quote requests."
         },
         "seo": {
-          "title": "SEO optimization",
-          "description": "Settings for high positions in search engines"
+          "title": "Search readiness",
+          "description": "Technical SEO baseline, semantic HTML structure, and setup for analytics tracking."
         },
-        "security": {
-          "title": "Security",
-          "description": "Protection against hacker attacks and data loss"
-        },
-        "support": {
-          "title": "Support",
-          "description": "Technical support after project launch"
+        "handoff": {
+          "title": "System integration",
+          "description": "We connect forms to Google Sheets, CRMs, or your inbox so you never miss a lead."
         }
       },
       "who_its_for": {
-        "title": "Is This Service Right for You?",
+        "title": "Who B2B websites are for",
         "best_for_title": "Best for:",
         "best_for": [
-          "Businesses without a website losing customers to competitors",
-          "Companies with outdated sites that don't convert",
-          "Startups launching new products or services",
-          "Businesses ready to establish a strong online presence"
+          "B2B service providers needing a professional online presence",
+          "Companies whose current site looks outdated and fails to generate leads",
+          "Businesses expanding to international markets needing multilingual setup",
+          "Manufacturing or consulting companies wanting clear quote request funnels"
         ],
         "not_for_title": "Not the best fit for:",
         "not_for": [
-          "Those needing only graphic design without development",
-          "Large enterprises with internal IT teams",
-          "Projects requiring only content updates to existing sites"
+          "E-commerce stores with thousands of consumer products",
+          "Teams looking for cheap templates without content or structure strategy"
         ]
       },
       "problem_solution": {
-        "title": "From Invisible to Unstoppable",
+        "title": "From online brochure to inquiry generator",
         "problem_title": "The Problem",
-        "problem_text": "Without a professional website, you're invisible to potential customers. Every day without an online presence means lost leads, missed opportunities, and revenue going to your competitors.",
+        "problem_text": "Most B2B websites look like online brochures. They use vague corporate speak, load slowly, work poorly on mobile, and make it hard for users to get in touch.",
         "solution_title": "Our Solution",
-        "solution_text": "We build modern, lightning-fast websites optimized for search engines and conversions. Custom design, mobile-first approach, and clean code that performs.",
+        "solution_text": "We build clean, fast corporate websites focused on clarity, service structure, and intuitive contact pathways.",
         "result_title": "The Result",
-        "result_text": "More qualified leads, stronger brand credibility, and a 24/7 sales channel that works while you sleep. Your website becomes your most effective salesperson."
+        "result_text": "A modern web presence that presents your services clearly, ranks better in search, and converts visitors into real inquiries."
       },
       "trust_signals": {
-        "title": "Why Choose Us",
+        "title": "How we build websites",
         "items": [
           {
-            "title": "Custom Design",
-            "description": "No templates — every website is designed specifically for your brand and goals"
+            "title": "Speed-focused design",
+            "description": "Optimized performance to ensure visitors don't bounce before your page loads."
           },
           {
-            "title": "Mobile-First",
-            "description": "Over 60% of traffic comes from mobile. We design for smartphones first"
+            "title": "No template bloat",
+            "description": "Clean code tailored to your branding, making it easy to maintain and scale."
           },
           {
-            "title": "SEO Built-In",
-            "description": "Technical SEO optimization included so you can be found on Google"
+            "title": "Form validation",
+            "description": "Secure input forms with built-in validation to block spam and bots."
           },
           {
-            "title": "Post-Launch Support",
-            "description": "We don't disappear after launch. Ongoing support and maintenance available"
+            "title": "Analytics ready",
+            "description": "Full tracking setup so you can measure where your inquiries come from."
           }
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "B2B websites FAQ",
         "items": [
           {
-            "question": "How long does website development take?",
-            "answer": "Development time depends on project complexity. A landing page takes 2-3 weeks, a corporate website 4-6 weeks, and an e-commerce store 6-8 weeks. We'll provide an exact timeline after discussing your requirements."
+            "question": "How long does it take to build a B2B website?",
+            "answer": "A standard B2B website with 5–7 pages typically takes 3–5 weeks from scope approval to launch."
           },
           {
-            "question": "What's included in the price?",
-            "answer": "Our pricing includes design, development, mobile optimization, basic SEO setup, contact forms, and initial content integration. Hosting, domain, and ongoing maintenance are quoted separately."
+            "question": "Who writes the content for the site?",
+            "answer": "We collaborate with your team. You provide core service details, and we format it into clean, direct copy optimized for conversion."
           },
           {
-            "question": "Do you provide hosting?",
-            "answer": "Yes, we can set up and manage hosting for you on reliable platforms like Vercel, Netlify, or traditional hosting providers. We'll recommend the best option based on your needs and budget."
+            "question": "Will I be able to edit the website myself?",
+            "answer": "Yes. We set up easy-to-use content management options or provide clean documentation so your team can make updates without coding."
           },
           {
-            "question": "Can I edit content myself?",
-            "answer": "Absolutely. We can integrate a content management system (CMS) that allows you to easily update text, images, and other content without any technical knowledge."
-          },
-          {
-            "question": "What about SEO?",
-            "answer": "Every website we build includes technical SEO optimization: proper HTML structure, meta tags, fast loading speed, mobile responsiveness, and sitemap. For ongoing SEO marketing, we can discuss additional services."
+            "question": "Is hosting included in the price?",
+            "answer": "We help you select and set up the best hosting environment, typically on fast, secure platforms like Vercel or Netlify, under your own account."
           }
         ]
       },
       "cta_section": {
-        "title": "Ready to Get Started?",
-        "description": "Get a free, no-obligation quote for your project. We'll discuss your goals and provide a detailed proposal within 24 hours.",
-        "button": "Get a Free Quote"
+        "title": "Ready to build a site that gets inquiries?",
+        "description": "Book a free discovery call and we will map out the structure and scope for your new website.",
+        "button": "Book website discovery"
       },
       "packages": {
-        "landing": {
-          "name": "Landing",
-          "price": "from €200",
+        "website": {
+          "name": "B2B Website",
+          "price": "from €1,500",
           "features": [
-            "Up to 5 sections",
-            "Responsive design",
-            "Contact form",
-            "SEO optimization",
-            "Fast loading"
-          ]
-        },
-        "corporate": {
-          "name": "Corporate website",
-          "price": "from €500",
-          "features": [
-            "Up to 15 pages",
-            "Unique design",
-            "CMS",
-            "Multi-language",
-            "Integrations",
-            "3 months support"
-          ]
-        },
-        "ecommerce": {
-          "name": "E-commerce store",
-          "price": "from €2,000",
-          "features": [
-            "Product catalog",
-            "Cart and payments",
-            "Order system",
-            "CRM integration",
+            "5–7 page website",
+            "Mobile responsive design",
+            "Contact/request form",
+            "Basic SEO setup",
             "Analytics",
-            "6 months support"
+            "Email notifications"
+          ]
+        },
+        "website_automation": {
+          "name": "Website + Lead Automation",
+          "price": "from €3,500",
+          "features": [
+            "Everything from B2B Website",
+            "CRM / Google Sheets / Airtable integration",
+            "Automatic lead notifications",
+            "Quote request form",
+            "Basic email follow-up",
+            "Simple lead dashboard"
+          ]
+        },
+        "growth": {
+          "name": "Custom scope / Enterprise",
+          "price": "custom",
+          "features": [
+            "Custom integrations",
+            "Multilingual configuration",
+            "Advanced interactive elements",
+            "Ongoing maintenance option"
           ]
         }
       }
     },
-    "chatbots": {
-      "title": "Chatbots",
-      "description": "Automate customer communication with intelligent bots",
+    "business_automation": {
+      "title": "Business Automation",
+      "description": "We automate repetitive business processes so your team spends less time copying data, sending manual emails, and managing leads by hand.",
       "metadata": {
-        "title": "Chatbot Development | Telegram, WhatsApp, Website Bots | VektaDev",
-        "description": "Custom chatbot development for Telegram, WhatsApp, Viber and websites. 24/7 customer support automation, CRM integration, AI-powered responses. Free consultation!",
-        "keywords": "chatbot, telegram bot, whatsapp bot, customer support automation, AI chatbot, chatbot development, messenger bot, CRM integration"
+        "title": "Business Process Automation & CRM Integration | VektaDev",
+        "description": "Automate lead routing, CRM entry, notifications, document generation, and repetitive tasks with VektaDev's custom integrations.",
+        "keywords": "business automation, CRM automation, lead management automation, Airtable integration, automated notifications, process optimization"
       },
-      "hero_title": "Automate Customer Support and Save Time",
-      "hero_subtitle": "24/7 availability without hiring additional staff",
-      "hero_description": "Intelligent chatbots for Telegram, WhatsApp, and your website. Answer customer questions, take orders and bookings — even while you sleep.",
-      "hero_cta": "Get chatbot consultation",
+      "hero_title": "Remove manual work from your operations",
+      "hero_subtitle": "Connect your forms, CRM, sheets, and emails into a seamless, automated workflow.",
+      "hero_description": "Stop copying information between tools. We map your current manual tasks and replace them with automated pipelines that handle data entry, notify your team, and send instant client follow-ups.",
+      "hero_cta": "Request an automation audit",
       "features": [
-        "Telegram bots",
-        "Viber/WhatsApp bots",
-        "Website chats",
-        "CRM integration"
+        "Lead management automation",
+        "CRM / Google Sheets / Airtable integration",
+        "Email and WhatsApp notifications",
+        "Automatic follow-ups",
+        "PDF / offer / invoice generation",
+        "Internal dashboards"
       ],
       "benefits": {
-        "support": {
-          "title": "24/7 Support",
-          "description": "Bot works around the clock without breaks and weekends"
+        "lead_handling": {
+          "title": "Instant response times",
+          "description": "Auto-notify leads the second they submit a form to keep engagement high."
         },
-        "instant": {
-          "title": "Instant responses",
-          "description": "Clients get answers in seconds"
+        "crm": {
+          "title": "Single source of truth",
+          "description": "All inquiry details routed directly into CRM, Google Sheets, or Airtable automatically."
         },
-        "cost": {
-          "title": "Cost reduction",
-          "description": "Savings on support staff"
+        "documents": {
+          "title": "Document generation",
+          "description": "Automatically draft standard PDFs, client offers, and invoices from form data."
         },
-        "integration": {
-          "title": "CRM integration",
-          "description": "Automatic lead addition to the system"
+        "dashboards": {
+          "title": "Real-time visibility",
+          "description": "View all pipeline stages, pending leads, and team actions on simple dashboards."
         }
       },
       "who_its_for": {
-        "title": "Is a chatbot right for you?",
+        "title": "Is business automation right for you?",
         "best_for_title": "Best for:",
         "best_for": [
-          "Businesses with repetitive customer questions",
-          "E-commerce stores needing order status updates",
-          "Restaurants for table reservations",
-          "Service companies for appointment booking"
+          "Teams losing hours to data entry, copy-pasting, and manual email alerts",
+          "Companies seeking to handle a higher volume of leads without hiring",
+          "Businesses wanting to link legacy systems with modern tools (Sheets, Slack, CRM)",
+          "Operators wanting automated notifications on WhatsApp, Slack, or SMS"
         ],
         "not_for_title": "Not the best fit for:",
         "not_for": [
-          "Complex B2B sales requiring human touch",
-          "One-time projects without ongoing customer support"
+          "Processes that change daily and require complex human judgment",
+          "Teams looking to replace all human contact with cold, impersonal bots"
         ]
       },
       "problem_solution": {
-        "title": "From overwhelmed to automated",
+        "title": "From scattered sheets to automated workflows",
         "problem_title": "The Problem",
-        "problem_text": "Your team is overwhelmed answering the same questions over and over. Customers message after hours and on weekends, but no one responds. Every missed inquiry is a lost sales opportunity.",
+        "problem_text": "Leads get lost in inbox clutter, data has to be manually copied into three different systems, and follow-up emails take hours or get forgotten entirely.",
         "solution_title": "Our Solution",
-        "solution_text": "AI-powered chatbot that automatically handles 80% of customer queries. Responds instantly, 24/7, on Telegram, WhatsApp, or your website chat. When it can't answer — it hands off to a human.",
+        "solution_text": "We build automated integrations between your website, CRM, communication tools, and databases to manage data flow silently in the background.",
         "result_title": "The Result",
-        "result_text": "24/7 availability, faster responses, and lower support costs. Your team handles only complex issues while customers enjoy instant service."
+        "result_text": "A process that runs 24/7 without human intervention, zero copy-paste errors, instant lead alerts, and happier operators."
       },
       "trust_signals": {
-        "title": "Why Choose Us",
+        "title": "How we build automation",
         "items": [
           {
-            "title": "Custom bot logic",
-            "description": "No generic templates — the bot is tailored to your business and processes"
+            "title": "Mapping before coding",
+            "description": "We analyze your exact process first to avoid automating broken workflows."
           },
           {
-            "title": "CRM/ERP integration",
-            "description": "Bot connects to your systems — orders, bookings, customer database"
+            "title": "Resilient logic",
+            "description": "We build error logging and fallback options so no data is lost during API downtime."
           },
           {
-            "title": "Analytics dashboard",
-            "description": "Track conversation stats, popular questions, and bot performance"
+            "title": "Secure credentials",
+            "description": "We implement modern token storage to ensure your business data remains private."
           },
           {
-            "title": "Human handoff",
-            "description": "When the bot can't answer, it smoothly transfers to your team"
+            "title": "Team handoff",
+            "description": "We train your operators on how to monitor and make adjustments."
           }
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Business automation FAQ",
         "items": [
           {
-            "question": "Which platforms do you support?",
-            "answer": "We build chatbots for Telegram, WhatsApp, Viber, and website chat widgets. We can also integrate with Facebook Messenger or Instagram."
+            "question": "Which tools can you integrate?",
+            "answer": "We work with almost any tool that has an API, including HubSpot, Salesforce, Pipedrive, Google Workspace, Airtable, Slack, Mailchimp, and custom systems."
           },
           {
-            "question": "Can the bot integrate with my CRM?",
-            "answer": "Yes, we integrate chatbots with popular CRM and ERP systems. The bot can automatically add leads, update customer data, and create orders in your system."
+            "question": "Do we need to buy expensive software?",
+            "answer": "Often no. We try to maximize the tools you already use, and configure lightweight integrations or use simple serverless scripts to avoid high monthly costs."
           },
           {
-            "question": "How smart is the bot?",
-            "answer": "We offer both rule-based bots (scenarios and buttons) and AI bots with natural language understanding. The choice depends on your needs and budget."
+            "question": "How do we handle errors in the automation?",
+            "answer": "We set up automated error alerts (e.g. to Slack or email) that explain exactly what failed and why, so your team can address it immediately."
           },
           {
-            "question": "What happens when the bot can't answer?",
-            "answer": "The bot can hand off to a human, save the question for later response, or ask the customer to call. You decide how it should work."
-          },
-          {
-            "question": "How much does maintenance cost?",
-            "answer": "Maintenance costs depend on the platform and message volume. Telegram is free, WhatsApp Business API has per-message fees. We'll provide detailed pricing during consultation."
+            "question": "How long does a typical setup take?",
+            "answer": "A standard lead routing or document generation automation usually takes 2–4 weeks."
           }
         ]
       },
       "cta_section": {
-        "title": "Ready to automate?",
-        "description": "Book a free consultation. We'll show you how a chatbot can streamline customer service for your business.",
-        "button": "Get chatbot consultation"
-      },
-      "platforms": {
-        "title": "Platforms we support",
-        "telegram": "Telegram",
-        "whatsapp": "WhatsApp Business",
-        "viber": "Viber",
-        "website": "Website chat"
+        "title": "Want to eliminate repetitive admin work?",
+        "description": "Book a consultation, describe your bottlenecks, and we will outline a realistic automation plan.",
+        "button": "Book automation discovery"
       },
       "packages": {
-        "basic": {
-          "name": "Basic Bot",
-          "price": "from €800",
+        "audit": {
+          "name": "Automation Audit",
+          "price": "from €1,200",
           "features": [
-            "FAQ / scenarios",
-            "Telegram or website",
-            "Basic analytics",
-            "Launch support"
+            "Process mapping session",
+            "Bottleneck analysis report",
+            "Integration recommendations",
+            "ROI estimation"
           ]
         },
-        "business": {
-          "name": "Business Bot",
-          "price": "from €4,500",
+        "lead_automation": {
+          "name": "Lead Automation Setup",
+          "price": "from €3,500",
           "features": [
-            "Lead forms",
-            "CRM integration",
-            "Multi-channel (Telegram/WhatsApp/website)",
-            "Admin panel"
+            "Form to CRM/Sheets integration",
+            "Email & chat notifications",
+            "Automatic follow-up emails",
+            "Basic lead status dashboard",
+            "1 month support"
           ]
         },
-        "ai": {
-          "name": "AI Bot",
+        "operations": {
+          "name": "Operations Automation",
+          "price": "custom",
+          "features": [
+            "Document generation (PDFs/Offers)",
+            "Multi-system synchronization",
+            "Advanced webhooks & API logic",
+            "Dedicated error handling & logging"
+          ]
+        }
+      }
+    },
+    "ai_assistants": {
+      "title": "AI Assistants",
+      "description": "AI assistants trained on your company data to answer client questions, qualify leads, and support your team.",
+      "metadata": {
+        "title": "AI Chatbot & Company Assistant Development | VektaDev",
+        "description": "Build custom AI assistants and website chatbots trained on your FAQ and documents to handle client support and qualify leads.",
+        "keywords": "AI chatbot for business, AI assistant for company, custom AI chatbot, customer support AI, RAG assistant"
+      },
+      "hero_title": "Secure AI trained on your company data",
+      "hero_subtitle": "Help clients instantly and save team support time with intelligent RAG assistants.",
+      "hero_description": "We build custom AI chatbots for websites and internal knowledge bases. They don't just guess answers — they pull directly from your documents, FAQs, and service descriptions to deliver accurate, helpful responses.",
+      "hero_cta": "Plan an AI assistant pilot",
+      "features": [
+        "Website AI chatbot",
+        "FAQ and document-based assistant",
+        "Multilingual support",
+        "Lead qualification",
+        "CRM integration",
+        "Internal knowledge assistant"
+      ],
+      "benefits": {
+        "knowledge": {
+          "title": "24/7 client support",
+          "description": "Provide immediate answers to client FAQs at any hour of the day or night."
+        },
+        "qualification": {
+          "title": "Lead qualification",
+          "description": "Let the assistant ask qualification questions and gather contact details naturally."
+        },
+        "handoff": {
+          "title": "Human handoff",
+          "description": "Seamless transition to your team when a client requires human intervention."
+        },
+        "analytics": {
+          "title": "Inquiry analytics",
+          "description": "Analyze conversation logs to find common questions and product opportunities."
+        }
+      },
+      "who_its_for": {
+        "title": "Who AI assistants are best for",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Businesses getting flooded with the same client support questions daily",
+          "Teams with extensive PDF manuals, guidelines, or scattered text documents",
+          "Companies wanting to pre-qualify web leads before they reach sales",
+          "Internal teams needing a quick way to query company wiki files"
+        ],
+        "not_for_title": "Not the best fit for:",
+        "not_for": [
+          "Generic conversational bots with no base data or specific business purpose",
+          "Replacing human consultation in high-risk legal, medical, or financial matters"
+        ]
+      },
+      "problem_solution": {
+        "title": "From vague chatbot demos to structured company assistants",
+        "problem_title": "The Problem",
+        "problem_text": "Generic chatbots hallucinate facts, fail to understand business context, leak private data, and frustrate users with robotic, unhelpful replies.",
+        "solution_title": "Our Solution",
+        "solution_text": "We implement Retrieval-Augmented Generation (RAG) to ensure the AI only answers based on verified company files, following strict safety boundaries.",
+        "result_title": "The Result",
+        "result_text": "Accurate customer answers, fewer repetitive support tickets, secure data boundaries, and clear lead handoff."
+      },
+      "trust_signals": {
+        "title": "Our AI guidelines",
+        "items": [
+          {
+            "title": "Verified source data",
+            "description": "The AI relies only on documents you provide, preventing random guesses."
+          },
+          {
+            "title": "Data security",
+            "description": "We ensure your customer chats and uploads are not used for public model training."
+          },
+          {
+            "title": "Guardrails included",
+            "description": "Built-in prompts restrict the assistant from discussing off-topic or competitor details."
+          },
+          {
+            "title": "Easy monitoring",
+            "description": "An review dashboard lets you read conversations and adjust instructions."
+          }
+        ]
+      },
+      "faq": {
+        "title": "AI assistants FAQ",
+        "items": [
+          {
+            "question": "How does the assistant get its answers?",
+            "answer": "We set up a secure vector database containing your FAQ, manuals, or website text. When a user asks a question, the system searches this database first and feeds the relevant text to the AI model."
+          },
+          {
+            "question": "Can the AI lie or hallucinate?",
+            "answer": "We write strict system instructions telling the AI to say 'I don't know' if it cannot find the answer in the provided documents. This reduces hallucination risk to near zero."
+          },
+          {
+            "question": "Is our business data secure?",
+            "answer": "Yes. We use enterprise API endpoints where data is encrypted and is never used to train public models."
+          },
+          {
+            "question": "What formats of data can you upload?",
+            "answer": "We can process PDFs, Word documents, text files, markdown files, and direct links to website pages."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready to build your company AI assistant?",
+        "description": "Book a discovery call and we will set up a quick demonstration using a sample of your data.",
+        "button": "Book AI discovery"
+      },
+      "packages": {
+        "assistant": {
+          "name": "Custom AI Assistant",
+          "price": "from €3,500",
+          "features": [
+            "Document database setup (up to 50 source files)",
+            "Web-based chat interface",
+            "Standard styling integration",
+            "Lead contact collection feature",
+            "1 month optimization"
+          ]
+        },
+        "ai_automation": {
+          "name": "AI + Automation System",
+          "price": "from €8,000",
+          "features": [
+            "Everything from Custom AI Assistant",
+            "CRM/Pipedrive/Slack lead integration",
+            "Multi-language support (up to 3 languages)",
+            "Live chat human-handoff pathway",
+            "Bi-weekly logs review & system adjustment"
+          ]
+        },
+        "scale": {
+          "name": "Advanced AI Integration",
+          "price": "custom",
+          "features": [
+            "Internal knowledge assistant",
+            "Database/API query integration",
+            "Custom web portal matching",
+            "Large-scale document synchronization"
+          ]
+        }
+      }
+    },
+    "web_apps": {
+      "title": "Web Apps",
+      "description": "Custom web applications and portals for companies that need more than a website.",
+      "metadata": {
+        "title": "Custom Web Application & Client Portal Development | VektaDev",
+        "description": "Build custom client portals, booking engines, candidate platforms, and admin panels with VektaDev's engineering team.",
+        "keywords": "custom web application, client portal development, candidate portal, booking system, admin panel, React app development"
+      },
+      "hero_title": "Build operational tools custom to your process",
+      "hero_subtitle": "Client portals, candidate platforms, and booking systems built for performance.",
+      "hero_description": "We design and develop custom web applications with clear roles, database integrations, secure authentication, and workflows that templates cannot handle.",
+      "hero_cta": "Discuss a custom app",
+      "features": [
+        "Client portals",
+        "Candidate portals",
+        "Booking systems",
+        "Quote request platforms",
+        "Internal admin panels",
+        "Document management systems"
+      ],
+      "benefits": {
+        "portal": {
+          "title": "Dedicated client space",
+          "description": "Give your clients a secure login to view files, status, invoices, and contact your team."
+        },
+        "workflow": {
+          "title": "Process alignment",
+          "description": "Software designed to follow your exact workflow instead of forcing you to adapt."
+        },
+        "integrations": {
+          "title": "Connected APIs",
+          "description": "Sync real-time data between your databases, CRM, payment systems, and email."
+        },
+        "roles": {
+          "title": "Access controls",
+          "description": "Define clear user roles, permissions, admin layouts, and viewer restriction rules."
+        }
+      },
+      "who_its_for": {
+        "title": "When a custom web app fits",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Businesses replacing complex, fragile spreadsheets or manual templates",
+          "Teams needing client portals, candidate portals, or booking panels",
+          "Companies wanting custom dashboards for client reporting or ordering",
+          "Operators wanting full control over software features and interface design"
+        ],
+        "not_for_title": "Not the best fit for:",
+        "not_for": [
+          "One-page landing pages or basic informational websites",
+          "Projects without a dedicated owner to guide requirements and review progress"
+        ]
+      },
+      "problem_solution": {
+        "title": "From manual coordination to a custom platform",
+        "problem_title": "The Problem",
+        "problem_text": "Using generic tools forces you into complex manual workarounds. Files get emailed back and forth, clients request constant updates, and admin tasks slow down growth.",
+        "solution_title": "Our Solution",
+        "solution_text": "We build a secure, responsive application layer with unified data, user accounts, structured forms, and automation.",
+        "result_title": "The Result",
+        "result_text": "A central platform that acts as the single entry point for clients, staff, or candidates, saving time and keeping data clean."
+      },
+      "trust_signals": {
+        "title": "Engineering guidelines",
+        "items": [
+          {
+            "title": "Strong security baseline",
+            "description": "Role-based authorization and secure database design by default."
+          },
+          {
+            "title": "Performance optimized",
+            "description": "Built using modern React framework Next.js for swift loading and interaction."
+          },
+          {
+            "title": "Clear UI layout",
+            "description": "Designed using an intuitive structure so users require no training."
+          },
+          {
+            "title": "Future proof",
+            "description": "Written in clean TypeScript with clear modules, ready to expand."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Web apps FAQ",
+        "items": [
+          {
+            "question": "What is the difference between a website and a web app?",
+            "answer": "A website is informational and mostly public. A web app is interactive, requires logging in, manages user data, and changes its UI based on who is logged in."
+          },
+          {
+            "question": "How long does a client portal take to build?",
+            "answer": "An initial working portal or custom admin panel typically takes 6–10 weeks, depending on the complexity of features and integrations."
+          },
+          {
+            "question": "Will it work on mobile phones?",
+            "answer": "Yes. Every application we build is designed mobile-first, ensuring a smooth experience on phones, tablets, and desktops."
+          },
+          {
+            "question": "Can you integrate payments?",
+            "answer": "Yes. We regularly connect payment providers like Stripe or PayPal for bookings, subscriptions, or invoice payments."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Need a tailored application for your team?",
+        "description": "Share your requirements, database expectations, and timeline, and we will outline a build plan.",
+        "button": "Book portal discovery"
+      },
+      "packages": {
+        "prototype": {
+          "name": "Prototype / MVP",
+          "price": "from €5,000",
+          "features": [
+            "Interactive interface design",
+            "Core database setup & user auth",
+            "Primary workflow implementation",
+            "Ready for initial user testing"
+          ]
+        },
+        "portal": {
+          "name": "Custom Client Portal",
           "price": "from €10,000",
           "features": [
-            "LLM + knowledge base (RAG)",
-            "Advanced analytics",
-            "API integrations",
-            "Security & roles"
+            "Full portal UI (clients & staff)",
+            "Document uploads & status tracking",
+            "HubSpot/Salesforce database sync",
+            "Secure email alerts & PDF reports",
+            "2 months support"
+          ]
+        },
+        "platform": {
+          "name": "Custom Web Application",
+          "price": "custom",
+          "features": [
+            "Multi-tenant scaling layout",
+            "Complex database architectures",
+            "Stripe invoicing & booking logic",
+            "Custom integrations & admin panel"
           ]
         }
-      }
-    },
-    "mobile_apps": {
-      "title": "Mobile Apps",
-      "description": "Development of native and cross-platform mobile applications",
-      "metadata": {
-        "title": "Mobile App Development | iOS & Android Apps | VektaDev",
-        "description": "Professional mobile app development for iOS and Android. React Native, Flutter - cross-platform apps from one codebase. UX/UI design included. Discuss your app idea!",
-        "keywords": "mobile app development, iOS app, Android app, React Native, Flutter, cross-platform app, mobile application, app development company"
-      },
-      "hero_title": "Your App Idea, Professionally Built",
-      "hero_subtitle": "iOS & Android from One Codebase",
-      "hero_description": "We build mobile apps that delight users and drive your business. React Native, Flutter — modern technologies for faster time-to-market.",
-      "hero_cta": "Discuss Your App Idea",
-      "features": [
-        "iOS and Android",
-        "React Native / Flutter",
-        "UX/UI design",
-        "Support and updates"
-      ],
-      "benefits": {
-        "native": {
-          "title": "Native quality",
-          "description": "High performance and smooth animations like native apps"
-        },
-        "cross": {
-          "title": "Cross-platform",
-          "description": "One codebase for iOS and Android — faster development, lower costs"
-        },
-        "ux": {
-          "title": "UX/UI included",
-          "description": "We design intuitive interfaces that users will love"
-        },
-        "support": {
-          "title": "Post-launch support",
-          "description": "Updates, bug fixes, and feature development after launch"
-        }
-      },
-      "who_its_for": {
-        "title": "Is Mobile App Development Right for You?",
-        "best_for_title": "Best for:",
-        "best_for": [
-          "Startups with validated app concepts",
-          "Businesses needing customer-facing mobile apps",
-          "Companies wanting internal business apps",
-          "Existing apps needing modernization"
-        ],
-        "not_for_title": "Not for:",
-        "not_for": [
-          "Ideas without a clear business model",
-          "Games or highly specialized apps"
-        ]
-      },
-      "problem_solution": {
-        "title": "From Idea to App Store",
-        "problem_title": "The Problem",
-        "problem_text": "Your customers expect a mobile experience. Competitors already have their apps. Every day without mobile presence means lost customers and missed engagement opportunities.",
-        "solution_title": "Our Solution",
-        "solution_text": "Cross-platform app built with React Native or Flutter. One team, one codebase, two platforms. Faster development, lower costs, and consistent user experience across iOS and Android.",
-        "result_title": "The Result",
-        "result_text": "Faster time-to-market, lower development and maintenance costs, consistent experience for all users. Your app in App Store and Google Play ready to win customers."
-      },
-      "trust_signals": {
-        "title": "Why Choose Us",
-        "items": [
-          {
-            "title": "Cross-platform expertise",
-            "description": "We specialize in React Native and Flutter — proven technologies used by top companies"
-          },
-          {
-            "title": "App store submission included",
-            "description": "We handle the entire publishing process for App Store and Google Play"
-          },
-          {
-            "title": "Post-launch support",
-            "description": "We don't disappear after launch. We offer support and development packages"
-          },
-          {
-            "title": "UX/UI design included",
-            "description": "Every app includes professional design tailored to your brand"
-          }
-        ]
-      },
-      "faq": {
-        "title": "Frequently Asked Questions",
-        "items": [
-          {
-            "question": "iOS, Android, or both?",
-            "answer": "We recommend building for both platforms simultaneously using cross-platform technologies (React Native, Flutter). You pay for one project and get an app for both iOS and Android. However, if your target audience is heavily concentrated on one platform, we can start there."
-          },
-          {
-            "question": "How long does app development take?",
-            "answer": "A simple MVP takes 2-3 months. A moderately complex app with backend 3-5 months. Complex apps with multiple integrations 5-8 months. We'll provide an exact timeline after analyzing your requirements."
-          },
-          {
-            "question": "Do you publish to app stores?",
-            "answer": "Yes, we handle the entire publishing process. We prepare graphics, descriptions, help with developer accounts, and guide you through Apple and Google review. App Store and Google Play submission is included in the price."
-          },
-          {
-            "question": "What about ongoing maintenance?",
-            "answer": "After launch, we offer support packages that include: bug fixes, compatibility updates for new iOS/Android versions, minor improvements, and performance monitoring. We can also develop new features."
-          },
-          {
-            "question": "Can you work with an existing backend?",
-            "answer": "Absolutely. If you already have a backend or API, we'll integrate the mobile app with it. If you need a backend, we can build that too or help you choose BaaS (Backend as a Service) solutions."
-          }
-        ]
-      },
-      "packages": {
-        "mvp": {
-          "name": "MVP",
-          "price": "from €18,000",
-          "features": [
-            "iOS + Android",
-            "Core features",
-            "UX/UI design",
-            "App store publishing"
-          ]
-        },
-        "standard": {
-          "name": "Standard App",
-          "price": "from €35,000",
-          "features": [
-            "Extended functionality",
-            "Backend + API",
-            "Integrations",
-            "3 months support"
-          ]
-        },
-        "enterprise": {
-          "name": "Enterprise",
-          "price": "from €70,000",
-          "features": [
-            "Complex integrations",
-            "Offline mode",
-            "Roles & permissions",
-            "12 months support"
-          ]
-        }
-      },
-      "cta_section": {
-        "title": "Ready to Discuss Your App Idea?",
-        "description": "Free consultation where we'll discuss your idea, recommend technology, and provide a preliminary estimate. No obligation.",
-        "button": "Discuss Your App Idea"
       }
     }
   },
   "why_us": {
-    "title": "Why Choose Us",
-    "description": "We combine expertise, modern technologies and client-oriented approach",
-    "professionalism": {
-      "title": "Professionalism",
-      "description": "Team of experienced specialists with over 5 years of experience"
+    "title": "Why companies choose VektaDev",
+    "description": "We do not just build layouts. We design websites and automation systems that connect your marketing, sales, and operations.",
+    "business_focused": {
+      "title": "Business outcomes first",
+      "description": "Every page, form, and button is designed to solve an operational bottleneck or attract real inquiries."
     },
-    "speed": {
-      "title": "Speed",
-      "description": "We meet deadlines and ensure quick project starts"
+    "integrated_websites": {
+      "title": "Fully integrated systems",
+      "description": "We connect your B2B website directly with CRM tools, automated forms, email alerts, and dashboards."
     },
-    "reliability": {
-      "title": "Reliability",
-      "description": "We guarantee quality, security and post-launch support"
+    "practical_ai": {
+      "title": "Practical, safe AI solutions",
+      "description": "No useless hype. We build AI assistants trained strictly on your documentation to qualify leads and save time."
     },
-    "individual": {
-      "title": "Individual Approach",
-      "description": "We understand each client's needs and offer optimal solutions"
+    "clear_process": {
+      "title": "Clear scope & transparency",
+      "description": "You receive a fixed price, visible milestones, transparent progress demos, and no hidden surprises."
+    },
+    "built_for_smb": {
+      "title": "Built for European SMBs",
+      "description": "Poland-based team delivering systems compliant with GDPR, European standards, and local practices."
     }
   },
   "process": {
-    "title": "Our Work Process",
-    "description": "Transparent and clear process from idea to launch",
+    "title": "Our practical delivery process",
+    "description": "How we turn your business workflows and goals into a working website or automation system.",
     "steps": {
-      "consultation": {
-        "title": "Consultation and Analysis",
-        "description": "We discuss your goals, analyze needs and create specifications"
+      "discovery": {
+        "title": "Discovery",
+        "description": "We understand your business, current process, clients, and bottlenecks."
       },
-      "design": {
-        "title": "Design and Planning",
-        "description": "We create project architecture and develop unique design"
+      "strategy": {
+        "title": "Strategy",
+        "description": "We define the website structure, automation logic, integrations, and project scope."
       },
-      "development": {
-        "title": "Development",
-        "description": "We implement the project using modern technologies"
+      "build": {
+        "title": "Build",
+        "description": "We design and develop the website, automation system, AI assistant, or web app."
       },
-      "testing": {
-        "title": "Testing",
-        "description": "We thoroughly test all functions and optimize performance"
+      "launch_support": {
+        "title": "Launch & Support",
+        "description": "We launch the solution, test it, and provide support or improvements."
+      }
+    }
+  },
+  "problem": {
+    "text": "Most business websites look like online brochures. They do not explain the offer clearly, do not collect leads properly, and do not help the team handle inquiries faster. VektaDev builds websites and automation systems that connect marketing, sales, and operations."
+  },
+  "use_cases": {
+    "title": "Example Use Cases",
+    "description": "Real operational solutions we build to connect marketing, sales, and back-office work.",
+    "manufacturing": {
+      "title": "Manufacturing company",
+      "description": "A multilingual B2B website with service pages, quote request form, and CRM integration."
+    },
+    "recruitment": {
+      "title": "Recruitment agency",
+      "description": "Candidate application form, automatic email responses, internal dashboard, and AI FAQ assistant."
+    },
+    "service_business": {
+      "title": "Service business",
+      "description": "Landing page, lead capture form, automated follow-up, and Google Sheets / CRM integration."
+    },
+    "consulting": {
+      "title": "Consulting company",
+      "description": "Professional website, contact funnel, document-based AI assistant, and automated client intake."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple, transparent packages",
+    "description": "Choose a package that fits your company's growth and operational needs.",
+    "cta": "Get started",
+    "note": "Final price depends on project scope, integrations, content, languages, and automation complexity.",
+    "packages": {
+      "b2b_website": {
+        "name": "B2B Website",
+        "price": "from €1,500",
+        "description": "For companies that need a professional website that clearly presents their services and generates inquiries.",
+        "features": [
+          "5–7 page website",
+          "Mobile responsive design",
+          "Contact/request form",
+          "Basic SEO setup",
+          "Analytics",
+          "Email notifications"
+        ]
       },
-      "launch": {
-        "title": "Launch and Support",
-        "description": "We launch the project and provide technical support"
+      "website_automation": {
+        "name": "Website + Lead Automation",
+        "price": "from €3,500",
+        "description": "For companies that want not only a website, but also a simple system for collecting and managing leads.",
+        "features": [
+          "Everything from B2B Website",
+          "CRM / Google Sheets / Airtable integration",
+          "Automatic lead notifications",
+          "Quote request form",
+          "Basic email follow-up",
+          "Simple lead dashboard"
+        ]
+      },
+      "ai_automation": {
+        "name": "AI + Automation System",
+        "price": "from €8,000",
+        "description": "For companies that want to automate client communication, internal processes, and repetitive work.",
+        "features": [
+          "Everything from Website + Lead Automation",
+          "AI assistant or chatbot",
+          "Company knowledge base integration",
+          "Lead qualification",
+          "CRM integration",
+          "Document/email automation",
+          "Monthly support option"
+        ]
       }
     }
   },
   "cta": {
-    "title": "Ready to start your project?",
-    "description": "Get a free consultation from our experts and learn how we can help your business grow",
-    "button_primary": "Book consultation",
+    "title": "Ready to modernize a real workflow?",
+    "description": "Book a discovery call and we will identify the fastest useful next step.",
+    "button_primary": "Book discovery call",
     "button_secondary": "About us"
   },
   "footer": {
-    "description": "Professional IT solutions for your business. Web development, chatbots and mobile apps.",
+    "description": "B2B websites, AI assistants and automation systems for companies that want more inquiries and less manual work.",
     "services_title": "Services",
     "company_title": "Company",
     "contact_title": "Contact",
@@ -624,6 +821,13 @@
       "phone_placeholder": "+48 ___ ___ ___",
       "service": "Service",
       "service_placeholder": "Select a service",
+      "not_sure": "Not sure / Need advice",
+      "services": {
+        "b2b_websites": "B2B Website",
+        "business_automation": "Business Automation",
+        "ai_assistants": "AI Assistant / Chatbot",
+        "web_apps": "Custom Web App / Client Portal"
+      },
       "message": "Message *",
       "message_placeholder": "Tell us about your project...",
       "submit": "Send",
@@ -647,21 +851,21 @@
     }
   },
   "about": {
-    "title": "We Build Software That Grows Businesses",
-    "description": "We help ambitious companies across Poland and Europe create websites, chatbots, and mobile apps that drive measurable results — more customers, higher efficiency, and faster growth.",
+    "title": "We Build AI-Ready Software for Real Operations",
+    "description": "We help ambitious companies across Poland and Europe build high-converting B2B websites, streamline processes with business automation, deploy practical AI assistants, and develop custom web apps that turn complex operations into simple, reliable software.",
     "value_prop_title": "Why Companies Choose VektaDev",
-    "value_prop_intro": "We're not a typical IT agency. We combine solid development craftsmanship with business thinking to deliver solutions that actually work.",
+    "value_prop_intro": "We are not a generic IT agency. We combine business discovery, professional web engineering, and practical AI implementation so every system we build delivers measurable business outcomes.",
     "value_prop_points": [
-      "Results-focused approach — every project starts with understanding your business goals, not just technical requirements",
-      "Transparency and predictability — clear pricing, regular communication, and deadlines we actually meet",
-      "Full-service capability — from strategy through development to deployment and ongoing support",
-      "AI and automation expertise — practical implementations of ChatGPT, chatbots, and automated workflows",
-      "Local presence, European standards — Poland-based team working to GDPR and EU best practices"
+      "Business-first discovery that connects project scope to inquiry growth and cost savings",
+      "AI implementation grounded in existing workflows, custom knowledge bases, and human-in-the-loop oversight",
+      "Modern web engineering for B2B portals and websites that are fast, secure, and fully optimized for conversions",
+      "Transparent delivery with clear project milestones, regular functional demos, and no hidden costs",
+      "Poland-based team working to GDPR and European delivery standards"
     ],
     "story_title": "Our Story",
     "story_p1": "VektaDev was founded in 2020 based on a simple observation: many businesses need professional IT solutions but struggle to find teams that understand both technology and business. Too often, we saw projects that looked good on paper but failed to deliver real results.",
     "story_p2": "We started VektaDev to change that. Our team includes developers, designers, and AI specialists who've worked on projects ranging from startups to international enterprises. That experience taught us that successful IT projects depend not just on code, but on truly understanding client needs and translating them into working solutions.",
-    "story_p3": "Today we work with companies from Poland, Germany, and across Europe, helping them build websites that convert, chatbots that save time, and mobile apps that create competitive advantage. We treat every project as a partnership — because that's the only way to deliver something that truly works.",
+    "story_p3": "Today we work with companies from Poland, Germany, and across Europe, helping them launch conversion-focused B2B websites, business automation workflows, AI assistants, and customer portals. We treat every engagement as a partnership because software only matters when it changes how work gets done.",
     "approach_title": "How We Work",
     "approach_intro": "Working with us is transparent and predictable. We know your time is valuable, so we've built a process that minimizes uncertainty and maximizes efficiency.",
     "approach_steps": [
@@ -725,12 +929,12 @@
       "ievgenii": {
         "name": "Ievgenii Bigun",
         "position": "CEO & Lead Developer",
-        "bio": "Founder of VektaDev with 8 years of experience in web development. Specializes in Next.js and AI integrations."
+        "bio": "Founder of VektaDev with 8 years of experience in web development, AI integrations and product engineering."
       },
       "vladyslav": {
         "name": "Vladyslav Bereza",
-        "position": "AI & Chatbot Developer",
-        "bio": "AI and chatbot expert. Has created over 50 bots for various businesses."
+        "position": "AI Automation Developer",
+        "bio": "AI automation specialist focused on assistants, integrations and workflow optimization."
       },
       "alex": {
         "name": "Alex Sydorenko",
@@ -745,7 +949,7 @@
       "pawel": {
         "name": "Paweł Koterski",
         "position": "Backend Developer",
-        "bio": "Backend developer with experience in Node.js, Python and DevOps. Specializes in cloud solutions."
+        "bio": "Backend developer with experience in Node.js, Python and DevOps. Specializes in cloud platform foundations."
       }
     },
     "stats": {
@@ -784,7 +988,7 @@
         "description": "Demo project: bot for receiving orders and table reservations with CRM integration"
       },
       "corporate_website": {
-        "title": "[Demo] Corporate Website",
+        "title": "[Demo] Multilingual Website",
         "description": "Demo project: multilingual company website with content management system"
       },
       "ai_assistant": {
@@ -914,7 +1118,7 @@
     "acceptance": "1. Acceptance of Terms",
     "acceptance_text": "By using this website, you agree to the terms of use.",
     "services_section": "2. Services",
-    "services_text": "VektaDev provides web development, chatbot, and mobile app services.",
+    "services_text": "VektaDev provides B2B website development, business automation, AI assistants, and custom web applications.",
     "ip": "3. Intellectual Property",
     "ip_text": "All materials on the website are protected by copyright.",
     "liability": "4. Limitation of Liability",
@@ -967,12 +1171,12 @@
   },
   "reviews": {
     "title": "Latest Client Reviews",
-    "description": "Recent feedback from companies we've helped with websites, AI and automation.",
+    "description": "Recent feedback from companies we've helped with B2B websites, AI and business automation.",
     "view_source": "View source"
   },
   "insights": {
     "title": "Insights",
-    "description": "Practical notes on web performance, AI implementation and product execution.",
+    "description": "Practical guides on B2B websites, automation and AI implementation.",
     "read_article": "Read article"
   },
   "cookies": {

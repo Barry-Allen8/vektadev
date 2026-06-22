@@ -6,11 +6,12 @@ import AboutPageClient from "./page.client";
 const ROUTE = "/about";
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const t = await getTranslations("seo");
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
   return {
     title: t("about.title"),
     description: t("about.description"),
@@ -18,18 +19,20 @@ export async function generateMetadata({
     keywords: [
       "VektaDev team",
       "software engineers Poland",
-      "custom web development company",
-      "chatbot development partner",
-      "mobile app development company",
+      "AI solutions partner",
+      "B2B websites Poland",
+      "business automation Poland",
+      "web apps Poland",
     ],
   };
 }
 
-export default function AboutPage({
-  params: { locale },
+export default async function AboutPage({
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   return <AboutPageClient />;
 }

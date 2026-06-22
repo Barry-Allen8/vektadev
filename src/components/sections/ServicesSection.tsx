@@ -1,15 +1,18 @@
 "use client";
 
-import { Globe, Bot, Smartphone, ArrowRight } from "lucide-react";
+import { Bot, BriefcaseBusiness, ChartNoAxesCombined, LayoutDashboard, ArrowRight } from "lucide-react";
+import type { ComponentType } from "react";
 import { Link } from "@/i18n/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { type Locale } from "@/i18n";
+import { serviceItems, type ServiceKey } from "@/data/serviceCatalog";
 
-const serviceKeys = [
-  { key: "websites", href: "/services/websites", icon: Globe },
-  { key: "chatbots", href: "/services/chatbots", icon: Bot },
-  { key: "mobile_apps", href: "/services/mobile-apps", icon: Smartphone },
-] as const;
+const serviceIcons = {
+  b2b_websites: BriefcaseBusiness,
+  business_automation: ChartNoAxesCombined,
+  ai_assistants: Bot,
+  web_apps: LayoutDashboard,
+} satisfies Record<ServiceKey, ComponentType<{ className?: string }>>;
 
 export default function ServicesSection() {
   const t = useTranslations("services");
@@ -27,7 +30,7 @@ export default function ServicesSection() {
           </div>
 
           <Link
-            href="/services/websites"
+            href="/services/b2b-websites"
             locale={locale}
             className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary-dark"
           >
@@ -36,9 +39,9 @@ export default function ServicesSection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-3">
-          {serviceKeys.map((service) => {
-            const Icon = service.icon;
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4">
+          {serviceItems.map((service) => {
+            const Icon = serviceIcons[service.key];
             const features = (t.raw(`${service.key}.features`) as string[]).slice(0, 3);
 
             return (

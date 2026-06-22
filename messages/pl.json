@@ -6,28 +6,29 @@
     "insights": "Insights",
     "about": "O nas",
     "contact": "Kontakt",
-    "consultation": "Zamów konsultację"
+    "consultation": "Zamów konsultację",
+    "pricing": "Cennik"
   },
   "seo": {
     "home": {
-      "title": "Partner IT dla ambitnych firm | VektaDev",
-      "description": "VektaDev tworzy nowoczesne strony, chatboty i aplikacje mobilne, które przekładają ruch na klientów i usprawniają działanie firm."
+      "title": "VektaDev — Strony B2B, Asystenci AI i Automatyzacja Biznesu",
+      "description": "VektaDev tworzy strony B2B, asystentów AI i systemy automatyzacji, które pomagają firmom zdobywać więcej zapytań, szybciej odpowiadać klientom i ograniczać ręczną pracę."
     },
     "about": {
-      "title": "O VektaDev | Zespół Software House z Polski | Web Development, Chatboty i Aplikacje Mobilne",
-      "description": "VektaDev to software house z Polski specjalizujący się w tworzeniu stron, chatbotów i aplikacji mobilnych dla firm z Polski i Europy. Poznaj nasz zespół i sposób pracy."
+      "title": "O VektaDev | Strony B2B, Asystenci AI i Automatyzacja Biznesu",
+      "description": "Poznaj zespół VektaDev z Polski, który tworzy strony B2B, asystentów AI, systemy automatyzacji i dedykowane aplikacje webowe dla firm w Europie."
     },
     "services": {
-      "title": "Usługi IT | Strony, Chatboty i Aplikacje Mobilne | VektaDev",
-      "description": "Od nowoczesnych stron internetowych po chatboty i aplikacje mobilne — tworzymy rozwiązania, które przyspieszają rozwój biznesu."
+      "title": "Usługi stron B2B, automatyzacji i asystentów AI | VektaDev",
+      "description": "Poznaj usługi VektaDev: strony B2B, automatyzacja procesów, asystenci AI oraz dedykowane aplikacje webowe dla firm potrzebujących realnych rezultatów."
     },
     "contact": {
-      "title": "Kontakt z VektaDev | Umów konsultację",
-      "description": "Opowiedz o swoich potrzebach i umów bezpłatną rozmowę, aby sprawdzić, jak VektaDev wesprze cyfrową transformację."
+      "title": "Kontakt z VektaDev | Zamów konsultację",
+      "description": "Skontaktuj się z VektaDev, aby porozmawiać o stronie B2B, automatyzacji procesów lub asystencie AI."
     },
     "portfolio": {
-      "title": "Portfolio i Case Studies | Projekty WWW, AI i automatyzacji | VektaDev",
-      "description": "Poznaj wybrane realizacje VektaDev: strony internetowe, chatboty, asystenci AI i aplikacje mobilne z mierzalnymi efektami biznesowymi."
+      "title": "Portfolio i Case Studies | Strony B2B, AI i automatyzacja | VektaDev",
+      "description": "Poznaj wybrane projekty VektaDev z obszaru stron B2B, automatyzacji biznesu, asystentów AI oraz aplikacji webowych."
     },
     "privacy": {
       "title": "Polityka prywatności | RODO i ochrona danych | VektaDev",
@@ -38,545 +39,741 @@
       "description": "Zapoznaj się z warunkami korzystania z serwisu VektaDev, zasadami własności intelektualnej i odpowiedzialności."
     },
     "insights": {
-      "title": "Insights | Web development, AI i strategia produktu | VektaDev",
-      "description": "Praktyczne artykuły o wydajności stron, wdrożeniach AI i strategii produktu dla rozwijających się firm."
+      "title": "Insights | Strony B2B, AI i automatyzacja biznesu | VektaDev",
+      "description": "Praktyczne materiały o wydajności stron B2B, wdrożeniach AI i automatyzacji procesów biznesowych."
     }
   },
   "services_menu": {
-    "websites": "Tworzenie stron",
-    "chatbots": "Chatboty",
-    "mobile_apps": "Aplikacje mobilne"
+    "b2b_websites": "Strony B2B",
+    "business_automation": "Automatyzacja biznesu",
+    "ai_assistants": "Asystenci AI",
+    "web_apps": "Aplikacje webowe"
   },
   "hero": {
-    "badge": "Innowacyjne rozwiązania IT od 2020 roku",
-    "title": "Strony, AI i Aplikacje",
-    "title_gradient": "które skalują Twój biznes",
-    "description": "Budujemy strony, które konwertują, chatboty, które oszczędzają czas, i aplikacje, które dają przewagę konkurencyjną",
-    "cta_primary": "Zamów konsultację",
-    "cta_secondary": "Nasze usługi",
+    "badge": "Strony B2B, asystenci AI i automatyzacja z Polski",
+    "title": "Strony internetowe i systemy automatyzacji",
+    "title_gradient": "dla firm, które chcą więcej zapytań i mniej pracy ręcznej",
+    "description": "Budujemy strony B2B, asystentów AI i narzędzia do automatyzacji biznesu, które pomagają firmom pozyskiwać zapytania, obsługiwać klientów szybciej i eliminować powtarzalne zadania.",
+    "cta_primary": "Umów bezpłatną konsultację",
+    "cta_secondary": "Zobacz nasze usługi",
     "stats": {
-      "individual": "Indywidualne podejście",
-      "modern": "Nowoczesne technologie",
-      "partnership": "Partnerska współpraca",
-      "quality": "Gwarancja jakości"
+      "individual": "Discovery biznesowe",
+      "modern": "Architektura gotowa na AI",
+      "partnership": "Senior partner delivery",
+      "quality": "Launch i wsparcie"
     }
   },
   "services": {
-    "title": "Nasze usługi",
-    "description": "Kompleksowe rozwiązania IT dla Twojego biznesu od doświadczonych specjalistów",
+    "title": "Usługi zbudowane wokół realizacji",
+    "description": "Skoncentrowane rozwiązania stron internetowych, automatyzacji i AI dla firm, które chcą zdobywać więcej zapytań i szybciej obsługiwać klientów.",
     "learn_more": "Dowiedz się więcej",
-    "order": "Zamów",
+    "order": "Umów discovery",
     "what_you_get": "Co otrzymujesz",
-    "packages": "Pakiety usług",
+    "packages": "Modele współpracy",
     "popular": "Popularny",
-    "websites": {
-      "title": "Tworzenie stron",
-      "description": "Tworzymy nowoczesne, szybkie i wygodne strony dla Twojego biznesu",
+    "b2b_websites": {
+      "title": "Strony B2B",
+      "description": "Nowoczesne strony internetowe dla firm zaprojektowane tak, aby jasno przedstawiać Twoje usługi, budować zaufanie i zamieniać odwiedzających w zapytania.",
       "metadata": {
-        "title": "Tworzenie Stron Internetowych | Profesjonalne Strony WWW | VektaDev",
-        "description": "Profesjonalne tworzenie stron internetowych - landing page, strony firmowe, sklepy internetowe. Nowoczesny design, szybkość, optymalizacja SEO. Zamów bezpłatną wycenę!",
-        "keywords": "tworzenie stron internetowych, strona www, landing page, strona firmowa, sklep internetowy, e-commerce, responsywny design, SEO, web development Polska"
+        "title": "Tworzenie stron B2B | Profesjonalne strony dla firm | VektaDev",
+        "description": "Projektujemy i budujemy strony B2B o wysokiej konwersji, strony lądowania i serwisy korporacyjne zintegrowane z formularzami, CRM i analityką.",
+        "keywords": "tworzenie stron B2B, strona pozyskująca leady, strona firmowa, strona wielojęzyczna, dedykowane strony internetowe"
       },
-      "hero_title": "Rozwiń Swój Biznes z Profesjonalną Stroną WWW",
-      "hero_subtitle": "Szybkie, responsywne strony, które zamieniają odwiedzających w klientów",
-      "hero_description": "Tworzymy nowoczesne, szybkie i wygodne strony, które pomagają biznesowi rosnąć",
-      "hero_cta": "Zamów bezpłatną wycenę",
+      "hero_title": "Strony internetowe, które generują realne zapytania",
+      "hero_subtitle": "Profesjonalne serwisy firmowe, które budują zaufanie i konwertują ruch w leady.",
+      "hero_description": "Budujemy szybkie, dostosowane do urządzeń mobilnych strony zoptymalizowane pod kątem SEO, połączone bezpośrednio z Twoją pocztą lub systemem CRM.",
+      "hero_cta": "Zaplanuj projekt strony",
       "features": [
-        "Landing page i strony promocyjne",
-        "Strony korporacyjne",
-        "Sklepy internetowe",
-        "Aplikacje webowe"
+        "Corporate websites",
+        "Landing pages",
+        "Multilingual websites",
+        "Contact and quote request forms",
+        "Basic SEO and analytics",
+        "CRM or email integration"
       ],
       "benefits": {
-        "design": {
-          "title": "Nowoczesny design",
-          "description": "Unikalny design odzwierciedlający Twoją indywidualność"
+        "positioning": {
+          "title": "Jasne pozycjonowanie",
+          "description": "Przedstawiamy Twoją ofertę prostym i zrozumiałym językiem, aby potencjalni klienci od razu poznali Twoją wartość."
         },
-        "speed": {
-          "title": "Szybka praca",
-          "description": "Optymalizacja dla maksymalnej szybkości ładowania"
-        },
-        "responsive": {
-          "title": "Responsywność",
-          "description": "Idealny wygląd na wszystkich urządzeniach i ekranach"
+        "conversion": {
+          "title": "Optymalizacja konwersji",
+          "description": "Przemyślany układ i formularze zaprojektowane tak, aby zamieniać zainteresowanie w zapytania ofertowe."
         },
         "seo": {
-          "title": "Optymalizacja SEO",
-          "description": "Ustawienia dla wysokich pozycji w wyszukiwarkach"
+          "title": "Gotowość na wyszukiwarki",
+          "description": "Techniczny fundament SEO, semantyczna struktura HTML i wdrożenie narzędzi analitycznych."
         },
-        "security": {
-          "title": "Bezpieczeństwo",
-          "description": "Ochrona przed atakami hakerskimi i utratą danych"
-        },
-        "support": {
-          "title": "Wsparcie",
-          "description": "Wsparcie techniczne po uruchomieniu projektu"
+        "handoff": {
+          "title": "Integracja systemowa",
+          "description": "Łączymy formularze z Arkuszami Google, systemami CRM lub Twoją skrzynką pocztową, aby żaden lead nie umknął."
         }
       },
       "who_its_for": {
-        "title": "Czy ta usługa jest dla Ciebie?",
+        "title": "Dla kogo są strony B2B",
         "best_for_title": "Idealne dla:",
         "best_for": [
-          "Firm bez strony internetowej, które tracą klientów na rzecz konkurencji",
-          "Przedsiębiorstw z przestarzałymi stronami, które nie konwertują",
-          "Startupów wprowadzających nowe produkty lub usługi",
-          "Firm gotowych na silną obecność online"
+          "Dostawców usług B2B potrzebujących profesjonalnej obecności w sieci",
+          "Firm, których obecna strona wygląda przestarzale i nie przynosi leadów",
+          "Przedsiębiorstw wchodzących na rynki zagraniczne potrzebujących wersji wielojęzycznych",
+          "Firm produkcyjnych lub doradczych chcących zbudować jasny lejek zapytań"
         ],
         "not_for_title": "Nie dla:",
         "not_for": [
-          "Osób potrzebujących tylko projektów graficznych bez developmentu",
-          "Dużych korporacji z własnymi zespołami IT",
-          "Projektów wymagających tylko aktualizacji treści na istniejących stronach"
+          "Sklepów e-commerce z tysiącami produktów konsumenckich",
+          "Zespołów szukających tanich szablonów bez strategii treści i struktury"
         ]
       },
       "problem_solution": {
-        "title": "Od niewidoczności do sukcesu",
+        "title": "Od wizytówki online do generatora zapytań",
         "problem_title": "Problem",
-        "problem_text": "Bez profesjonalnej strony internetowej jesteś niewidoczny dla potencjalnych klientów. Każdy dzień bez obecności online oznacza utracone leady, przegapione okazje i przychody trafiające do konkurencji.",
+        "problem_text": "Większość stron B2B wygląda jak broszury reklamowe. Używają ogólnego żargonu, ładują się wolno, działają kiepsko na telefonach i utrudniają kontakt.",
         "solution_title": "Nasze rozwiązanie",
-        "solution_text": "Budujemy nowoczesne, błyskawicznie szybkie strony zoptymalizowane pod wyszukiwarki i konwersje. Indywidualny design, podejście mobile-first i czysty kod, który działa.",
+        "solution_text": "Budujemy czyste, szybkie strony firmowe skupione na przejrzystości oferty i intuicyjnych ścieżkach kontaktu.",
         "result_title": "Rezultat",
-        "result_text": "Więcej wartościowych leadów, silniejsza wiarygodność marki i kanał sprzedaży działający 24/7, który pracuje gdy Ty odpoczywasz. Twoja strona staje się najskuteczniejszym sprzedawcą."
+        "result_text": "Nowoczesna obecność w sieci, która jasno przedstawia usługi, lepiej pozycjonuje się w Google i zamienia ruch w konkretne zapytania."
       },
       "trust_signals": {
-        "title": "Dlaczego my",
+        "title": "Jak budujemy strony",
         "items": [
           {
-            "title": "Indywidualny design",
-            "description": "Żadnych szablonów — każda strona jest projektowana specjalnie dla Twojej marki i celów"
+            "title": "Zorientowani na szybkość",
+            "description": "Optymalizujemy kod i multimedia, aby użytkownicy nie wychodzili przed załadowaniem strony."
           },
           {
-            "title": "Mobile-First",
-            "description": "Ponad 60% ruchu pochodzi z urządzeń mobilnych. Projektujemy najpierw dla smartfonów"
+            "title": "Bez przeładowanych szablonów",
+            "description": "Czysty kod dostosowany do Twojej marki, co ułatwia późniejsze modyfikacje."
           },
           {
-            "title": "SEO w standardzie",
-            "description": "Techniczna optymalizacja SEO w cenie, abyś mógł być znaleziony w Google"
+            "title": "Bezpieczne formularze",
+            "description": "Formularze kontaktowe z wbudowaną walidacją blokującą spam i boty."
           },
           {
-            "title": "Wsparcie po uruchomieniu",
-            "description": "Nie znikamy po starcie. Oferujemy bieżące wsparcie i konserwację"
+            "title": "Konfiguracja analityki",
+            "description": "Pełne wdrożenie tagów śledzących, abyś wiedział, skąd trafiają do Ciebie klienci."
           }
         ]
       },
       "faq": {
-        "title": "Najczęściej zadawane pytania",
+        "title": "FAQ stron B2B",
         "items": [
           {
-            "question": "Jak długo trwa tworzenie strony?",
-            "answer": "Czas realizacji zależy od złożoności projektu. Landing page zajmuje 2-3 tygodnie, strona korporacyjna 4-6 tygodni, a sklep internetowy 6-8 tygodni. Dokładny harmonogram przedstawimy po omówieniu wymagań."
+            "question": "Ile trwa budowa strony B2B?",
+            "answer": "Standardowa strona firmowa z 5–7 podstronami powstaje zazwyczaj w ciągu 3–5 tygodni od momentu akceptacji zakresu prac."
           },
           {
-            "question": "Co zawiera cena?",
-            "answer": "Nasza cena obejmuje projekt graficzny, development, optymalizację mobilną, podstawową konfigurację SEO, formularze kontaktowe i początkową integrację treści. Hosting, domena i bieżąca konserwacja są wyceniane osobno."
+            "question": "Kto przygotowuje treści na stronę?",
+            "answer": "Pracujemy wspólnie. Wy dostarczacie nam podstawowe informacje o usługach, a my redagujemy je w jasne, zoptymalizowane pod kątem konwersji teksty."
           },
           {
-            "question": "Czy zapewniacie hosting?",
-            "answer": "Tak, możemy skonfigurować i zarządzać hostingiem na niezawodnych platformach jak Vercel, Netlify lub tradycyjnych hostingach. Doradzimy najlepszą opcję w zależności od potrzeb i budżetu."
+            "question": "Czy będę mógł samodzielnie edytować stronę?",
+            "answer": "Tak. Wdrażamy proste w obsłudze panele zarządzania lub przekazujemy czystą dokumentację, ułatwiającą samodzielne wprowadzanie zmian."
           },
           {
-            "question": "Czy mogę samodzielnie edytować treści?",
-            "answer": "Oczywiście. Możemy zintegrować system zarządzania treścią (CMS), który pozwoli Ci łatwo aktualizować teksty, zdjęcia i inne treści bez wiedzy technicznej."
-          },
-          {
-            "question": "A co z SEO?",
-            "answer": "Każda strona, którą tworzymy, zawiera techniczną optymalizację SEO: poprawną strukturę HTML, meta tagi, szybkie ładowanie, responsywność mobilną i mapę strony. W kwestii bieżącego marketingu SEO możemy omówić dodatkowe usługi."
+            "question": "Czy hosting jest wliczony w cenę?",
+            "answer": "Pomagamy wybrać i skonfigurować najlepsze środowisko (np. Vercel lub Netlify) bezpośrednio na Waszym koncie firmowym."
           }
         ]
       },
       "cta_section": {
-        "title": "Gotowy, aby zacząć?",
-        "description": "Uzyskaj bezpłatną, niezobowiązującą wycenę swojego projektu. Omówimy Twoje cele i przedstawimy szczegółową propozycję w ciągu 24 godzin.",
-        "button": "Zamów bezpłatną wycenę"
+        "title": "Gotowy na stronę, która przynosi zapytania?",
+        "description": "Umów się na bezpłatną rozmowę discovery, a zaplanujemy strukturę i zakres Twojego nowego serwisu.",
+        "button": "Umów discovery strony"
       },
       "packages": {
-        "landing": {
-          "name": "Landing",
-          "price": "od 800 PLN",
+        "website": {
+          "name": "Strona B2B",
+          "price": "od 6 000 PLN",
           "features": [
-            "Do 5 sekcji",
-            "Responsywny design",
+            "Strona 5–7 podstron",
+            "Responsywny design (mobile)",
             "Formularz kontaktowy",
-            "Optymalizacja SEO",
-            "Szybkie ładowanie"
+            "Podstawowa optymalizacja SEO",
+            "Wdrożenie analityki",
+            "Powiadomienia e-mail"
           ]
         },
-        "corporate": {
-          "name": "Strona korporacyjna",
-          "price": "od 2 000 PLN",
+        "website_automation": {
+          "name": "Strona + Automatyzacja Leadów",
+          "price": "od 14 000 PLN",
           "features": [
-            "Do 15 stron",
-            "Unikalny design",
-            "System zarządzania",
-            "Wielojęzyczność",
-            "Integracje",
-            "Wsparcie 3 miesiące"
+            "Wszystko z pakietu Strona B2B",
+            "Integracja z CRM / Google Sheets / Airtable",
+            "Automatyczne powiadomienia o leadach",
+            "Formularz zapytania ofertowego",
+            "Automatyczny e-mail follow-up",
+            "Prosty pulpit zarządczy leadów"
           ]
         },
-        "ecommerce": {
-          "name": "Sklep internetowy",
-          "price": "od 8 000 PLN",
+        "growth": {
+          "name": "Zakres dedykowany / Enterprise",
+          "price": "indywidualnie",
           "features": [
-            "Katalog produktów",
-            "Koszyk i płatności",
-            "System zamówień",
-            "Integracja z CRM",
-            "Analityka",
-            "Wsparcie 6 miesięcy"
+            "Integracje z systemami ERP/API",
+            "Rozbudowane wersje językowe",
+            "Zaawansowane elementy interaktywne",
+            "Stałe wsparcie i rozwój strony"
           ]
         }
       }
     },
-    "chatbots": {
-      "title": "Chatboty",
-      "description": "Automatyzuj komunikację z klientami za pomocą inteligentnych botów",
+    "business_automation": {
+      "title": "Automatyzacja",
+      "description": "Automatyzujemy powtarzalne procesy biznesowe, dzięki czemu Twój zespół spędza mniej czasu na przepisywaniu danych, ręcznym wysyłaniu e-maili i zarządzaniu leadami.",
       "metadata": {
-        "title": "Tworzenie Chatbotów | Telegram, WhatsApp, Strona WWW | VektaDev",
-        "description": "Tworzenie chatbotów dla Telegram, WhatsApp, Viber i stron internetowych. Automatyzacja obsługi klienta 24/7, integracja z CRM, odpowiedzi AI. Bezpłatna konsultacja!",
-        "keywords": "chatbot, bot telegram, bot whatsapp, automatyzacja obsługi klienta, chatbot AI, tworzenie chatbotów, bot messenger, integracja CRM"
+        "title": "Automatyzacja procesów biznesowych i integracje CRM | VektaDev",
+        "description": "Zautomatyzuj przekazywanie leadów, wpisy w CRM, powiadomienia, generowanie dokumentów i powtarzalne zadania dzięki integracjom VektaDev.",
+        "keywords": "automatyzacja biznesu, automatyzacja CRM, automatyzacja leadów, integracja Airtable, powiadomienia automatyczne, optymalizacja procesów"
       },
-      "hero_title": "Automatyzuj Obsługę Klienta i Oszczędzaj Czas",
-      "hero_subtitle": "Dostępność 24/7 bez zatrudniania dodatkowego personelu",
-      "hero_description": "Inteligentne chatboty dla Telegram, WhatsApp i Twojej strony. Odpowiadają na pytania klientów, przyjmują zamówienia i rezerwacje — nawet gdy śpisz.",
-      "hero_cta": "Zamów konsultację",
+      "hero_title": "Wyeliminuj pracę ręczną ze swoich operacji",
+      "hero_subtitle": "Połącz formularze, CRM, arkusze i skrzynkę pocztową w jeden sprawny przepływ pracy.",
+      "hero_description": "Przestań przepisywać informacje między programami. Mapujemy Twoje obecne ręczne zadania i zastępujemy je automatycznymi procesami, które zapisują dane, powiadamiają zespół i natychmiast odpowiadają klientom.",
+      "hero_cta": "Zamów audyt automatyzacji",
       "features": [
-        "Boty Telegram",
-        "Boty Viber/WhatsApp",
-        "Czaty na stronie",
-        "Integracja z CRM"
+        "Lead management automation",
+        "CRM / Google Sheets / Airtable integration",
+        "Email and WhatsApp notifications",
+        "Automatic follow-ups",
+        "PDF / offer / invoice generation",
+        "Internal dashboards"
       ],
       "benefits": {
-        "support": {
-          "title": "Wsparcie 24/7",
-          "description": "Bot pracuje całą dobę bez przerw i weekendów"
+        "lead_handling": {
+          "title": "Natychmiastowe reakcje",
+          "description": "Automatyczne potwierdzenia dla klientów tuż po wysłaniu formularza, aby utrzymać ich zaangażowanie."
         },
-        "instant": {
-          "title": "Natychmiastowe odpowiedzi",
-          "description": "Klienci otrzymują odpowiedzi w ciągu sekund"
+        "crm": {
+          "title": "Baza danych w jednym miejscu",
+          "description": "Wszystkie informacje o zapytaniach automatycznie trafiają do CRM, Google Sheets lub Airtable."
         },
-        "cost": {
-          "title": "Redukcja kosztów",
-          "description": "Oszczędność na pracownikach wsparcia"
+        "documents": {
+          "title": "Generowanie dokumentów",
+          "description": "Automatyczne tworzenie standardowych PDF-ów, ofert i faktur bezpośrednio z danych formularza."
         },
-        "integration": {
-          "title": "Integracja z CRM",
-          "description": "Automatyczne dodawanie leadów do systemu"
+        "dashboards": {
+          "title": "Pełna kontrola",
+          "description": "Podgląd statusu spraw, nowych zapytań i działań zespołu na prostych pulpitach."
         }
       },
       "who_its_for": {
-        "title": "Czy chatbot jest dla Ciebie?",
+        "title": "Kiedy automatyzacja biznesu to dobry krok?",
         "best_for_title": "Idealne dla:",
         "best_for": [
-          "Firm otrzymujących powtarzające się pytania od klientów",
-          "Sklepów internetowych potrzebujących informacji o statusie zamówień",
-          "Restauracji do obsługi rezerwacji stolików",
-          "Firm usługowych do umawiania wizyt i terminów"
+          "Zespołów tracących godziny na przepisywanie danych i ręczne rozsyłanie alertów",
+          "Firm chcących obsłużyć większą liczbę zapytań bez powiększania zespołu",
+          "Biznesów chcących połączyć stare, wewnętrzne systemy z nowoczesnymi aplikacjami",
+          "Operatorów chcących otrzymywać powiadomienia na WhatsApp, Slack lub SMS"
         ],
-        "not_for_title": "Nie najlepsze dla:",
+        "not_for_title": "Nie dla:",
         "not_for": [
-          "Złożonej sprzedaży B2B wymagającej ludzkiego kontaktu",
-          "Jednorazowych projektów bez stałej obsługi klienta"
+          "Procesów, które zmieniają się każdego dnia i wymagają indywidualnej decyzji człowieka",
+          "Firm, które chcą całkowicie zrezygnować z ludzkiego kontaktu z klientem"
         ]
       },
       "problem_solution": {
-        "title": "Od przeciążenia do automatyzacji",
+        "title": "Od rozproszonych tabel do automatycznych procesów",
         "problem_title": "Problem",
-        "problem_text": "Twój zespół jest przeciążony odpowiadaniem na te same pytania. Klienci piszą po godzinach i w weekendy, ale nikt nie odpowiada. Każde nieodebrane zapytanie to stracona szansa sprzedaży.",
+        "problem_text": "Zapytania giną w przepełnionych skrzynkach odbiorczych, te same dane są ręcznie wprowadzane do kilku programów, a odpowiedzi na e-maile są wysyłane z dużym opóźnieniem.",
         "solution_title": "Nasze rozwiązanie",
-        "solution_text": "Chatbot zasilany AI, który automatycznie obsługuje 80% zapytań klientów. Odpowiada natychmiast, 24/7, na Telegramie, WhatsApp lub czacie na stronie. Gdy nie zna odpowiedzi — przekazuje rozmowę do człowieka.",
+        "solution_text": "Wdrażamy automatyczne integracje między Twoją stroną internetową, systemem CRM, komunikatorem a bazą danych.",
         "result_title": "Rezultat",
-        "result_text": "Dostępność przez całą dobę, szybsze odpowiedzi i niższe koszty obsługi. Twój zespół zajmuje się tylko złożonymi sprawami, a klienci są zadowoleni z błyskawicznej obsługi."
+        "result_text": "Procesy działające bez przerw 24/7, brak błędów wynikających z przepisywania, błyskawiczne alerty i sprawna realizacja zadań."
       },
       "trust_signals": {
-        "title": "Dlaczego my",
+        "title": "Jak wdrażamy automatyzacje",
         "items": [
           {
-            "title": "Indywidualna logika bota",
-            "description": "Żadnych gotowych szablonów — bot jest dostosowany do Twojego biznesu i procesów"
+            "title": "Analiza przed pracą",
+            "description": "Najpierw dokładnie rozpisujemy obecny proces, aby nie automatyzować chaosu."
           },
           {
-            "title": "Integracja z CRM/ERP",
-            "description": "Bot łączy się z Twoimi systemami — zamówienia, rezerwacje, baza klientów"
+            "title": "Odporność na błędy",
+            "description": "Projektujemy logi błędów i ścieżki awaryjne, aby żadne dane nie zaginęły."
           },
           {
-            "title": "Panel analityczny",
-            "description": "Śledź statystyki rozmów, najpopularniejsze pytania i efektywność bota"
+            "title": "Bezpieczne poświadczenia",
+            "description": "Stosujemy nowoczesne standardy szyfrowania i tokenizacji dostępów."
           },
           {
-            "title": "Przekazanie do człowieka",
-            "description": "Gdy bot nie zna odpowiedzi, płynnie przekazuje rozmowę do Twojego zespołu"
+            "title": "Wsparcie powdrożeniowe",
+            "description": "Szkolimy pracowników i pomagamy w monitorowaniu poprawności działania."
           }
         ]
       },
       "faq": {
-        "title": "Najczęściej zadawane pytania",
+        "title": "FAQ automatyzacji",
         "items": [
           {
-            "question": "Jakie platformy obsługujecie?",
-            "answer": "Tworzymy chatboty dla Telegram, WhatsApp, Viber oraz widgety czatu na stronę internetową. Możemy też zintegrować bota z Facebook Messenger lub Instagram."
+            "question": "Jakie programy możecie ze sobą połączyć?",
+            "answer": "Integrujemy systemy posiadające interfejs API, w tym HubSpot, Salesforce, Pipedrive, Google Workspace, Airtable, Slack, Mailerlite, a także systemy dedykowane."
           },
           {
-            "question": "Czy bot może się połączyć z moim CRM?",
-            "answer": "Tak, integrujemy chatboty z popularnymi systemami CRM i ERP. Bot może automatycznie dodawać leady, aktualizować dane klientów i tworzyć zamówienia w Twoim systemie."
+            "question": "Czy musimy kupować drogie licencje?",
+            "answer": "Staramy się w pierwszej kolejności wykorzystać możliwości narzędzi, z których już korzystacie. Konfigurujemy integracje tak, by unikać zbędnych stałych opłat."
           },
           {
-            "question": "Jak inteligentny jest bot?",
-            "answer": "Oferujemy zarówno boty oparte na regułach (scenariusze i przyciski), jak i boty AI z rozumieniem naturalnego języka. Wybór zależy od złożoności Twoich potrzeb i budżetu."
+            "question": "Co się dzieje, gdy jakaś integracja przestanie działać?",
+            "answer": "System automatycznie wysyła alert (np. na Slacka lub e-mail) z informacją o błędzie, co pozwala natychmiast zareagować."
           },
           {
-            "question": "Co gdy bot nie zna odpowiedzi?",
-            "answer": "Bot może przekazać rozmowę do człowieka, zapisać pytanie do późniejszej odpowiedzi lub poprosić klienta o kontakt telefoniczny. Ty decydujesz, jak ma działać."
-          },
-          {
-            "question": "Ile kosztuje utrzymanie bota?",
-            "answer": "Koszty utrzymania zależą od platformy i liczby wiadomości. Telegram jest bezpłatny, WhatsApp Business API ma opłaty za wiadomości. Przedstawimy szczegółową kalkulację podczas konsultacji."
+            "question": "Ile trwa wdrożenie?",
+            "answer": "Proste automatyzacje leadów lub generowania dokumentów przygotowujemy zazwyczaj w ciągu 2–4 tygodni."
           }
         ]
       },
       "cta_section": {
-        "title": "Gotowy na automatyzację?",
-        "description": "Umów się na bezpłatną konsultację. Pokażemy, jak chatbot może usprawnić obsługę klienta w Twoim biznesie.",
-        "button": "Zamów konsultację"
-      },
-      "platforms": {
-        "title": "Platformy, które obsługujemy",
-        "telegram": "Telegram",
-        "whatsapp": "WhatsApp Business",
-        "viber": "Viber",
-        "website": "Czat na stronie"
+        "title": "Chcesz pozbyć się powtarzalnych zadań?",
+        "description": "Opowiedz nam o swoich procesach, a przygotujemy propozycję usprawnień i wdrożenia automatyzacji.",
+        "button": "Umów discovery automatyzacji"
       },
       "packages": {
-        "basic": {
-          "name": "Basic Bot",
-          "price": "od 3 200 PLN",
+        "audit": {
+          "name": "Audyt automatyzacji",
+          "price": "od 4 800 PLN",
           "features": [
-            "FAQ / scenariusze",
-            "Telegram lub strona",
-            "Podstawowa analityka",
-            "Wsparcie przy uruchomieniu"
+            "Sesja mapowania procesów",
+            "Raport wąskich gardeł",
+            "Rekomendacje integracji",
+            "Szacunek zwrotu z inwestycji (ROI)"
           ]
         },
-        "business": {
-          "name": "Business Bot",
-          "price": "od 18 000 PLN",
+        "lead_automation": {
+          "name": "Wdrożenie automatyzacji leadów",
+          "price": "od 14 000 PLN",
           "features": [
-            "Formularze leadów",
-            "Integracja z CRM",
-            "Multi-kanał (Telegram/WhatsApp/strona)",
-            "Panel administracyjny"
+            "Integracja formularza z CRM/Sheets",
+            "Powiadomienia e-mail i komunikatory",
+            "Automatyczna wysyłka follow-up",
+            "Prosty pulpit zarządczy statusów",
+            "1 miesiąc wsparcia"
           ]
         },
-        "ai": {
-          "name": "AI Bot",
+        "operations": {
+          "name": "Automatyzacja operacyjna",
+          "price": "indywidualnie",
+          "features": [
+            "Automatyczne generowanie dokumentów PDF",
+            "Synchronizacja wielu baz danych",
+            "Zaawansowana logika webhooków",
+            "Dedykowane logowanie i powiadomienia o błędach"
+          ]
+        }
+      }
+    },
+    "ai_assistants": {
+      "title": "Asystenci AI",
+      "description": "Asystenci AI wyszkoleni na danych Twojej firmy, którzy odpowiadają na pytania klientów, kwalifikują leady i wspierają Twój zespół.",
+      "metadata": {
+        "title": "Tworzenie chatbotów i asystentów AI dla firm | VektaDev",
+        "description": "Budujemy dedykowanych asystentów AI i chatboty na strony WWW wyszkolone na FAQ i dokumentach firmy, automatyzujące obsługę i kwalifikację leadów.",
+        "keywords": "chatbot AI dla firmy, asystent AI na stronę, dedykowany chatbot, obsługa klienta AI, asystent RAG"
+      },
+      "hero_title": "Bezpieczne AI wyszkolone na Twoich dokumentach",
+      "hero_subtitle": "Obsługuj zapytania klientów 24/7 i odciąż zespół wsparcia dzięki asystentom RAG.",
+      "hero_description": "Tworzymy dedykowane chatboty na strony internetowe oraz do użytku wewnętrznego. Nasze systemy nie zgadują odpowiedzi — korzystają z bazy wiedzy opartej na Twoich plikach i FAQ, podając tylko zweryfikowane fakty.",
+      "hero_cta": "Zaplanuj wdrożenie pilota AI",
+      "features": [
+        "Website AI chatbot",
+        "FAQ and document-based assistant",
+        "Multilingual support",
+        "Lead qualification",
+        "CRM integration",
+        "Internal knowledge assistant"
+      ],
+      "benefits": {
+        "knowledge": {
+          "title": "Obsługa 24/7",
+          "description": "Klienci otrzymują precyzyjne odpowiedzi na najczęstsze pytania o każdej porze."
+        },
+        "qualification": {
+          "title": "Kwalifikacja leadów",
+          "description": "Asystent może samodzielnie zadać pytania kwalifikacyjne i zebrać dane kontaktowe."
+        },
+        "handoff": {
+          "title": "Przekazanie do człowieka",
+          "description": "Gdy zapytanie wymaga indywidualnego podejścia, AI sprawnie przekazuje wątek pracownikowi."
+        },
+        "analytics": {
+          "title": "Analityka zapytań",
+          "description": "Podgląd tematów poruszanych przez klientów pomaga lepiej dopasować ofertę."
+        }
+      },
+      "who_its_for": {
+        "title": "Dla kogo jest asystent AI",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm otrzymujących codziennie dziesiątki takich samych pytań od klientów",
+          "Zespołów posiadających obszerne bazy wiedzy, instrukcje PDF lub procedury",
+          "Biznesów chcących wstępnie przefiltrować leady ze strony przed kontaktem z handlowcem",
+          "Zespołów wewnętrznych potrzebujących szybkiego przeszukiwania wiki firmy"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Zespołów szukających prostego, fabrycznego bota bez bazy wiedzy firmy",
+          "Zastępowania ludzi w kluczowych doradztwach prawnych, medycznych czy finansowych"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od prostych skryptów do inteligentnych asystentów firmy",
+        "problem_title": "Problem",
+        "problem_text": "Zwykłe chatboty często zmyślają fakty, nie rozumieją specyfiki branży, mogą ujawnić poufne dane i zniechęcają klientów szablonowymi odpowiedziami.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Wdrażamy architekturę RAG (Retrieval-Augmented Generation), która ogranicza działanie AI tylko do wskazanych przez Was dokumentów.",
+        "result_title": "Rezultat",
+        "result_text": "Precyzyjne i prawdziwe informacje dla klientów, mniejsza liczba powtarzalnych zgłoszeń i pełne bezpieczeństwo danych."
+      },
+      "trust_signals": {
+        "title": "Nasze standardy AI",
+        "items": [
+          {
+            "title": "Odpowiedzi ze źródeł",
+            "description": "AI opiera się wyłącznie na dostarczonych materiałach, co eliminuje zmyślanie."
+          },
+          {
+            "title": "Prywatność danych",
+            "description": "Dane z czatów nie są wykorzystywane do trenowania publicznych modeli LLM."
+          },
+          {
+            "title": "Szczegółowe wytyczne",
+            "description": "Blokujemy możliwość rozmawiania na tematy niezwiązane z ofertą firmy."
+          },
+          {
+            "title": "Podgląd rozmów",
+            "description": "Dostęp do panelu administracyjnego pozwala śledzić zapytania i korygować bazę wiedzy."
+          }
+        ]
+      },
+      "faq": {
+        "title": "FAQ asystentów AI",
+        "items": [
+          {
+            "question": "Skąd asystent czerpie informacje?",
+            "answer": "Budujemy bazę danych z Waszymi instrukcjami, FAQ lub tekstami ze strony. Kiedy użytkownik pisze na czacie, system wyszukuje fragmenty odpowiadające pytaniu i przekazuje je do AI jako kontekst."
+          },
+          {
+            "question": "Czy asystent może podać nieprawdę?",
+            "answer": "Konfigurujemy model tak, by w przypadku braku informacji w bazie wiedzy otwarcie pisał 'Nie mam takich danych i poproszę o kontakt z zespołem'."
+          },
+          {
+            "question": "Czy nasze dokumenty są bezpieczne?",
+            "answer": "Tak. Używamy komercyjnych połączeń API, w których przesłane dane są zaszyfrowane i nie służą do trenowania ogólnych modeli OpenAI czy Google."
+          },
+          {
+            "question": "Jakie pliki możemy wgrać do bazy wiedzy?",
+            "answer": "Obsługujemy pliki PDF, dokumenty Word, pliki tekstowe, pliki markdown oraz bezpośrednie linki do stron WWW."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Chcesz zbudować asystenta AI dla swojej firmy?",
+        "description": "Umów się na rozmowę, a przygotujemy dla Ciebie działające demo oparte na próbce Twoich dokumentów.",
+        "button": "Umów discovery AI"
+      },
+      "packages": {
+        "assistant": {
+          "name": "Dedykowany asystent AI",
+          "price": "od 14 000 PLN",
+          "features": [
+            "Konfiguracja bazy wiedzy (do 50 plików źródłowych)",
+            "Widget czatu na stronę internetową",
+            "Dopasowanie wizualne do marki",
+            "Funkcja zbierania danych kontaktowych",
+            "1 miesiąc optymalizacji powdrożeniowej"
+          ]
+        },
+        "ai_automation": {
+          "name": "System AI + Automatyzacja",
+          "price": "od 32 000 PLN",
+          "features": [
+            "Wszystko z pakietu Dedykowany asystent AI",
+            "Integracja leadów z CRM/Slack/Pipedrive",
+            "Obsługa wielojęzyczności (do 3 języków)",
+            "Ścieżka przekazania rozmowy do konsultanta",
+            "Regularna weryfikacja logów i korekty bazy"
+          ]
+        },
+        "scale": {
+          "name": "Wdrożenie zaawansowane",
+          "price": "indywidualnie",
+          "features": [
+            "Wewnętrzny asystent wiedzy zespołu",
+            "Pytania do baz danych i API firmy",
+            "Dedykowany portal dla pracowników",
+            "Automatyczna synchronizacja dużych zbiorów dokumentów"
+          ]
+        }
+      }
+    },
+    "web_apps": {
+      "title": "Aplikacje Web",
+      "description": "Dedykowane aplikacje internetowe i portale dla firm, które potrzebują czegoś więcej niż zwykłej strony WWW.",
+      "metadata": {
+        "title": "Dedykowane aplikacje webowe i portale klientów | VektaDev",
+        "description": "Budujemy panele klienta, systemy rezerwacji, portale kandydatów i panele administracyjne dopasowane do procesów biznesowych.",
+        "keywords": "dedykowana aplikacja webowa, tworzenie portali klientów, portal kandydata, system rezerwacji, panel admina, aplikacje React"
+      },
+      "hero_title": "Buduj aplikacje skrojone pod Twoje operacje",
+      "hero_subtitle": "Portale klientów, systemy rezerwacji i panele do zarządzania procesami.",
+      "hero_description": "Projektujemy i wdrażamy dedykowane systemy webowe z podziałem ról, integracją baz danych, bezpiecznym logowaniem i funkcjami, których nie oferują gotowe platformy.",
+      "hero_cta": "Omów projekt aplikacji",
+      "features": [
+        "Client portals",
+        "Candidate portals",
+        "Booking systems",
+        "Quote request platforms",
+        "Internal admin panels",
+        "Document management systems"
+      ],
+      "benefits": {
+        "portal": {
+          "title": "Dedykowany panel klienta",
+          "description": "Bezpieczne miejsce dla Twoich klientów do wglądu w pliki, status spraw, faktury i kontakt z opiekunem."
+        },
+        "workflow": {
+          "title": "Zgodność z Twoim procesem",
+          "description": "Oprogramowanie zaprojektowane tak, aby odzwierciedlało Twój sposób pracy, a nie zmuszało Cię do kompromisów."
+        },
+        "integrations": {
+          "title": "Połączenia bazodanowe",
+          "description": "Błyskawiczna wymiana danych między bazami, systemem CRM, płatnościami i pocztą."
+        },
+        "roles": {
+          "title": "Kontrola dostępów",
+          "description": "Precyzyjne uprawnienia, panele administracyjne i reguły widoczności informacji dla różnych użytkowników."
+        }
+      },
+      "who_its_for": {
+        "title": "Kiedy warto wybrać dedykowaną aplikację",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm chcących zastąpić skomplikowane i zawodne arkusze kalkulacyjne dedykowanym panelem",
+          "Zespołów potrzebujących portali dla klientów, kandydatów czy partnerów handlowych",
+          "Przedsiębiorstw chcących udostępnić klientom zindywidualizowane raporty lub systemy zamówień",
+          "Właścicieli firm chcących mieć pełną kontrolę nad funkcjami i rozwojem oprogramowania"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Prostych stron wizytówkowych lub landing page bez logiki systemowej",
+          "Projektów bez osoby decyzyjnej, która może na bieżąco opiniować kolejne wersje aplikacji"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od ręcznej koordynacji do dedykowanej platformy",
+        "problem_title": "Problem",
+        "problem_text": "Korzystanie z gotowych, rozproszonych narzędzi zmusza do tworzenia skomplikowanych obejść. Pliki krążą w mailach, klienci dopytują o status, a zadania administracyjne hamują rozwój.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Budujemy bezpieczną aplikację webową z jedną, uporządkowaną bazą danych, kontami użytkowników, formularzami i automatyzacją.",
+        "result_title": "Rezultat",
+        "result_text": "Centralny system będący jedynym punktem wejścia dla klientów, pracowników lub kandydatów, oszczędzający czas i porządkujący informacje."
+      },
+      "trust_signals": {
+        "title": "Nasze zasady inżynierskie",
+        "items": [
+          {
+            "title": "Bezpieczeństwo na starcie",
+            "description": "Precyzyjna autoryzacja użytkowników i bezpieczna konstrukcja baz danych."
+          },
+          {
+            "title": "Zorientowani na wydajność",
+            "description": "Stosujemy Next.js, co gwarantuje błyskawiczne ładowanie i działanie aplikacji."
+          },
+          {
+            "title": "Intuicyjne interfejsy",
+            "description": "Projektujemy proste w obsłudze panele, które nie wymagają od użytkowników żadnych szkoleń."
+          },
+          {
+            "title": "Architektura na lata",
+            "description": "Kod piszemy w TypeScript z podziałem na moduły, co pozwala na łatwy rozwój oprogramowania."
+          }
+        ]
+      },
+      "faq": {
+        "title": "FAQ aplikacji webowych",
+        "items": [
+          {
+            "question": "Czym różni się strona internetowa od aplikacji webowej?",
+            "answer": "Strona internetowa służy głównie do prezentacji informacji i jest publiczna. Aplikacja webowa wymaga logowania, przetwarza dane zalogowanego użytkownika i dostosowuje interfejs do jego roli."
+          },
+          {
+            "question": "Ile trwa budowa panelu klienta?",
+            "answer": "Przygotowanie pierwszej działającej wersji panelu lub systemu rezerwacji trwa zazwyczaj od 6 do 10 tygodni, zależnie od zakresu funkcji."
+          },
+          {
+            "question": "Czy aplikacja będzie działać na telefonach?",
+            "answer": "Tak. Wszystkie nasze systemy projektujemy zgodnie z zasadą mobile-first, dbając o wygodę na smartfonach, tabletach i komputerach."
+          },
+          {
+            "question": "Czy można zintegrować płatności?",
+            "answer": "Tak. Regularnie łączymy aplikacje z bramkami takimi jak Stripe czy PayU na potrzeby rezerwacji, subskrypcji lub opłacania faktur."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Potrzebujesz systemu dopasowanego do Twojej firmy?",
+        "description": "Opowiedz nam o swoich procesach i bazie danych, a zaplanujemy etapy i zakres prac programistycznych.",
+        "button": "Umów discovery portalu"
+      },
+      "packages": {
+        "prototype": {
+          "name": "Prototyp / MVP",
+          "price": "od 20 000 PLN",
+          "features": [
+            "Projekt interfejsu (makiety)",
+            "Baza danych i autoryzacja użytkowników",
+            "Wdrożenie kluczowego przepływu procesu",
+            "Wersja gotowa do pierwszych testów z użytkownikami"
+          ]
+        },
+        "portal": {
+          "name": "Dedykowany portal klienta",
           "price": "od 40 000 PLN",
           "features": [
-            "LLM + baza wiedzy (RAG)",
-            "Zaawansowana analityka",
-            "Integracje API",
-            "Bezpieczeństwo i role"
+            "Pełny portal dla klientów i pracowników",
+            "Wgrywanie dokumentów i statusy spraw",
+            "Synchronizacja danych z HubSpot/Salesforce",
+            "Powiadomienia e-mail i generowanie PDF",
+            "2 miesiące wsparcia technicznego"
+          ]
+        },
+        "platform": {
+          "name": "Dedykowany system webowy",
+          "price": "indywidualnie",
+          "features": [
+            "Skalowalna architektura wielodostępna (multi-tenant)",
+            "Złożone struktury baz danych",
+            "Logika rezerwacji i fakturowania Stripe",
+            "Dedykowane panele administracyjne i raporty"
           ]
         }
-      }
-    },
-    "mobile_apps": {
-      "title": "Aplikacje mobilne",
-      "description": "Tworzenie natywnych i cross-platformowych aplikacji mobilnych",
-      "metadata": {
-        "title": "Tworzenie Aplikacji Mobilnych | iOS i Android | VektaDev",
-        "description": "Profesjonalne tworzenie aplikacji mobilnych na iOS i Android. React Native, Flutter - cross-platformowe aplikacje z jednego kodu. Design UX/UI w cenie. Omów swój pomysł!",
-        "keywords": "tworzenie aplikacji mobilnych, aplikacja iOS, aplikacja Android, React Native, Flutter, aplikacja cross-platform, aplikacja mobilna, firma tworząca aplikacje"
-      },
-      "hero_title": "Twój pomysł na aplikację, profesjonalnie zrealizowany",
-      "hero_subtitle": "iOS i Android z jednego kodu źródłowego",
-      "hero_description": "Tworzymy aplikacje mobilne, które zachwycają użytkowników i napędzają Twój biznes. React Native, Flutter — nowoczesne technologie dla szybszego time-to-market.",
-      "hero_cta": "Omów swój pomysł na aplikację",
-      "features": [
-        "iOS i Android",
-        "React Native / Flutter",
-        "Design UX/UI",
-        "Wsparcie i aktualizacje"
-      ],
-      "benefits": {
-        "native": {
-          "title": "Natywna jakość",
-          "description": "Wysoka wydajność i płynne animacje jak w natywnych aplikacjach"
-        },
-        "cross": {
-          "title": "Cross-platform",
-          "description": "Jeden kod dla iOS i Android — szybszy rozwój, niższe koszty"
-        },
-        "ux": {
-          "title": "UX/UI w cenie",
-          "description": "Projektujemy intuicyjny interfejs, który użytkownicy pokochają"
-        },
-        "support": {
-          "title": "Wsparcie po premierze",
-          "description": "Aktualizacje, poprawki błędów i rozwój funkcji po uruchomieniu"
-        }
-      },
-      "who_its_for": {
-        "title": "Czy budowa aplikacji mobilnej jest dla Ciebie?",
-        "best_for_title": "Idealne dla:",
-        "best_for": [
-          "Startupów z zwalidowanym pomysłem na aplikację",
-          "Firm potrzebujących aplikacji dla swoich klientów",
-          "Przedsiębiorstw szukających wewnętrznych aplikacji biznesowych",
-          "Właścicieli istniejących aplikacji wymagających modernizacji"
-        ],
-        "not_for_title": "Nie dla:",
-        "not_for": [
-          "Pomysłów bez jasnego modelu biznesowego",
-          "Gier mobilnych i wysoce specjalistycznych aplikacji"
-        ]
-      },
-      "problem_solution": {
-        "title": "Od pomysłu do aplikacji w App Store",
-        "problem_title": "Problem",
-        "problem_text": "Twoi klienci oczekują doświadczenia mobilnego. Konkurencja już ma swoje aplikacje. Każdy dzień bez obecności mobilnej to utraceni klienci i przegapione możliwości zaangażowania.",
-        "solution_title": "Nasze rozwiązanie",
-        "solution_text": "Cross-platformowa aplikacja zbudowana w React Native lub Flutter. Jeden zespół, jeden kod źródłowy, dwie platformy. Szybszy rozwój, niższe koszty i spójne doświadczenie użytkownika na iOS i Android.",
-        "result_title": "Rezultat",
-        "result_text": "Szybszy czas wejścia na rynek, niższe koszty rozwoju i utrzymania, spójne doświadczenie dla wszystkich użytkowników. Twoja aplikacja w App Store i Google Play gotowa do zdobywania klientów."
-      },
-      "trust_signals": {
-        "title": "Dlaczego my",
-        "items": [
-          {
-            "title": "Ekspertyza cross-platform",
-            "description": "Specjalizujemy się w React Native i Flutter — sprawdzonych technologiach używanych przez największe firmy"
-          },
-          {
-            "title": "Publikacja w sklepach w cenie",
-            "description": "Pomagamy z całym procesem publikacji w App Store i Google Play"
-          },
-          {
-            "title": "Wsparcie po premierze",
-            "description": "Nie znikamy po uruchomieniu. Oferujemy pakiety wsparcia i rozwoju aplikacji"
-          },
-          {
-            "title": "Design UX/UI w standardzie",
-            "description": "Każda aplikacja zawiera profesjonalny design dopasowany do Twojej marki"
-          }
-        ]
-      },
-      "faq": {
-        "title": "Najczęściej zadawane pytania",
-        "items": [
-          {
-            "question": "iOS, Android czy obydwa?",
-            "answer": "Rekomendujemy budowę na obie platformy jednocześnie dzięki technologiom cross-platform (React Native, Flutter). Płacisz za jeden projekt, a otrzymujesz aplikację na iOS i Android. Jeśli jednak Twoja grupa docelowa jest silnie skoncentrowana na jednej platformie, możemy zacząć od niej."
-          },
-          {
-            "question": "Ile czasu zajmuje stworzenie aplikacji mobilnej?",
-            "answer": "Prosty MVP zajmuje 2-3 miesiące. Średnio złożona aplikacja z backendem 3-5 miesięcy. Złożone aplikacje z wieloma integracjami 5-8 miesięcy. Dokładny harmonogram przedstawimy po analizie wymagań."
-          },
-          {
-            "question": "Czy publikujecie aplikację w sklepach?",
-            "answer": "Tak, zajmujemy się całym procesem publikacji. Przygotowujemy materiały graficzne, opisy, pomagamy z kontami developerskimi i przeprowadzamy przez review Apple i Google. Publikacja w App Store i Google Play jest wliczona w cenę."
-          },
-          {
-            "question": "Co z bieżącym utrzymaniem aplikacji?",
-            "answer": "Po premierze oferujemy pakiety wsparcia obejmujące: poprawki błędów, aktualizacje zgodności z nowymi wersjami iOS/Android, drobne usprawnienia i monitoring działania. Możemy też rozwijać aplikację o nowe funkcje."
-          },
-          {
-            "question": "Czy możecie pracować z istniejącym backendem?",
-            "answer": "Oczywiście. Jeśli masz już backend lub API, zintegrujemy z nim aplikację mobilną. Jeśli potrzebujesz backendu, możemy go również zbudować lub pomóc w wyborze rozwiązań BaaS (Backend as a Service)."
-          }
-        ]
-      },
-      "packages": {
-        "mvp": {
-          "name": "MVP",
-          "price": "od 72 000 PLN",
-          "features": [
-            "iOS + Android",
-            "Podstawowe funkcje",
-            "Design UX/UI",
-            "Publikacja w sklepach"
-          ]
-        },
-        "standard": {
-          "name": "Standard App",
-          "price": "od 140 000 PLN",
-          "features": [
-            "Rozbudowana funkcjonalność",
-            "Backend + API",
-            "Integracje",
-            "Wsparcie 3 miesiące"
-          ]
-        },
-        "enterprise": {
-          "name": "Enterprise",
-          "price": "od 280 000 PLN",
-          "features": [
-            "Złożone integracje",
-            "Offline mode",
-            "Role i uprawnienia",
-            "Wsparcie 12 miesięcy"
-          ]
-        }
-      },
-      "cta_section": {
-        "title": "Gotowy omówić swój pomysł na aplikację?",
-        "description": "Bezpłatna konsultacja, podczas której omówimy Twój pomysł, doradzimy technologię i przedstawimy wstępną wycenę. Bez zobowiązań.",
-        "button": "Omów swój pomysł na aplikację"
       }
     }
   },
   "why_us": {
-    "title": "Dlaczego my",
-    "description": "Łączymy ekspertyzę, nowoczesne technologie i podejście zorientowane na klienta",
-    "professionalism": {
-      "title": "Profesjonalizm",
-      "description": "Zespół doświadczonych specjalistów z ponad 5-letnim doświadczeniem"
+    "title": "Dlaczego firmy wybierają VektaDev",
+    "description": "Nie tworzymy samych projektów graficznych. Budujemy strony i systemy automatyzacji, które łączą marketing, sprzedaż i operacje w Twojej firmie.",
+    "business_focused": {
+      "title": "Najpierw rezultaty biznesowe",
+      "description": "Każda podstrona, formularz i przycisk są zaprojektowane tak, aby rozwiązywać problem operacyjny lub pozyskiwać zapytania."
     },
-    "speed": {
-      "title": "Szybkość",
-      "description": "Dotrzymujemy terminów i zapewniamy szybki start projektów"
+    "integrated_websites": {
+      "title": "W pełni zintegrowane systemy",
+      "description": "Łączymy Twoją stronę B2B bezpośrednio z narzędziami CRM, automatycznymi formularzami, powiadomieniami i bazą danych."
     },
-    "reliability": {
-      "title": "Niezawodność",
-      "description": "Gwarantujemy jakość, bezpieczeństwo i wsparcie po uruchomieniu"
+    "practical_ai": {
+      "title": "Praktyczne wdrożenia AI",
+      "description": "Bez zbędnego szumu. Wdrażamy asystentów AI wyszkolonych na Twoich danych, aby kwalifikować leady i realnie oszczędzać czas."
     },
-    "individual": {
-      "title": "Indywidualne podejście",
-      "description": "Rozumiemy potrzeby każdego klienta i proponujemy optymalne rozwiązania"
+    "clear_process": {
+      "title": "Jasny zakres i przewidywalność",
+      "description": "Otrzymujesz stałą cenę, określone kamienie milowe, regularne prezentacje działających wersji i brak ukrytych kosztów."
+    },
+    "built_for_smb": {
+      "title": "Dla europejskich firm MŚP",
+      "description": "Zespół w Polsce dostarczający systemy w pełni zgodne z RODO, europejskimi standardami i lokalnymi realiami rynkowymi."
     }
   },
   "process": {
-    "title": "Nasz proces pracy",
-    "description": "Przejrzysty i zrozumiały proces od pomysłu do uruchomienia",
+    "title": "Nasz praktyczny proces delivery",
+    "description": "Jak krok po kroku zmieniamy Twoje cele i procesy w działającą stronę internetową lub system automatyzacji.",
     "steps": {
-      "consultation": {
-        "title": "Konsultacja i analiza",
-        "description": "Omawiamy Twoje cele, analizujemy potrzeby i tworzymy specyfikację"
+      "discovery": {
+        "title": "Discovery",
+        "description": "Rozumiemy Twój biznes, obecny proces, klientów i wąskie gardła."
       },
-      "design": {
-        "title": "Projektowanie i design",
-        "description": "Tworzymy architekturę projektu i rozwijamy unikalny design"
+      "strategy": {
+        "title": "Strategia",
+        "description": "Definiujemy strukturę strony, logikę automatyzacji, integracje i zakres projektu."
       },
-      "development": {
-        "title": "Rozwój",
-        "description": "Realizujemy projekt używając nowoczesnych technologii"
+      "build": {
+        "title": "Budowa",
+        "description": "Projektujemy i budujemy stronę, system automatyzacji, asystenta AI lub aplikację."
       },
-      "testing": {
-        "title": "Testowanie",
-        "description": "Dokładnie testujemy wszystkie funkcje i optymalizujemy wydajność"
+      "launch_support": {
+        "title": "Launch i rozwój",
+        "description": "Wdrażamy rozwiązanie, testujemy je i zapewniamy wsparcie oraz ulepszenia."
+      }
+    }
+  },
+  "problem": {
+    "text": "Większość stron firmowych wygląda jak wizytówki online. Nie wyjaśniają one jasno oferty, nie zbierają leadów prawidłowo i nie pomagają zespołowi w szybszej obsłudze zapytań. VektaDev buduje strony internetowe i systemy automatyzacji, które łączą marketing, sprzedaż i operacje."
+  },
+  "use_cases": {
+    "title": "Przykładowe wdrożenia",
+    "description": "Realne rozwiązania operacyjne łączące marketing, sprzedaż i pracę back-office.",
+    "manufacturing": {
+      "title": "Firma produkcyjna",
+      "description": "Wielojęzyczna strona B2B z podstronami usług, formularzem wyceny i integracją z CRM."
+    },
+    "recruitment": {
+      "title": "Agencja rekrutacyjna",
+      "description": "Formularz aplikacji dla kandydatów, automatyczne odpowiedzi e-mail, wewnętrzny pulpit nawigacyjny i asystent FAQ oparty na AI."
+    },
+    "service_business": {
+      "title": "Firma usługowa",
+      "description": "Strona lądowania, formularz zapytania, automatyczna komunikacja (follow-up) oraz integracja z Arkuszami Google / CRM."
+    },
+    "consulting": {
+      "title": "Firma doradcza",
+      "description": "Profesjonalna strona WWW, lejek kontaktowy, asystent AI wyszkolony na bazie dokumentów oraz automatyczne przyjmowanie klientów."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Cennik",
+    "title": "Proste i przejrzyste pakiety",
+    "description": "Wybierz pakiet dopasowany do potrzeb operacyjnych i rozwoju Twojej firmy.",
+    "cta": "Rozpocznij współpracę",
+    "note": "Ostateczna cena zależy od zakresu projektu, integracji, treści, języków i złożoności automatyzacji.",
+    "packages": {
+      "b2b_website": {
+        "name": "Strona B2B",
+        "price": "od €1,500",
+        "description": "Dla firm, które potrzebują profesjonalnej strony internetowej, która jasno przedstawia ich usługi i generuje zapytania.",
+        "features": [
+          "Strona 5–7 podstron",
+          "Responsywny design (mobile)",
+          "Formularz kontaktowy",
+          "Podstawowa optymalizacja SEO",
+          "Wdrożenie analityki",
+          "Powiadomienia e-mail"
+        ]
       },
-      "launch": {
-        "title": "Uruchomienie i wsparcie",
-        "description": "Uruchamiamy projekt i zapewniamy wsparcie techniczne"
+      "website_automation": {
+        "name": "Strona + automatyzacja leadów",
+        "price": "od €3,500",
+        "description": "Dla firm, które chcą nie tylko strony WWW, ale też prostego systemu do zbierania i zarządzania leadami.",
+        "features": [
+          "Wszystko z pakietu Strona B2B",
+          "Integracja z CRM / Google Sheets / Airtable",
+          "Automatyczne powiadomienia o leadach",
+          "Formularz zapytania ofertowego",
+          "Automatyczny e-mail follow-up",
+          "Prosty pulpit zarządczy leadów"
+        ]
+      },
+      "ai_automation": {
+        "name": "AI + system automatyzacji",
+        "price": "od €8,000",
+        "description": "Dla firm, które chcą zautomatyzować komunikację z klientem, procesy wewnętrzne i powtarzalną pracę.",
+        "features": [
+          "Wszystko z pakietu Strona + Automatyzacja Leadów",
+          "Asystent AI lub chatbot",
+          "Integracja z bazą wiedzy firmy",
+          "Kwalifikacja leadów przez AI",
+          "Integracja z CRM",
+          "Automatyzacja dokumentów/e-maili",
+          "Opcjonalne stałe wsparcie miesięczne"
+        ]
       }
     }
   },
   "cta": {
-    "title": "Gotowy do rozpoczęcia projektu?",
-    "description": "Uzyskaj bezpłatną konsultację od naszych ekspertów i dowiedz się, jak możemy pomóc Twojemu biznesowi się rozwijać",
-    "button_primary": "Zamów konsultację",
+    "title": "Gotowy zmodernizować realny proces?",
+    "description": "Umów rozmowę discovery, a wskażemy najszybszy sensowny następny krok.",
+    "button_primary": "Umów discovery",
     "button_secondary": "O nas"
   },
   "footer": {
-    "description": "Profesjonalne rozwiązania IT dla Twojego biznesu. Tworzenie stron, chatbotów i aplikacji mobilnych.",
+    "description": "Strony B2B, asystenci AI i systemy automatyzacji dla firm, które chcą więcej zapytań i mniej pracy ręcznej.",
     "services_title": "Usługi",
     "company_title": "Firma",
     "contact_title": "Kontakt",
@@ -624,6 +821,13 @@
       "phone_placeholder": "+48 ___ ___ ___",
       "service": "Usługa",
       "service_placeholder": "Wybierz usługę",
+      "not_sure": "Nie wiem / Potrzebuję porady",
+      "services": {
+        "b2b_websites": "Strona B2B",
+        "business_automation": "Automatyzacja biznesu",
+        "ai_assistants": "Asystent AI / Chatbot",
+        "web_apps": "Aplikacja webowa / Portal klienta"
+      },
       "message": "Wiadomość *",
       "message_placeholder": "Opowiedz o swoim projekcie...",
       "submit": "Wyślij",
@@ -647,38 +851,38 @@
     }
   },
   "about": {
-    "title": "Budujemy oprogramowanie, które rozwija firmy",
-    "description": "Pomagamy ambitnym firmom w Polsce i Europie tworzyć strony, chatboty i aplikacje mobilne, które przekładają się na mierzalne wyniki biznesowe — więcej klientów, wyższą efektywność i szybszy wzrost.",
+    "title": "Budujemy software gotowy na AI dla realnych operacji",
+    "description": "Pomagamy ambitnym firmom z Polski i Europy budować konwertujące strony B2B, usprawniać procesy dzięki automatyzacji biznesu, wdrażać praktycznych asystentów AI oraz tworzyć dedykowane aplikacje webowe, które zamieniają złożone operacje w proste i niezawodne systemy.",
     "value_prop_title": "Dlaczego firmy wybierają VektaDev",
-    "value_prop_intro": "Nie jesteśmy typową agencją IT. Łączymy solidne rzemiosło deweloperskie z myśleniem biznesowym, żeby dostarczać rozwiązania, które naprawdę działają.",
+    "value_prop_intro": "Nie jesteśmy generyczną agencją IT. Łączymy analizę biznesową, profesjonalny web engineering i praktyczne wdrożenia AI, aby każdy wdrożony system przynosił mierzalne korzyści biznesowe.",
     "value_prop_points": [
-      "Skupienie na wynikach — każdy projekt zaczyna się od zrozumienia Twoich celów biznesowych, nie tylko wymagań technicznych",
-      "Przejrzystość i przewidywalność — jasne wyceny, regularna komunikacja i dotrzymywanie terminów",
-      "Pełen zakres usług — od strategii przez development po wdrożenie i wsparcie",
-      "Ekspertyza w AI i automatyzacji — praktyczne wdrożenia ChatGPT, chatbotów i procesów automatycznych",
-      "Lokalna obecność, europejskie standardy — zespół w Polsce, praca zgodna z RODO i najlepszymi praktykami UE"
+      "Discovery biznesowe łączące zakres projektu ze wzrostem zapytań ofertowych i oszczędnością czasu",
+      "Wdrożenia AI osadzone w istniejących procesach, własnych bazach wiedzy i pod nadzorem człowieka",
+      "Nowoczesna inżynieria webowa dla portali i stron B2B, które są szybkie, bezpieczne i zoptymalizowane pod konwersję",
+      "Transparentne delivery z jasnym zakresem, regularnymi prezentacjami działających wersji i brakiem ukrytych kosztów",
+      "Zespół z Polski pracujący zgodnie z RODO i europejskimi standardami delivery"
     ],
     "story_title": "Nasza historia",
     "story_p1": "VektaDev powstała w 2020 roku z prostej obserwacji: wiele firm potrzebuje profesjonalnych rozwiązań IT, ale nie ma dostępu do zespołów, które rozumieją zarówno technologię, jak i biznes. Zbyt często widzieliśmy projekty, które wyglądały dobrze na papierze, ale nie przynosiły realnych rezultatów.",
     "story_p2": "Założyliśmy VektaDev, żeby to zmienić. Nasz zespół składa się z deweloperów, projektantów i specjalistów AI, którzy przed dołączeniem do nas pracowali nad projektami dla firm różnej wielkości — od startupów po międzynarodowe korporacje. To doświadczenie nauczyło nas, że sukces projektu IT zależy nie tylko od kodu, ale od zrozumienia potrzeb klienta i umiejętności ich przełożenia na działające rozwiązanie.",
-    "story_p3": "Dziś pracujemy z firmami z Polski, Niemiec i całej Europy, pomagając im budować strony, które konwertują, chatboty, które oszczędzają czas, i aplikacje mobilne, które dają przewagę konkurencyjną. Każdy projekt traktujemy jak partnerstwo — bo tylko wtedy możemy dostarczyć coś, co naprawdę działa.",
+    "story_p3": "Dziś pracujemy z firmami z Polski, Niemiec i Europy, pomagając im wdrażać zorientowane na konwersję strony B2B, automatyzacje procesów biznesowych, asystentów AI oraz portale dla klientów. Każdą współpracę traktujemy jak partnerstwo, bo oprogramowanie ma znaczenie dopiero wtedy, gdy realnie usprawnia pracę.",
     "approach_title": "Jak pracujemy",
     "approach_intro": "Współpraca z nami jest przejrzysta i przewidywalna. Wiemy, że Twój czas jest cenny, dlatego zbudowaliśmy proces, który minimalizuje niepewność i maksymalizuje efektywność.",
     "approach_steps": [
       {
         "title": "Rozmowa wstępna",
-        "description": "Zaczynamy od bezpłatnej rozmowy, podczas której poznajemy Twoje cele i wyzwania. Nie naciskamy na sprzedaż — chcemy zrozumieć, czy możemy realnie pomóc."
+        "description": "Zaczynamy od bezpłatnej rozmowy, podczas której poznajemy Twoje cele i wyzwania. No sales pressure — chcemy sprawdzić, czy możemy realnie pomóc."
       },
       {
         "title": "Analiza i propozycja",
         "description": "Przygotowujemy szczegółową propozycję z jasnym zakresem, harmonogramem i budżetem. Bez ukrytych kosztów i niejasności."
       },
       {
-        "title": "Realizacja z regularnymi aktualizacjami",
+        "title": "Realizacja z regularnymi prezentacjami",
         "description": "Podczas pracy regularnie informujemy o postępach. Masz dostęp do wersji roboczych i możesz zgłaszać uwagi na bieżąco."
       },
       {
-        "title": "Wdrożenie i wsparcie",
+        "title": "Launch i rozwój",
         "description": "Po uruchomieniu nie znikamy. Oferujemy wsparcie techniczne i jesteśmy dostępni, gdy pojawią się pytania lub potrzeby rozwoju."
       }
     ],
@@ -689,7 +893,7 @@
         "description": "Od 2020 roku dostarczamy projekty IT dla firm z różnych branż w Polsce i Europie."
       },
       {
-        "title": "Zespół z doświadczeniem",
+        "title": "Doświadczony zespół",
         "description": "Nasi deweloperzy i projektanci mają za sobą lata pracy nad projektami komercyjnymi różnej skali."
       },
       {
@@ -725,12 +929,12 @@
       "ievgenii": {
         "name": "Ievgenii Bigun",
         "position": "CEO i Lead Developer",
-        "bio": "Założyciel VektaDev z 8-letnim doświadczeniem w web development. Specjalizuje się w Next.js i integracjach AI."
+        "bio": "Założyciel VektaDev z 8-letnim doświadczeniem w web development, integracjach AI i product engineering."
       },
       "vladyslav": {
         "name": "Vladyslav Bereza",
-        "position": "Deweloper AI i Chatbotów",
-        "bio": "Ekspert ds. AI i chatbotów. Stworzył ponad 50 botów dla różnych firm."
+        "position": "Deweloper automatyzacji AI",
+        "bio": "Specjalista automatyzacji AI skupiony na asystentach, integracjach i optymalizacji workflow."
       },
       "alex": {
         "name": "Aleksy Sydorenko",
@@ -745,7 +949,7 @@
       "pawel": {
         "name": "Paweł Koterski",
         "position": "Backend Developer",
-        "bio": "Backend developer z doświadczeniem w Node.js, Python i DevOps. Specjalizuje się w rozwiązaniach chmurowych."
+        "bio": "Backend developer z doświadczeniem w Node.js, Python i DevOps. Specjalizuje się w fundamentach platform cloud."
       }
     },
     "stats": {
@@ -777,14 +981,14 @@
     "projects": {
       "electronics_shop": {
         "title": "Strona biura rachunkowego (Bydgoszcz)",
-        "description": "Strona firmowa dla Izabeli Romańskiej Księgowa Dla Ciebie z prezentacją usług, lokalnym SEO i naciskiem na pozyskiwanie zapytań."
+        "description": "Strona firmowa dla Izabela Romańska Księgowa Dla Ciebie z prezentacją usług, lokalnym SEO i naciskiem na pozyskiwanie zapytań."
       },
       "restaurant_bot": {
         "title": "[Demo] Bot Telegram dla restauracji",
         "description": "Projekt demonstracyjny: bot do przyjmowania zamówień i rezerwacji stolików z integracją CRM"
       },
       "corporate_website": {
-        "title": "[Demo] Strona korporacyjna",
+        "title": "[Demo] Wielojęzyczna strona",
         "description": "Projekt demonstracyjny: wielojęzyczna strona firmowa z systemem zarządzania treścią"
       },
       "ai_assistant": {
@@ -831,73 +1035,73 @@
       "items": [
         "Imię — aby zwracać się do Ciebie odpowiednio w naszej odpowiedzi",
         "Adres email — aby odpowiedzieć na Twoje zapytanie",
-        "Numer telefonu (opcjonalnie) — do kontaktu zwrotnego na Twoją prośbę",
+        "Numer telefonu (opcjonalnie) — do kontaktu telefonicznego na życzenie",
         "Treść wiadomości — aby zrozumieć Twoje zapytanie lub potrzeby projektowe"
       ],
       "automatic_title": "Dane techniczne",
-      "automatic_text": "Nasza strona może również zbierać podstawowe dane techniczne niezbędne do prawidłowego funkcjonowania, takie jak adres IP, typ przeglądarki i czas dostępu. Dane te są przetwarzane przez naszego dostawcę hostingu."
+      "automatic_text": "Nasza witryna może również automatycznie rejestrować podstawowe dane techniczne niezbędne do jej prawidłowego działania, takie jak adres IP, typ przeglądarki i czas dostępu. Dane te są przetwarzane przez naszego dostawcę hostingu."
     },
     "purpose": {
-      "title": "4. Jak wykorzystujemy Twoje dane",
-      "text": "Przetwarzamy Twoje dane osobowe w następujących celach:",
+      "title": "4. Jak wykorzystujemy dane",
+      "text": "Przetwarzamy dane osobowe w następujących celach:",
       "items": [
-        "Odpowiadanie na Twoje zapytania i prośby",
+        "Odpowiadanie na zapytania i zgłoszenia",
         "Komunikacja w sprawie potencjalnych projektów i usług",
-        "Zapewnianie obsługi klienta",
-        "Ulepszanie naszej strony i usług"
+        "Obsługa klientów",
+        "Ulepszanie naszej witryny i usług"
       ]
     },
     "legal_basis": {
       "title": "5. Podstawa prawna przetwarzania",
-      "text": "Zgodnie z RODO przetwarzamy Twoje dane na podstawie:",
+      "text": "Zgodnie z RODO przetwarzamy dane na podstawie:",
       "items": [
-        "Twojej zgody — gdy wysyłasz formularz kontaktowy",
-        "Prawnie uzasadnionego interesu — aby odpowiedzieć na Twoje zapytanie i świadczyć usługi",
-        "Niezbędności umownej — gdy przetwarzanie jest wymagane do realizacji umowy o usługi"
+        "Twojej zgody — podczas wysyłania formularza kontaktowego",
+        "Prawnie uzasadnionego interesu — w celu udzielenia odpowiedzi na zapytanie i świadczenia usług",
+        "Konieczności umowy — gdy przetwarzanie jest wymagane do realizacji ustaleń przed zawarciem umowy"
       ]
     },
     "third_parties": {
-      "title": "6. Usługi zewnętrzne",
-      "text": "Do obsługi naszej strony i komunikacji z Tobą korzystamy z zaufanych usług zewnętrznych:",
+      "title": "6. Usługi podmiotów trzecich",
+      "text": "Do obsługi witryny i kontaktu z Tobą wykorzystujemy zaufane usługi zewnętrzne:",
       "items": [
-        "Resend — do wysyłki emaili. Wiadomości z formularza kontaktowego są wysyłane przez bezpieczną infrastrukturę Resend. Ich polityka prywatności jest dostępna na resend.com/legal/privacy-policy",
-        "Vercel — do hostingu strony. Nasza strona jest hostowana na platformie chmurowej Vercel, która może przetwarzać dane techniczne jak adresy IP dla celów bezpieczeństwa i wydajności. Ich polityka prywatności jest dostępna na vercel.com/legal/privacy-policy"
+        "Resend — do wysyłki e-maili. Zgłoszenia z formularza przesyłane są za pośrednictwem bezpiecznej infrastruktury Resend. Ich polityka prywatności: resend.com/legal/privacy-policy",
+        "Vercel — do hostingu. Strona jest hostowana na platformie Vercel, która może rejestrować dane techniczne w celach bezpieczeństwa i wydajności. Ich polityka prywatności: vercel.com/legal/privacy-policy"
       ],
-      "note": "Starannie dobieramy naszych dostawców usług, aby zapewnić zgodność z RODO i odpowiednie standardy bezpieczeństwa."
+      "note": "Starannie dobieramy dostawców usług, dbając o ich zgodność z przepisami o ochronie danych osobowych."
     },
     "cookies": {
-      "title": "7. Pliki cookie i analityka",
-      "text": "Nasza strona obecnie używa tylko niezbędnych plików cookie wymaganych do podstawowej funkcjonalności. Nie używamy śledzących plików cookie ani zewnętrznych usług analitycznych. Jeśli w przyszłości wdrożymy analitykę, zaktualizujemy tę politykę i poprosimy o Twoją zgodę tam, gdzie jest to wymagane."
+      "title": "7. Pliki cookies",
+      "text": "Nasza strona korzysta wyłącznie z niezbędnych plików cookies wymaganych do prawidłowego działania. Nie używamy ciasteczek śledzących ani zewnętrznych systemów analitycznych. W przypadku ich wdrożenia w przyszłości zaktualizujemy politykę i poprosimy o zgodę."
     },
     "retention": {
-      "title": "8. Okres przechowywania danych",
-      "text": "Przechowujemy Twoje dane osobowe tylko tak długo, jak jest to niezbędne do realizacji celów opisanych w tej polityce. Zapytania z formularza kontaktowego są zazwyczaj przechowywane do 12 miesięcy od ostatniej komunikacji z nami, chyba że dłuższy okres przechowywania jest wymagany ze względów prawnych lub biznesowych."
+      "title": "8. Przechowywanie danych",
+      "text": "Przechowujemy dane osobowe tylko przez okres niezbędny do realizacji celów opisanych w polityce. Zapytania z formularza są zazwyczaj usuwane po 12 miesiącach od ostatniego kontaktu, chyba że przepisy prawa wymagają dłuższego okresu."
     },
     "rights": {
-      "title": "9. Twoje prawa wynikające z RODO",
-      "text": "Zgodnie z Ogólnym Rozporządzeniem o Ochronie Danych (RODO) przysługują Ci następujące prawa:",
+      "title": "9. Twoje prawa zgodnie z RODO",
+      "text": "Zgodnie z przepisami RODO masz prawo do:",
       "items": [
-        "Prawo dostępu — możesz zażądać kopii danych osobowych, które posiadamy na Twój temat",
-        "Prawo do sprostowania — możesz poprosić o poprawienie niedokładnych lub niekompletnych danych",
-        "Prawo do usunięcia — możesz zażądać usunięcia swoich danych osobowych ('prawo do bycia zapomnianym')",
-        "Prawo do ograniczenia przetwarzania — możesz poprosić o ograniczenie sposobu wykorzystywania Twoich danych",
-        "Prawo do przenoszenia danych — możesz zażądać swoich danych w formacie umożliwiającym przeniesienie",
-        "Prawo do sprzeciwu — możesz sprzeciwić się przetwarzaniu Twoich danych",
-        "Prawo do wycofania zgody — możesz wycofać swoją zgodę w dowolnym momencie"
+        "Dostępu do danych — możesz poprosić o kopię posiadanych przez nas danych",
+        "Sprostowania danych — możesz żądać poprawienia błędnych lub niepełnych danych",
+        "Usunięcia danych — możesz zażądać usunięcia swoich danych ('prawo do bycia zapomnianym')",
+        "Ograniczenia przetwarzania — możesz żądać ograniczenia sposobu korzystania z danych",
+        "Przenoszenia danych — możesz poprosić o przekazanie danych w powszechnym formacie",
+        "Sprzeciwu — możesz sprzeciwić się przetwarzaniu Twoich danych",
+        "Wycofania zgody — możesz wycofać udzieloną zgodę w dowolnym momencie"
       ],
-      "exercise": "Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami pod adresem vektadev@gmail.com. Odpowiemy na Twoje żądanie w ciągu 30 dni."
+      "exercise": "Aby skorzystać ze swoich praw, skontaktuj się z nami pod adresem vektadev@gmail.com. Odpowiemy na zgłoszenie w ciągu 30 dni."
     },
     "security": {
       "title": "10. Bezpieczeństwo danych",
-      "text": "Wdrażamy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych osobowych przed nieautoryzowanym dostępem, zmianą, ujawnieniem lub zniszczeniem. Obejmuje to korzystanie z bezpiecznych połączeń HTTPS, szyfrowanej transmisji email oraz ograniczenie dostępu do danych osobowych tylko do upoważnionego personelu."
+      "text": "Wdrażamy odpowiednie środki techniczne i organizacyjne chroniące dane przed nieuprawnionym dostępem, modyfikacją lub utratą. Stosujemy połączenia HTTPS, szyfrowaną wysyłkę e-maili i ograniczamy dostęp do danych tylko do upoważnionych osób."
     },
     "changes": {
-      "title": "11. Zmiany w polityce",
-      "text": "Możemy od czasu do czasu aktualizować niniejszą Politykę prywatności. Wszelkie zmiany zostaną opublikowane na tej stronie z zaktualizowaną datą rewizji. Zachęcamy do okresowego przeglądania tej polityki."
+      "title": "11. Zmiany polityki prywatności",
+      "text": "Możemy aktualizować Politykę prywatności. Wszelkie zmiany pojawią się na tej stronie wraz z nową datą aktualizacji. Zachęcamy do regularnego przeglądania polityki."
     },
     "contact": {
-      "title": "12. Kontakt",
-      "text": "Jeśli masz pytania dotyczące tej Polityki prywatności, swoich danych osobowych lub chcesz skorzystać ze swoich praw, skontaktuj się z nami:",
+      "title": "12. Kontakt z nami",
+      "text": "W sprawach związanych z polityką prywatności i danymi osobowymi możesz skontaktować się z nami pod adresem:",
       "details": [
         "Email: vektadev@gmail.com",
         "Telefon: +48 537 890 776",
@@ -906,7 +1110,7 @@
     },
     "complaints": {
       "title": "13. Skargi",
-      "text": "Jeśli uważasz, że Twoje prawa do ochrony danych zostały naruszone, masz prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (UODO) lub innego właściwego organu nadzorczego."
+      "text": "Jeśli uważasz, że Twoje prawa zostały naruszone, możesz złożyć skargę do Urzędu Ochrony Danych Osobowych (UODO) w Warszawie."
     }
   },
   "terms": {
@@ -914,15 +1118,15 @@
     "acceptance": "1. Akceptacja warunków",
     "acceptance_text": "Korzystając z tej strony, zgadzasz się z warunkami użytkowania.",
     "services_section": "2. Usługi",
-    "services_text": "VektaDev świadczy usługi tworzenia stron, chatbotów i aplikacji mobilnych.",
+    "services_text": "VektaDev świadczy usługi tworzenia stron B2B, automatyzacji procesów biznesowych, asystentów AI oraz dedykowanych aplikacji webowych.",
     "ip": "3. Własność intelektualna",
     "ip_text": "Wszystkie materiały na stronie są chronione prawem autorskim.",
     "liability": "4. Ograniczenie odpowiedzialności",
-    "liability_text": "Firma nie ponosi odpowiedzialności za pośrednie szkody wynikające z korzystania z naszych usług.",
+    "liability_text": "Firma nie ponosi odpowiedzialności za szkody pośrednie wynikające z korzystania z naszych usług.",
     "changes": "5. Zmiany warunków",
-    "changes_text": "Zastrzegamy sobie prawo do zmiany niniejszych warunków w dowolnym momencie.",
+    "changes_text": "Zastrzegamy sobie prawo do zmiany tych warunków w dowolnym momencie.",
     "contact_title": "6. Kontakt",
-    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: vektadev@gmail.com"
+    "contact_text": "W sprawach związanych z warunkami użytkowania prosimy o kontakt pod adresem: vektadev@gmail.com"
   },
   "common": {
     "loading": "Ładowanie...",
@@ -933,9 +1137,9 @@
   },
   "error": {
     "title": "Coś poszło nie tak",
-    "description": "Wystąpił błąd podczas ładowania strony. Spróbuj odświeżyć lub wróć na stronę główną.",
+    "description": "Wystąpił błąd podczas ładowania strony. Spróbuj odświeżyć stronę lub wróć do strony głównej.",
     "try_again": "Spróbuj ponownie",
-    "go_home": "Strona główna"
+    "go_home": "Wróć do strony głównej"
   },
   "trusted": {
     "title": "Technologie, których używamy"
@@ -945,21 +1149,21 @@
     "title": "Nasze projekty",
     "description": "Przykłady zrealizowanych projektów i osiągniętych rezultatów",
     "case_1_title": "Strona biura rachunkowego",
-    "case_1_desc": "Realizacja dla Izabeli Romańskiej Księgowa Dla Ciebie (Bydgoszcz), nastawiona na prezentację usług i generowanie kontaktów.",
+    "case_1_desc": "Strona internetowa dla Izabeli Romańskiej Księgowa Dla Ciebie (Bydgoszcz) skupiona na usługach, zaufaniu i pozyskiwaniu leadów.",
     "case_1_result_1": "Wzrost sprzedaży",
     "case_1_result_2": "Czas ładowania",
-    "case_2_title": "Strona warsztatu samochodowego KARPOL",
-    "case_2_desc": "Realizacja dla Auto Naprawa KARPOL (Bydgoszcz), nastawiona na prezentację usług, budowę zaufania i pozyskiwanie kontaktów.",
-    "case_2_result_1": "Zapytania serwisowe",
-    "case_2_result_2": "Widoczność lokalna",
+    "case_2_title": "Strona serwisu aut KARPOL",
+    "case_2_desc": "Strona internetowa dla Auto Naprawa KARPOL (Bydgoszcz) skupiona na prezentacji usług, zaufaniu i pozyskiwaniu leadów.",
+    "case_2_result_1": "Zapytania o serwis",
+    "case_2_result_2": "Lokalna widoczność",
     "case_3_title": "Strona kancelarii prawnej OMEGA",
-    "case_3_desc": "Realizacja dla kancelarii prawnej OMEGA, nastawiona na czytelną prezentację usług, budowę zaufania i pozyskiwanie klientów.",
+    "case_3_desc": "Strona internetowa dla Kancelarii Prawnej OMEGA skupiona na przejrzystości oferty, zaufaniu i pozyskiwaniu leadów.",
     "case_4_title": "Strona Drewniana Noga",
-    "case_4_desc": "Realizacja dla Drewniana Noga, nastawiona na czytelną prezentację oferty, budowę zaufania i pozyskiwanie klientów.",
+    "case_4_desc": "Strona internetowa dla Drewniana Noga skupiona na jasnej prezentacji oferty, zaufaniu i pozyskiwaniu leadów.",
     "case_5_title": "Strona Sushi Kama",
-    "case_5_desc": "Realizacja dla Sushi Kama, nastawiona na prezentację menu, rezerwacje i pozyskiwanie klientów.",
-    "case_6_title": "Platforma WarmVoice 1:1 Video",
-    "case_6_desc": "Platforma prywatnych rozmów 1:1 wideo z profilami hostów, czatem realtime, opiniami i płatnym dostępem do połączeń przez Stripe.",
+    "case_5_desc": "Strona internetowa dla Sushi Kama skupiona na prezentacji menu, rezerwacjach i pozyskiwaniu leadów.",
+    "case_6_title": "Platforma wideo 1:1 WarmVoice",
+    "case_6_desc": "Platforma do prywatnych rozmów wideo 1:1 z profilami gospodarzy, czatem w czasie rzeczywistym, opiniami i płatnym dostępem przez Stripe.",
     "case_3_result_1": "Oszczędność czasu",
     "case_3_result_2": "Wzrost produktywności",
     "view_case": "Zobacz szczegóły",
@@ -967,20 +1171,20 @@
   },
   "reviews": {
     "title": "Najnowsze opinie klientów",
-    "description": "Ostatnie opinie firm, którym pomogliśmy w obszarze stron WWW, AI i automatyzacji.",
+    "description": "Opinie firm, którym pomogliśmy w obszarze stron B2B, automatyzacji i sztucznej inteligencji.",
     "view_source": "Zobacz źródło"
   },
   "insights": {
     "title": "Insights",
-    "description": "Praktyczne materiały o wydajności webowej, wdrożeniach AI i realizacji produktów cyfrowych.",
+    "description": "Praktyczne materiały o stronach internetowych, automatyzacji i wdrożeniach AI.",
     "read_article": "Czytaj artykuł"
   },
   "cookies": {
-    "title": "Zgoda na pliki cookie",
-    "description": "Używamy plików cookie, aby ulepszyć Twoje doświadczenie przeglądania. Niezbędne pliki cookie są konieczne do prawidłowego funkcjonowania strony. Opcjonalne pliki cookie pomagają nam zrozumieć, jak korzystasz z naszej strony i ulepszać nasze usługi.",
-    "essential_info": "Niezbędne pliki cookie są zawsze aktywne, ponieważ są konieczne do podstawowej funkcjonalności strony, bezpieczeństwa i zapamiętywania Twoich preferencji.",
-    "accept": "Zaakceptuj wszystkie",
-    "reject": "Odrzuć opcjonalne",
+    "title": "Zgoda na pliki cookies",
+    "description": "Używamy plików cookies, aby ułatwić korzystanie z naszej strony. Niezbędne cookies są wymagane do prawidłowego działania serwisu. Opcjonalne ciasteczka pomagają nam zrozumieć ruch na stronie i ulepszać nasze usługi.",
+    "essential_info": "Niezbędne pliki cookies są stale aktywne, ponieważ odpowiadają za podstawowe funkcje serwisu, bezpieczeństwo oraz zapamiętywanie Twoich ustawień.",
+    "accept": "Akceptuję wszystkie",
+    "reject": "Odrzucam opcjonalne",
     "privacy_link": "Dowiedz się więcej w Polityce prywatności"
   }
 }

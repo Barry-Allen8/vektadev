@@ -4,9 +4,9 @@ import { getOrganizationSchema } from "@/lib/schema";
 import "./globals.css";
 
 const BASE_URL = "https://vektadev.com";
-const SITE_TITLE = "VektaDev - Profesjonalne rozwiązania IT dla Twojego biznesu";
+const SITE_TITLE = "VektaDev — Strony B2B, Asystenci AI i Automatyzacja Biznesu";
 const SITE_DESCRIPTION =
-  "Tworzymy nowoczesne strony internetowe, chat boty, rozwiązania AI i konsulting IT, które pozwalają firmom rozwijać się z nowoczesnymi technologiami.";
+  "VektaDev tworzy strony B2B, asystentów AI i systemy automatyzacji, które pomagają firmom zdobywać więcej zapytań, szybciej odpowiadać klientom i ograniczać ręczną pracę.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

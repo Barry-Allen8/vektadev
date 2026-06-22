@@ -9,6 +9,7 @@ import Textarea from "@/components/ui/Textarea";
 import Button from "@/components/ui/Button";
 import { Send, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { serviceItems } from "@/data/serviceCatalog";
 
 interface ApiContactFormData extends ContactFormData {
   b_website?: string; // Honeypot field
@@ -17,7 +18,6 @@ interface ApiContactFormData extends ContactFormData {
 export default function ContactForm() {
   const t = useTranslations("contact.form");
   const tErrors = useTranslations("contact.form.errors");
-  const tServices = useTranslations("services_menu");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -208,9 +208,12 @@ export default function ContactForm() {
             className="cyber-input appearance-none pr-10"
           >
             <option value="">{t("service_placeholder")}</option>
-            <option value="websites">{tServices("websites")}</option>
-            <option value="chatbots">{tServices("chatbots")}</option>
-            <option value="mobile_apps">{tServices("mobile_apps")}</option>
+            {serviceItems.map((service) => (
+              <option key={service.key} value={service.key}>
+                {t(`services.${service.key}`)}
+              </option>
+            ))}
+            <option value="not_sure">{t("not_sure")}</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4 text-slate-500">
             <ChevronDown className="w-5 h-5" />

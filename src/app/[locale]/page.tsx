@@ -3,12 +3,11 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import dynamic from "next/dynamic";
 import Hero from "@/components/sections/Hero";
 import { getSeoAlternates } from "@/lib/seo";
-import LatestReviewsSection from "@/components/sections/LatestReviewsSection";
 
-const TrustedBySection = dynamic(
-  () => import("@/components/sections/TrustedBySection"),
+const ProblemSection = dynamic(
+  () => import("@/components/sections/ProblemSection"),
   {
-    loading: () => <section className="py-12" />,
+    loading: () => <section className="py-16" />,
   }
 );
 
@@ -26,15 +25,22 @@ const WhyUsSection = dynamic(
   }
 );
 
-const CaseStudiesSection = dynamic(
-  () => import("@/components/sections/CaseStudiesSection"),
+const PricingSection = dynamic(
+  () => import("@/components/sections/PricingSection"),
   {
-    loading: () => <section className="section" />,
+    loading: () => <section id="pricing" className="section" />,
   }
 );
 
 const ProcessSection = dynamic(
   () => import("@/components/sections/ProcessSection"),
+  {
+    loading: () => <section className="section" />,
+  }
+);
+
+const UseCasesSection = dynamic(
+  () => import("@/components/sections/UseCasesSection"),
   {
     loading: () => <section className="section" />,
   }
@@ -47,45 +53,56 @@ const CTASection = dynamic(
   }
 );
 
+const ContactSection = dynamic(
+  () => import("@/components/sections/ContactSection"),
+  {
+    loading: () => <section id="contact" className="section" />,
+  }
+);
+
 const ROUTE = "/";
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const t = await getTranslations("seo");
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
   return {
     title: t("home.title"),
     description: t("home.description"),
     alternates: getSeoAlternates(locale, ROUTE),
     keywords: [
-      "software house Poland",
-      "web development",
-      "AI automation",
-      "chatbot development",
-      "digital transformation services",
+      "B2B websites",
+      "business automation",
+      "AI assistants",
+      "custom client portals",
+      "lead generation websites",
+      "VektaDev",
     ],
   };
 }
 
-export default function Home({
-  params: { locale },
+export default async function Home({
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   setRequestLocale(locale);
 
   return (
     <div className="relative isolate">
       <Hero />
-      <TrustedBySection />
+      <ProblemSection />
       <ServicesSection />
       <WhyUsSection />
-      <LatestReviewsSection locale={locale} />
-      <CaseStudiesSection />
+      <PricingSection />
       <ProcessSection />
+      <UseCasesSection />
       <CTASection />
+      <ContactSection />
     </div>
   );
 }

@@ -5,39 +5,52 @@ import Card from "@/components/ui/Card";
 import Accordion from "@/components/ui/Accordion";
 import { Link } from "@/i18n/navigation";
 import {
-  Check,
-  Globe,
-  X,
   AlertTriangle,
-  Lightbulb,
-  Trophy,
-  Sparkles,
-  Smartphone,
-  Search,
-  HeadphonesIcon,
+  Bot,
+  BriefcaseBusiness,
+  ChartNoAxesCombined,
+  Check,
   ChevronRight,
+  Compass,
+  LayoutDashboard,
+  Lightbulb,
+  ShieldCheck,
+  Sparkles,
+  Trophy,
+  Users,
+  X,
 } from "lucide-react";
+import type { ComponentType } from "react";
 import { useTranslations } from "next-intl";
+import { serviceDetailConfig, type ServiceKey } from "@/data/serviceCatalog";
 
-export default function WebsitesPageClient() {
+const heroIcons = {
+  b2b_websites: BriefcaseBusiness,
+  business_automation: ChartNoAxesCombined,
+  ai_assistants: Bot,
+  web_apps: LayoutDashboard,
+} satisfies Record<ServiceKey, ComponentType<{ className?: string }>>;
+
+const trustIcons = [Sparkles, ShieldCheck, Users, Compass];
+
+type ServiceDetailPageClientProps = {
+  serviceKey: ServiceKey;
+};
+
+type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+type TrustItem = {
+  title: string;
+  description: string;
+};
+
+export default function ServiceDetailPageClient({ serviceKey }: ServiceDetailPageClientProps) {
   const t = useTranslations("services");
-
-  const benefits = [
-    { key: "design" },
-    { key: "speed" },
-    { key: "responsive" },
-    { key: "seo" },
-    { key: "security" },
-    { key: "support" },
-  ];
-
-  const packages = [
-    { key: "landing", recommended: false },
-    { key: "corporate", recommended: true },
-    { key: "ecommerce", recommended: false },
-  ];
-
-  const trustIcons = [Sparkles, Smartphone, Search, HeadphonesIcon];
+  const config = serviceDetailConfig[serviceKey];
+  const Icon = heroIcons[serviceKey];
 
   return (
     <div className="min-h-screen">
@@ -45,14 +58,15 @@ export default function WebsitesPageClient() {
         <div className="container">
           <div className="max-w-5xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-              <Globe className="h-3.5 w-3.5" />
-              <span>{t("websites.title")}</span>
+              <Icon className="h-3.5 w-3.5" />
+              <span>{t(`${serviceKey}.title`)}</span>
             </div>
-            <h1 className="mb-6 text-5xl text-slate-100 md:text-6xl">{t("websites.hero_title")}</h1>
-            <p className="mb-8 max-w-4xl text-lg leading-relaxed text-slate-400">{t("websites.hero_subtitle")}</p>
+            <h1 className="mb-6 text-5xl text-slate-100 md:text-6xl">{t(`${serviceKey}.hero_title`)}</h1>
+            <p className="mb-3 max-w-4xl text-lg leading-relaxed text-slate-400">{t(`${serviceKey}.hero_subtitle`)}</p>
+            <p className="mb-8 max-w-4xl text-base leading-relaxed text-slate-400">{t(`${serviceKey}.hero_description`)}</p>
             <Button size="lg" asChild className="px-10">
               <Link href="/contact">
-                {t("websites.hero_cta")}
+                {t(`${serviceKey}.hero_cta`)}
                 <ChevronRight className="h-4 w-4" />
               </Link>
             </Button>
@@ -62,15 +76,15 @@ export default function WebsitesPageClient() {
 
       <section className="section bg-[#030b1f]/45">
         <div className="container">
-          <h2 className="mb-10 text-center text-3xl text-slate-100">{t("websites.who_its_for.title")}</h2>
+          <h2 className="mb-10 text-center text-3xl text-slate-100">{t(`${serviceKey}.who_its_for.title`)}</h2>
           <div className="mx-auto grid max-w-6xl grid-cols-1 gap-7 lg:grid-cols-2">
             <Card className="border-primary/35 bg-slate-900/45">
               <h3 className="mb-5 flex items-center gap-2 text-xl text-primary">
                 <Check className="h-5 w-5" />
-                {t("websites.who_its_for.best_for_title")}
+                {t(`${serviceKey}.who_its_for.best_for_title`)}
               </h3>
               <ul className="space-y-3">
-                {(t.raw("websites.who_its_for.best_for") as string[]).map((item) => (
+                {(t.raw(`${serviceKey}.who_its_for.best_for`) as string[]).map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-slate-300">
                     <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
                     <span>{item}</span>
@@ -82,10 +96,10 @@ export default function WebsitesPageClient() {
             <Card className="border-slate-700/55 bg-slate-900/45">
               <h3 className="mb-5 flex items-center gap-2 text-xl text-slate-200">
                 <X className="h-5 w-5" />
-                {t("websites.who_its_for.not_for_title")}
+                {t(`${serviceKey}.who_its_for.not_for_title`)}
               </h3>
               <ul className="space-y-3">
-                {(t.raw("websites.who_its_for.not_for") as string[]).map((item) => (
+                {(t.raw(`${serviceKey}.who_its_for.not_for`) as string[]).map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-slate-400">
                     <X className="mt-0.5 h-4 w-4 flex-shrink-0 text-slate-500" />
                     <span>{item}</span>
@@ -99,22 +113,22 @@ export default function WebsitesPageClient() {
 
       <section className="section">
         <div className="container">
-          <h2 className="mb-12 text-center text-3xl text-slate-100">{t("websites.problem_solution.title")}</h2>
+          <h2 className="mb-12 text-center text-3xl text-slate-100">{t(`${serviceKey}.problem_solution.title`)}</h2>
           <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-3">
             <Card className="border-red-500/45 bg-slate-900/45">
               <AlertTriangle className="mb-4 h-5 w-5 text-red-300" />
-              <h3 className="mb-3 text-xl text-red-300">{t("websites.problem_solution.problem_title")}</h3>
-              <p className="text-sm leading-relaxed text-slate-300">{t("websites.problem_solution.problem_text")}</p>
+              <h3 className="mb-3 text-xl text-red-300">{t(`${serviceKey}.problem_solution.problem_title`)}</h3>
+              <p className="text-sm leading-relaxed text-slate-300">{t(`${serviceKey}.problem_solution.problem_text`)}</p>
             </Card>
             <Card className="border-primary/45 bg-slate-900/45">
               <Lightbulb className="mb-4 h-5 w-5 text-primary" />
-              <h3 className="mb-3 text-xl text-primary">{t("websites.problem_solution.solution_title")}</h3>
-              <p className="text-sm leading-relaxed text-slate-300">{t("websites.problem_solution.solution_text")}</p>
+              <h3 className="mb-3 text-xl text-primary">{t(`${serviceKey}.problem_solution.solution_title`)}</h3>
+              <p className="text-sm leading-relaxed text-slate-300">{t(`${serviceKey}.problem_solution.solution_text`)}</p>
             </Card>
             <Card className="border-secondary/45 bg-slate-900/45">
               <Trophy className="mb-4 h-5 w-5 text-secondary" />
-              <h3 className="mb-3 text-xl text-secondary">{t("websites.problem_solution.result_title")}</h3>
-              <p className="text-sm leading-relaxed text-slate-300">{t("websites.problem_solution.result_text")}</p>
+              <h3 className="mb-3 text-xl text-secondary">{t(`${serviceKey}.problem_solution.result_title`)}</h3>
+              <p className="text-sm leading-relaxed text-slate-300">{t(`${serviceKey}.problem_solution.result_text`)}</p>
             </Card>
           </div>
         </div>
@@ -122,16 +136,33 @@ export default function WebsitesPageClient() {
 
       <section className="section bg-[#030b1f]/45">
         <div className="container">
-          <h2 className="mb-10 text-center text-3xl text-slate-100">{t("websites.trust_signals.title")}</h2>
+          <h2 className="mb-10 text-center text-3xl text-slate-100">{t("what_you_get")}</h2>
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+            {config.benefits.map((benefit) => (
+              <Card key={benefit} className="border-slate-700/45 bg-slate-900/45">
+                <div className="flex items-start gap-3">
+                  <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary" />
+                  <div>
+                    <h3 className="mb-2 text-lg text-slate-100">{t(`${serviceKey}.benefits.${benefit}.title`)}</h3>
+                    <p className="text-sm leading-relaxed text-slate-400">{t(`${serviceKey}.benefits.${benefit}.description`)}</p>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <h2 className="mb-10 text-center text-3xl text-slate-100">{t(`${serviceKey}.trust_signals.title`)}</h2>
           <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {(
-              t.raw("websites.trust_signals.items") as { title: string; description: string }[]
-            ).map((item, i) => {
-              const Icon = trustIcons[i];
+            {(t.raw(`${serviceKey}.trust_signals.items`) as TrustItem[]).map((item, index) => {
+              const TrustIcon = trustIcons[index] ?? Sparkles;
               return (
                 <Card key={item.title} className="border-slate-700/45 bg-slate-900/45 text-center">
                   <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl border border-primary/35 bg-primary/10 text-primary">
-                    <Icon className="h-5 w-5" />
+                    <TrustIcon className="h-5 w-5" />
                   </div>
                   <h3 className="mb-2 text-lg text-slate-100">{item.title}</h3>
                   <p className="text-sm leading-relaxed text-slate-400">{item.description}</p>
@@ -142,30 +173,11 @@ export default function WebsitesPageClient() {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <h2 className="mb-10 text-center text-3xl text-slate-100">{t("what_you_get")}</h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {benefits.map((benefit) => (
-              <Card key={benefit.key} className="border-slate-700/45 bg-slate-900/45">
-                <div className="flex items-start gap-3">
-                  <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary" />
-                  <div>
-                    <h3 className="mb-2 text-lg text-slate-100">{t(`websites.benefits.${benefit.key}.title`)}</h3>
-                    <p className="text-sm leading-relaxed text-slate-400">{t(`websites.benefits.${benefit.key}.description`)}</p>
-                  </div>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="section bg-[#030b1f]/45">
         <div className="container">
           <h2 className="mb-10 text-center text-3xl text-slate-100">{t("packages")}</h2>
           <div className="mx-auto grid max-w-6xl grid-cols-1 gap-7 md:grid-cols-3">
-            {packages.map((pkg) => (
+            {config.packages.map((pkg) => (
               <Card
                 key={pkg.key}
                 className={`relative flex h-full flex-col border bg-slate-900/45 ${pkg.recommended ? "border-primary" : "border-slate-700/45"}`}
@@ -175,11 +187,10 @@ export default function WebsitesPageClient() {
                     {t("popular")}
                   </div>
                 ) : null}
-
-                <h3 className="mb-2 text-2xl text-slate-100">{t(`websites.packages.${pkg.key}.name`)}</h3>
-                <div className="mb-6 text-2xl font-semibold text-primary">{t(`websites.packages.${pkg.key}.price`)}</div>
+                <h3 className="mb-2 text-2xl text-slate-100">{t(`${serviceKey}.packages.${pkg.key}.name`)}</h3>
+                <div className="mb-6 text-2xl font-semibold text-primary">{t(`${serviceKey}.packages.${pkg.key}.price`)}</div>
                 <ul className="mb-6 space-y-2">
-                  {(t.raw(`websites.packages.${pkg.key}.features`) as string[]).map((feature) => (
+                  {(t.raw(`${serviceKey}.packages.${pkg.key}.features`) as string[]).map((feature) => (
                     <li key={feature} className="flex items-start gap-2 text-sm text-slate-300">
                       <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
                       <span>{feature}</span>
@@ -197,10 +208,10 @@ export default function WebsitesPageClient() {
 
       <section className="section">
         <div className="container">
-          <h2 className="mb-10 text-center text-3xl text-slate-100">{t("websites.faq.title")}</h2>
+          <h2 className="mb-10 text-center text-3xl text-slate-100">{t(`${serviceKey}.faq.title`)}</h2>
           <div className="mx-auto max-w-4xl">
             <Accordion
-              items={(t.raw("websites.faq.items") as { question: string; answer: string }[]).map((item) => ({
+              items={(t.raw(`${serviceKey}.faq.items`) as FaqItem[]).map((item) => ({
                 title: item.question,
                 content: item.answer,
               }))}
@@ -212,11 +223,11 @@ export default function WebsitesPageClient() {
       <section className="section">
         <div className="container">
           <div className="mx-auto max-w-4xl rounded-[2rem] border border-slate-700/45 bg-[#07122a]/78 p-10 text-center">
-            <h2 className="mb-6 text-4xl text-slate-100">{t("websites.cta_section.title")}</h2>
-            <p className="mb-8 text-base leading-relaxed text-slate-300">{t("websites.cta_section.description")}</p>
+            <h2 className="mb-6 text-4xl text-slate-100">{t(`${serviceKey}.cta_section.title`)}</h2>
+            <p className="mb-8 text-base leading-relaxed text-slate-300">{t(`${serviceKey}.cta_section.description`)}</p>
             <Button size="lg" asChild className="px-10">
               <Link href="/contact">
-                {t("websites.cta_section.button")}
+                {t(`${serviceKey}.cta_section.button`)}
                 <ChevronRight className="h-4 w-4" />
               </Link>
             </Button>

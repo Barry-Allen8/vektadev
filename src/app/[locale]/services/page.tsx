@@ -1,11 +1,12 @@
 import { redirect } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 
-export default function ServicesPage({
-  params: { locale },
+export default async function ServicesPage({
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  redirect(`/${locale}/services/websites`);
+  redirect(`/${locale}/services/b2b-websites`);
 }

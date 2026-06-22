@@ -1,11 +1,12 @@
 import { redirect } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 
-export default function PortfolioPage({
-  params: { locale },
+export default async function PortfolioPage({
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   redirect(`/${locale}/about`);
 }

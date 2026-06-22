@@ -6,10 +6,11 @@ import TermsPageClient from "./page.client";
 const ROUTE = "/terms";
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "seo" });
 
   return {
@@ -26,7 +27,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   };
 }
 
-export default function TermsPage({ params: { locale } }: Props) {
+export default async function TermsPage({ params }: Props) {
+  const { locale } = await params;
   setRequestLocale(locale);
   return <TermsPageClient />;
 }

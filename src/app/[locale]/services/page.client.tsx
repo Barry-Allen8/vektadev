@@ -1,15 +1,18 @@
 "use client";
 
 import Card from "@/components/ui/Card";
-import { Globe, Bot, Smartphone, ArrowRight } from "lucide-react";
+import { Bot, BriefcaseBusiness, ChartNoAxesCombined, LayoutDashboard, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import type { ComponentType } from "react";
+import { serviceItems, type ServiceKey } from "@/data/serviceCatalog";
 
-const serviceKeys = [
-  { key: "websites", icon: Globe, href: "/services/websites" },
-  { key: "chatbots", icon: Bot, href: "/services/chatbots" },
-  { key: "mobile_apps", icon: Smartphone, href: "/services/mobile-apps" },
-] as const;
+const serviceIcons = {
+  b2b_websites: BriefcaseBusiness,
+  business_automation: ChartNoAxesCombined,
+  ai_assistants: Bot,
+  web_apps: LayoutDashboard,
+} satisfies Record<ServiceKey, ComponentType<{ className?: string }>>;
 
 export default function ServicesPageClient() {
   const t = useTranslations("services");
@@ -30,9 +33,9 @@ export default function ServicesPageClient() {
 
       <section className="section">
         <div className="container">
-          <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
-            {serviceKeys.map((service) => {
-              const Icon = service.icon;
+          <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4">
+            {serviceItems.map((service) => {
+              const Icon = serviceIcons[service.key];
               const features = (t.raw(`${service.key}.features`) as string[]).slice(0, 4);
 
               return (

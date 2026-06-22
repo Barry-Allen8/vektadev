@@ -10,9 +10,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/contact",
     "/privacy",
     "/terms",
-    "/services/websites",
-    "/services/chatbots",
-    "/services/mobile-apps",
+    "/services/b2b-websites",
+    "/services/business-automation",
+    "/services/ai-assistants",
+    "/services/web-apps",
   ];
 
   const routes = baseRoutes;

@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
-import { Menu, X, ChevronDown, LayoutGrid } from "lucide-react";
+import { Menu, X, LayoutGrid, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 import { useTranslations, useLocale } from "next-intl";
 import { locales, type Locale } from "@/i18n";
+import { serviceItems } from "@/data/serviceCatalog";
 
 const localeLabels: Record<Locale, string> = {
   pl: "PL",
@@ -21,8 +22,8 @@ export default function Header() {
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -30,11 +31,10 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const services = [
-    { name: tServices("websites"), href: "/services/websites" },
-    { name: tServices("chatbots"), href: "/services/chatbots" },
-    { name: tServices("mobile_apps"), href: "/services/mobile-apps" },
-  ];
+  const services = serviceItems.map((service) => ({
+    name: tServices(service.key),
+    href: service.href,
+  }));
 
   const getPathWithoutLocale = () => {
     const segments = pathname.split("/");
@@ -46,13 +46,16 @@ export default function Header() {
 
   const router = useRouter();
   const pathWithoutLocale = getPathWithoutLocale();
-  const isServicesActive = pathWithoutLocale.startsWith("/services");
 
   const isActive = (href: string) => {
     if (href === "/") {
       return pathWithoutLocale === "/" || pathWithoutLocale === "";
     }
     return pathWithoutLocale.startsWith(href);
+  };
+
+  const isServiceActive = () => {
+    return pathWithoutLocale.startsWith("/services/");
   };
 
   const switchLocale = (newLocale: Locale) => {
@@ -81,63 +84,80 @@ export default function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-9 text-sm font-medium text-slate-300">
+            {/* Home */}
             <Link
               href="/"
               locale={locale}
-              className={cn(isActive("/") ? "text-primary" : "hover:text-primary")}
+              className={cn(
+                "transition-colors",
+                isActive("/") ? "text-primary font-medium" : "hover:text-primary"
+              )}
             >
               {t("home")}
             </Link>
 
-            <div
-              className="relative"
-              onMouseEnter={() => setServicesOpen(true)}
-              onMouseLeave={() => setServicesOpen(false)}
-            >
+            {/* Services Dropdown */}
+            <div className="relative group py-2">
               <button
                 className={cn(
-                  "inline-flex items-center gap-1.5 transition-colors",
-                  isServicesActive ? "text-primary" : "hover:text-primary"
+                  "flex items-center gap-1 transition-colors hover:text-primary",
+                  isServiceActive() ? "text-primary font-medium" : ""
                 )}
               >
                 {t("services")}
-                <ChevronDown className="h-4 w-4" />
+                <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180 duration-200" />
               </button>
 
-              {servicesOpen ? (
-                <div className="absolute left-0 top-full pt-3">
-                  <div className="w-64 rounded-2xl border border-slate-700/70 bg-[#081228]/92 p-2 shadow-2xl shadow-black/45 backdrop-blur-xl">
-                    {services.map((service) => (
-                      <Link
-                        key={service.href}
-                        href={service.href}
-                        locale={locale}
-                        className={cn(
-                          "block rounded-xl px-3 py-2.5 text-sm transition-colors",
-                          isActive(service.href)
-                            ? "bg-primary/20 text-primary"
-                            : "text-slate-300 hover:bg-slate-800/60 hover:text-primary"
-                        )}
-                      >
-                        {service.name}
-                      </Link>
-                    ))}
-                  </div>
+              <div className="absolute left-0 top-full mt-2 w-56 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                <div className="rounded-xl border border-slate-700/60 bg-[#081228]/95 p-2 shadow-2xl shadow-black/45 backdrop-blur-xl space-y-1">
+                  {services.map((service) => (
+                    <Link
+                      key={service.href}
+                      href={service.href}
+                      locale={locale}
+                      className={cn(
+                        "block rounded-lg px-3 py-2 text-xs transition-colors",
+                        isActive(service.href)
+                          ? "bg-primary/15 text-primary font-medium"
+                          : "text-slate-300 hover:bg-slate-800/70 hover:text-slate-100"
+                      )}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
                 </div>
-              ) : null}
+              </div>
             </div>
 
+            {/* Pricing */}
+            <Link
+              href="/#pricing"
+              locale={locale}
+              className="transition-colors hover:text-primary"
+            >
+              {t("pricing")}
+            </Link>
+
+            {/* About */}
             <Link
               href="/about"
               locale={locale}
-              className={cn(isActive("/about") ? "text-primary" : "hover:text-primary")}
+              className={cn(
+                "transition-colors",
+                isActive("/about") ? "text-primary font-medium" : "hover:text-primary"
+              )}
             >
               {t("about")}
             </Link>
+
+            {/* Contact */}
             <Link
               href="/contact"
               locale={locale}
-              className={cn(isActive("/contact") ? "text-primary" : "hover:text-primary")}
+              className={cn(
+                "transition-colors",
+                isActive("/contact") ? "text-primary font-medium" : "hover:text-primary"
+              )}
             >
               {t("contact")}
             </Link>
@@ -201,43 +221,91 @@ export default function Header() {
               ))}
             </div>
 
-            <p className="mb-2 text-xs font-semibold text-slate-400">{t("services")}</p>
-            <div className="mb-5 space-y-1.5">
-              {services.map((service) => (
-                <Link
-                  key={service.href}
-                  href={service.href}
-                  locale={locale}
-                  className={cn(
-                    "block rounded-xl border px-3 py-2.5 text-sm",
-                    isActive(service.href)
-                      ? "border-primary/40 bg-primary/15 text-primary"
-                      : "border-slate-700/60 text-slate-300"
-                  )}
+            <div className="mb-4 space-y-1">
+              {/* Home */}
+              <Link
+                href="/"
+                locale={locale}
+                onClick={() => setMobileOpen(false)}
+                className={cn(
+                  "block rounded-lg px-3 py-2 text-sm transition-colors",
+                  isActive("/") ? "bg-slate-800/50 text-primary font-medium" : "text-slate-200 hover:bg-slate-800/30"
+                )}
+              >
+                {t("home")}
+              </Link>
+
+              {/* Services Accordion */}
+              <div>
+                <button
+                  onClick={() => setMobileServicesOpen((open) => !open)}
+                  className="flex w-full items-center justify-between rounded-lg px-3 py-2 text-sm text-slate-200 hover:bg-slate-800/30 transition-colors"
                 >
-                  {service.name}
-                </Link>
-              ))}
+                  <span>{t("services")}</span>
+                  <ChevronDown className={cn("h-4 w-4 transition-transform duration-200", mobileServicesOpen && "rotate-180")} />
+                </button>
+
+                <div className={cn("overflow-hidden transition-all duration-300 pl-4 space-y-1.5 mt-1", mobileServicesOpen ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0 pointer-events-none")}>
+                  {services.map((service) => (
+                    <Link
+                      key={service.href}
+                      href={service.href}
+                      locale={locale}
+                      onClick={() => setMobileOpen(false)}
+                      className={cn(
+                        "block rounded-lg px-3 py-2 text-xs transition-colors",
+                        isActive(service.href) ? "text-primary font-medium" : "text-slate-400 hover:text-slate-200"
+                      )}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              {/* Pricing */}
+              <Link
+                href="/#pricing"
+                locale={locale}
+                onClick={() => setMobileOpen(false)}
+                className="block rounded-lg px-3 py-2 text-sm text-slate-200 hover:bg-slate-800/30 transition-colors"
+              >
+                {t("pricing")}
+              </Link>
+
+              {/* About */}
+              <Link
+                href="/about"
+                locale={locale}
+                onClick={() => setMobileOpen(false)}
+                className={cn(
+                  "block rounded-lg px-3 py-2 text-sm transition-colors",
+                  isActive("/about") ? "bg-slate-800/50 text-primary font-medium" : "text-slate-200 hover:bg-slate-800/30"
+                )}
+              >
+                {t("about")}
+              </Link>
+
+              {/* Contact */}
+              <Link
+                href="/contact"
+                locale={locale}
+                onClick={() => setMobileOpen(false)}
+                className={cn(
+                  "block rounded-lg px-3 py-2 text-sm transition-colors",
+                  isActive("/contact") ? "bg-slate-800/50 text-primary font-medium" : "text-slate-200 hover:bg-slate-800/30"
+                )}
+              >
+                {t("contact")}
+              </Link>
             </div>
 
-            <div className="space-y-1">
-              {[
-                { href: "/", label: t("home") },
-                { href: "/about", label: t("about") },
-                { href: "/contact", label: t("contact") },
-              ].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  locale={locale}
-                  className={cn(
-                    "block rounded-lg px-2 py-2 text-sm transition-colors",
-                    isActive(item.href) ? "text-primary" : "text-slate-200"
-                  )}
-                >
-                  {item.label}
+            <div className="mt-4 pt-4 border-t border-slate-700/55">
+              <Button asChild size="sm" className="w-full justify-center py-2.5">
+                <Link href="/contact" locale={locale} onClick={() => setMobileOpen(false)}>
+                  {t("consultation")}
                 </Link>
-              ))}
+              </Button>
             </div>
           </nav>
         </div>

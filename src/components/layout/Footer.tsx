@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { LayoutGrid } from "lucide-react";
 import { type Locale } from "@/i18n";
 import { useCookieConsent } from "@/lib/useCookieConsent";
+import { serviceItems } from "@/data/serviceCatalog";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -33,9 +34,13 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 text-sm font-semibold text-slate-200">{t("services_title")}</h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
-              <li><Link href="/services/websites" locale={locale} className="cyber-link">{tServices("websites")}</Link></li>
-              <li><Link href="/services/chatbots" locale={locale} className="cyber-link">{tServices("chatbots")}</Link></li>
-              <li><Link href="/services/mobile-apps" locale={locale} className="cyber-link">{tServices("mobile_apps")}</Link></li>
+              {serviceItems.map((service) => (
+                <li key={service.key}>
+                  <Link href={service.href} locale={locale} className="cyber-link">
+                    {tServices(service.key)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -43,6 +48,7 @@ export default function Footer() {
             <h4 className="mb-4 text-sm font-semibold text-slate-200">{t("company_title")}</h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
               <li><Link href="/about" locale={locale} className="cyber-link">{tNav("about")}</Link></li>
+              <li><Link href="/#pricing" locale={locale} className="cyber-link">{tNav("pricing")}</Link></li>
               <li><Link href="/contact" locale={locale} className="cyber-link">{tNav("contact")}</Link></li>
               <li><a href="mailto:vektadev@gmail.com" className="cyber-link">vektadev@gmail.com</a></li>
             </ul>

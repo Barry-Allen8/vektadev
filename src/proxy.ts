@@ -21,18 +21,27 @@ export function proxy(request: NextRequest) {
   
   if (coursesMatch) {
     const locale = coursesMatch[1] || defaultLocale;
-    const redirectUrl = new URL(`/${locale}/services/websites`, request.url);
+    const redirectUrl = new URL(`/${locale}/services/b2b-websites`, request.url);
     return NextResponse.redirect(redirectUrl, 301);
   }
 
-  // Redirect removed service pages to the primary service page
+  // Redirect legacy service pages to the new primary service page
   const removedServicesPattern =
-    /^\/(?:(pl|en)\/)?services\/(ai-solutions|cloud|consulting)(\/.*)?$/;
+    /^\/(?:(pl|en)\/)?services\/(websites|chatbots|mobile-apps|ai-solutions|cloud|consulting)(\/.*)?$/;
   const removedServicesMatch = pathname.match(removedServicesPattern);
 
   if (removedServicesMatch) {
     const locale = removedServicesMatch[1] || defaultLocale;
-    const redirectUrl = new URL(`/${locale}/services/websites`, request.url);
+    const serviceSlug = removedServicesMatch[2];
+    const target =
+      serviceSlug === "chatbots" || serviceSlug === "ai-solutions"
+        ? "ai-assistants"
+        : serviceSlug === "mobile-apps" || serviceSlug === "cloud"
+          ? "web-apps"
+          : serviceSlug === "consulting"
+            ? "business-automation"
+            : "b2b-websites";
+    const redirectUrl = new URL(`/${locale}/services/${target}`, request.url);
     return NextResponse.redirect(redirectUrl, 301);
   }
 
