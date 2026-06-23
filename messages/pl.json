@@ -798,7 +798,7 @@
     "hero_line_1": "Zbudujmy",
     "hero_line_2": "przyszłość",
     "hero_line_3": "razem.",
-    "description": "Gotowy do omówienia projektu? Zostaw zgłoszenie, a my skontaktujemy się z Tobą wkrótce",
+    "description": "Opowiedz nam o stronie B2B, automatyzacji, asystencie AI lub portalu klienta. Pomożemy wybrać najszybszy sensowny kolejny krok.",
     "form_title": "Formularz kontaktowy",
     "info_title": "Informacje kontaktowe",
     "address": "Adres",
@@ -929,7 +929,7 @@
       "ievgenii": {
         "name": "Ievgenii Bigun",
         "position": "CEO i Lead Developer",
-        "bio": "Założyciel VektaDev z 8-letnim doświadczeniem w web development, integracjach AI i product engineering."
+        "bio": "Założyciel VektaDev z 8-letnim doświadczeniem w web development, integracjach AI i dedykowanych aplikacjach webowych."
       },
       "vladyslav": {
         "name": "Vladyslav Bereza",
@@ -949,7 +949,7 @@
       "pawel": {
         "name": "Paweł Koterski",
         "position": "Backend Developer",
-        "bio": "Backend developer z doświadczeniem w Node.js, Python i DevOps. Specjalizuje się w fundamentach platform cloud."
+        "bio": "Backend developer z doświadczeniem w Node.js, Python i integracjach systemowych. Specjalizuje się w architekturze baz danych i backendu."
       }
     },
     "stats": {
@@ -976,7 +976,7 @@
       "website": "Strona www",
       "chatbot": "Chatbot",
       "ai_solution": "Rozwiązanie AI",
-      "mobile_app": "Aplikacja mobilna"
+      "web_app": "Aplikacja webowa"
     },
     "projects": {
       "electronics_shop": {
@@ -996,8 +996,8 @@
         "description": "Projekt demonstracyjny: inteligentny asystent do przetwarzania zapytań i automatyzacji procesów"
       },
       "fitness_app": {
-        "title": "[Demo] Aplikacja fitness",
-        "description": "Projekt demonstracyjny: wieloplatformowa aplikacja do śledzenia treningów i odżywiania"
+        "title": "[Demo] Portal dla fitnessu",
+        "description": "Projekt demonstracyjny: portal klienta do śledzenia treningów i planów treningowych"
       },
       "education_platform": {
         "title": "[Demo] Platforma edukacyjna",

@@ -48,10 +48,10 @@ export const portfolioProjects: PortfolioProject[] = [
   {
     id: "5",
     slug: "fitness-app-demo",
-    title: "[Demo] Мобільний додаток для фітнесу",
-    description: "Демонстраційний проект: крос-платформний додаток для відстеження тренувань та харчування",
+    title: "[Demo] Веб-додаток для фітнесу",
+    description: "Демонстраційний проект: крос-платформний веб-додаток для відстеження тренувань та харчування",
     image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&h=600&fit=crop",
-    category: "Mobile App",
+    category: "Web App",
     technologies: ["React Native", "Firebase", "Node.js", "Express"],
     client: "Demo Project",
     year: 2024,

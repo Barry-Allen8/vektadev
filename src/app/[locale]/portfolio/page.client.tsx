@@ -17,7 +17,7 @@ export default function PortfolioPageClient() {
     { key: "Website", label: t("categories.website") },
     { key: "Chatbot", label: t("categories.chatbot") },
     { key: "AI Solution", label: t("categories.ai_solution") },
-    { key: "Mobile App", label: t("categories.mobile_app") },
+    { key: "Web App", label: t("categories.web_app") },
   ];
 
   const filteredProjects = activeCategory === "all"

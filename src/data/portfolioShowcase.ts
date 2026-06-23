@@ -9,8 +9,8 @@ export type PortfolioShowcaseItem = {
     | "education_platform";
   slug: string;
   image: string;
-  category: "E-commerce" | "Chatbot" | "Website" | "AI Solution" | "Mobile App";
-  categoryKey: "ecommerce" | "chatbot" | "website" | "ai_solution" | "mobile_app";
+  category: "E-commerce" | "Chatbot" | "Website" | "AI Solution" | "Web App";
+  categoryKey: "ecommerce" | "chatbot" | "website" | "ai_solution" | "web_app";
   technologies: string[];
   year: number;
   liveUrl: string;
@@ -71,8 +71,8 @@ export const portfolioShowcase: PortfolioShowcaseItem[] = [
     key: "fitness_app",
     slug: "fitness-app-demo",
     image: unsplashImage("photo-1526506118085-60ce8714f8c5"),
-    category: "Mobile App",
-    categoryKey: "mobile_app",
+    category: "Web App",
+    categoryKey: "web_app",
     technologies: ["React Native", "Firebase", "Node.js", "Express"],
     year: 2024,
     liveUrl: "https://github.com/expo/examples/tree/master/with-firebase",

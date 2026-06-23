@@ -798,7 +798,7 @@
     "hero_line_1": "Let's build",
     "hero_line_2": "the future",
     "hero_line_3": "together.",
-    "description": "Ready to discuss your project? Leave a request and we'll contact you soon",
+    "description": "Tell us about your B2B website, automation, AI assistant or client portal. We will help you choose the fastest useful next step.",
     "form_title": "Contact Form",
     "info_title": "Contact Information",
     "address": "Address",
@@ -929,7 +929,7 @@
       "ievgenii": {
         "name": "Ievgenii Bigun",
         "position": "CEO & Lead Developer",
-        "bio": "Founder of VektaDev with 8 years of experience in web development, AI integrations and product engineering."
+        "bio": "Founder of VektaDev with 8 years of experience in web development, AI integrations and custom web applications."
       },
       "vladyslav": {
         "name": "Vladyslav Bereza",
@@ -949,7 +949,7 @@
       "pawel": {
         "name": "Paweł Koterski",
         "position": "Backend Developer",
-        "bio": "Backend developer with experience in Node.js, Python and DevOps. Specializes in cloud platform foundations."
+        "bio": "Backend developer with experience in Node.js, Python and system integrations. Specializes in database and backend architectures."
       }
     },
     "stats": {
@@ -976,7 +976,7 @@
       "website": "Website",
       "chatbot": "Chatbot",
       "ai_solution": "AI Solution",
-      "mobile_app": "Mobile App"
+      "web_app": "Web App"
     },
     "projects": {
       "electronics_shop": {
@@ -996,8 +996,8 @@
         "description": "Demo project: intelligent assistant for processing requests and automating processes"
       },
       "fitness_app": {
-        "title": "[Demo] Fitness Mobile App",
-        "description": "Demo project: cross-platform app for tracking workouts and nutrition"
+        "title": "[Demo] Fitness Client Portal",
+        "description": "Demo project: client portal for tracking workouts and personal training plans"
       },
       "education_platform": {
         "title": "[Demo] Education Platform",
