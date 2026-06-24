@@ -97,7 +97,7 @@ export default function AboutPageClient() {
                         <Icon className="h-5 w-5" />
                       </div>
                       <div>
-                        <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-primary">Step {index + 1}</p>
+                        <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-primary">{t("step")} {index + 1}</p>
                         <h3 className="mb-2 text-xl text-slate-100">{step.title}</h3>
                         <p className="text-sm leading-relaxed text-slate-400">{step.description}</p>
                       </div>

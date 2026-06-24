@@ -24,7 +24,7 @@ export default function ServicesSection() {
       <div className="container relative z-10">
         <div className="mb-14 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-primary/85">Our Expertise</p>
+            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-primary/85">{t("badge")}</p>
             <h2 className="mb-4 text-4xl text-slate-100 md:text-5xl">{t("title")}</h2>
             <p className="text-base text-slate-400">{t("description")}</p>
           </div>

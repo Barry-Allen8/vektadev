@@ -36,8 +36,8 @@ export default function ContactSection() {
                   <Mail className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-slate-200">{tFooter("contact_title") || "Email"}</h4>
-                  <p className="mt-1 text-slate-400">hello@vektadev.com</p>
+                  <h4 className="font-medium text-slate-200">{tFooter("contact_title") || t("email")}</h4>
+                  <p className="mt-1 text-slate-400">{t("email_address")}</p>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ export default function ContactSection() {
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-slate-200">Office</h4>
+                  <h4 className="font-medium text-slate-200">{t("office")}</h4>
                   <p className="mt-1 text-slate-400 leading-relaxed">{tFooter("address")}</p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export default function ContactSection() {
                   <Clock className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-slate-200">Business Hours</h4>
+                  <h4 className="font-medium text-slate-200">{t("business_hours")}</h4>
                   <p className="mt-1 text-slate-400">{tFooter("working_hours")}</p>
                 </div>
               </div>

@@ -18,7 +18,7 @@ export default function WhyUsSection() {
     <section className="section bg-[#030b1f]/45">
       <div className="container">
         <div className="section-title">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-primary/85">Value Proposition</p>
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-primary/85">{t("badge")}</p>
           <h2>{t("title")}</h2>
           <p>{t("description")}</p>
         </div>

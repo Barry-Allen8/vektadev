@@ -17,7 +17,7 @@ export default function UseCasesSection() {
     <section className="section bg-slate-950/40 border-b border-slate-900">
       <div className="container">
         <div className="section-title">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-primary/85">Proven Scenarios</p>
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-primary/85">{t("badge")}</p>
           <h2>{t("title")}</h2>
           <p>{t("description")}</p>
         </div>

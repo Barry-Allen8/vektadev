@@ -64,6 +64,7 @@
     }
   },
   "services": {
+    "badge": "Our Expertise",
     "title": "Services built around execution",
     "description": "Focused website, automation and AI solutions for companies that want to generate more inquiries and handle clients faster.",
     "learn_more": "Learn more",
@@ -649,6 +650,7 @@
     }
   },
   "why_us": {
+    "badge": "Value Proposition",
     "title": "Why companies choose VektaDev",
     "description": "We do not just build layouts. We design websites and automation systems that connect your marketing, sales, and operations.",
     "business_focused": {
@@ -673,6 +675,7 @@
     }
   },
   "process": {
+    "step": "Step",
     "title": "Our practical delivery process",
     "description": "How we turn your business workflows and goals into a working website or automation system.",
     "steps": {
@@ -695,9 +698,11 @@
     }
   },
   "problem": {
+    "title": "The Online Brochure Problem",
     "text": "Most business websites look like online brochures. They do not explain the offer clearly, do not collect leads properly, and do not help the team handle inquiries faster. VektaDev builds websites and automation systems that connect marketing, sales, and operations."
   },
   "use_cases": {
+    "badge": "Proven Scenarios",
     "title": "Example Use Cases",
     "description": "Real operational solutions we build to connect marketing, sales, and back-office work.",
     "manufacturing": {
@@ -805,6 +810,8 @@
     "phone": "Phone",
     "email": "Email",
     "hours": "Working Hours",
+    "office": "Office",
+    "business_hours": "Business Hours",
     "phones": [
       "+48 537 890 776",
       "+48 733 264 543"
@@ -851,6 +858,7 @@
     }
   },
   "about": {
+    "step": "Step",
     "title": "We Build AI-Ready Software for Real Operations",
     "description": "We help ambitious companies across Poland and Europe build high-converting B2B websites, streamline processes with business automation, deploy practical AI assistants, and develop custom web apps that turn complex operations into simple, reliable software.",
     "value_prop_title": "Why Companies Choose VektaDev",

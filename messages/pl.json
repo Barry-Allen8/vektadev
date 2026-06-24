@@ -57,17 +57,18 @@
     "cta_primary": "Umów bezpłatną konsultację",
     "cta_secondary": "Zobacz nasze usługi",
     "stats": {
-      "individual": "Discovery biznesowe",
+      "individual": "Analiza biznesowa",
       "modern": "Architektura gotowa na AI",
-      "partnership": "Senior partner delivery",
-      "quality": "Launch i wsparcie"
+      "partnership": "Doświadczony partner wdrożeniowy",
+      "quality": "Wdrożenie i wsparcie"
     }
   },
   "services": {
-    "title": "Usługi zbudowane wokół realizacji",
+    "badge": "NASZA SPECJALIZACJA",
+    "title": "Usługi nastawione na konkretne wyniki",
     "description": "Skoncentrowane rozwiązania stron internetowych, automatyzacji i AI dla firm, które chcą zdobywać więcej zapytań i szybciej obsługiwać klientów.",
     "learn_more": "Dowiedz się więcej",
-    "order": "Umów discovery",
+    "order": "Umów konsultację",
     "what_you_get": "Co otrzymujesz",
     "packages": "Modele współpracy",
     "popular": "Popularny",
@@ -84,12 +85,12 @@
       "hero_description": "Budujemy szybkie, dostosowane do urządzeń mobilnych strony zoptymalizowane pod kątem SEO, połączone bezpośrednio z Twoją pocztą lub systemem CRM.",
       "hero_cta": "Zaplanuj projekt strony",
       "features": [
-        "Corporate websites",
-        "Landing pages",
-        "Multilingual websites",
-        "Contact and quote request forms",
-        "Basic SEO and analytics",
-        "CRM or email integration"
+        "Strony firmowe",
+        "Landing page",
+        "Strony wielojęzyczne",
+        "Formularze kontaktowe i zapytania ofertowe",
+        "Podstawowe SEO i analityka",
+        "Integracja z CRM lub e-mail"
       ],
       "benefits": {
         "positioning": {
@@ -177,8 +178,8 @@
       },
       "cta_section": {
         "title": "Gotowy na stronę, która przynosi zapytania?",
-        "description": "Umów się na bezpłatną rozmowę discovery, a zaplanujemy strukturę i zakres Twojego nowego serwisu.",
-        "button": "Umów discovery strony"
+        "description": "Umów się na bezpłatną konsultację, a zaplanujemy strukturę i zakres Twojego nowego serwisu.",
+        "button": "Umów konsultację w sprawie strony"
       },
       "packages": {
         "website": {
@@ -230,12 +231,12 @@
       "hero_description": "Przestań przepisywać informacje między programami. Mapujemy Twoje obecne ręczne zadania i zastępujemy je automatycznymi procesami, które zapisują dane, powiadamiają zespół i natychmiast odpowiadają klientom.",
       "hero_cta": "Zamów audyt automatyzacji",
       "features": [
-        "Lead management automation",
-        "CRM / Google Sheets / Airtable integration",
-        "Email and WhatsApp notifications",
-        "Automatic follow-ups",
-        "PDF / offer / invoice generation",
-        "Internal dashboards"
+        "Automatyzacja zarządzania zapytaniami",
+        "Integracja z CRM / Google Sheets / Airtable",
+        "Powiadomienia e-mail i WhatsApp",
+        "Automatyczne działania follow-up",
+        "Generowanie plików PDF / ofert / faktur",
+        "Wewnętrzne pulpity nawigacyjne"
       ],
       "benefits": {
         "lead_handling": {
@@ -324,7 +325,7 @@
       "cta_section": {
         "title": "Chcesz pozbyć się powtarzalnych zadań?",
         "description": "Opowiedz nam o swoich procesach, a przygotujemy propozycję usprawnień i wdrożenia automatyzacji.",
-        "button": "Umów discovery automatyzacji"
+        "button": "Umów konsultację automatyzacji"
       },
       "packages": {
         "audit": {
@@ -373,12 +374,12 @@
       "hero_description": "Tworzymy dedykowane chatboty na strony internetowe oraz do użytku wewnętrznego. Nasze systemy nie zgadują odpowiedzi — korzystają z bazy wiedzy opartej na Twoich plikach i FAQ, podając tylko zweryfikowane fakty.",
       "hero_cta": "Zaplanuj wdrożenie pilota AI",
       "features": [
-        "Website AI chatbot",
-        "FAQ and document-based assistant",
-        "Multilingual support",
-        "Lead qualification",
-        "CRM integration",
-        "Internal knowledge assistant"
+        "Chatbot AI na stronie",
+        "Asystent oparty na FAQ i dokumentach",
+        "Obsługa wielu języków",
+        "Kwalifikacja leadów",
+        "Integracja z CRM",
+        "Wewnętrzny asystent wiedzy"
       ],
       "benefits": {
         "knowledge": {
@@ -467,7 +468,7 @@
       "cta_section": {
         "title": "Chcesz zbudować asystenta AI dla swojej firmy?",
         "description": "Umów się na rozmowę, a przygotujemy dla Ciebie działające demo oparte na próbce Twoich dokumentów.",
-        "button": "Umów discovery AI"
+        "button": "Umów konsultację AI"
       },
       "packages": {
         "assistant": {
@@ -517,12 +518,12 @@
       "hero_description": "Projektujemy i wdrażamy dedykowane systemy webowe z podziałem ról, integracją baz danych, bezpiecznym logowaniem i funkcjami, których nie oferują gotowe platformy.",
       "hero_cta": "Omów projekt aplikacji",
       "features": [
-        "Client portals",
-        "Candidate portals",
-        "Booking systems",
-        "Quote request platforms",
-        "Internal admin panels",
-        "Document management systems"
+        "Portale klienta",
+        "Portale kandydatów",
+        "Systemy rezerwacji",
+        "Platformy zapytań ofertowych",
+        "Wewnętrzne panele administracyjne",
+        "Systemy zarządzania dokumentami"
       ],
       "benefits": {
         "portal": {
@@ -611,7 +612,7 @@
       "cta_section": {
         "title": "Potrzebujesz systemu dopasowanego do Twojej firmy?",
         "description": "Opowiedz nam o swoich procesach i bazie danych, a zaplanujemy etapy i zakres prac programistycznych.",
-        "button": "Umów discovery portalu"
+        "button": "Umów konsultację portalu"
       },
       "packages": {
         "prototype": {
@@ -649,6 +650,7 @@
     }
   },
   "why_us": {
+    "badge": "WARTOŚĆ DLA BIZNESU",
     "title": "Dlaczego firmy wybierają VektaDev",
     "description": "Nie tworzymy samych projektów graficznych. Budujemy strony i systemy automatyzacji, które łączą marketing, sprzedaż i operacje w Twojej firmie.",
     "business_focused": {
@@ -673,11 +675,12 @@
     }
   },
   "process": {
-    "title": "Nasz praktyczny proces delivery",
+    "step": "Krok",
+    "title": "Nasz praktyczny proces wdrożenia",
     "description": "Jak krok po kroku zmieniamy Twoje cele i procesy w działającą stronę internetową lub system automatyzacji.",
     "steps": {
       "discovery": {
-        "title": "Discovery",
+        "title": "Analiza",
         "description": "Rozumiemy Twój biznes, obecny proces, klientów i wąskie gardła."
       },
       "strategy": {
@@ -689,15 +692,17 @@
         "description": "Projektujemy i budujemy stronę, system automatyzacji, asystenta AI lub aplikację."
       },
       "launch_support": {
-        "title": "Launch i rozwój",
+        "title": "Wdrożenie i rozwój",
         "description": "Wdrażamy rozwiązanie, testujemy je i zapewniamy wsparcie oraz ulepszenia."
       }
     }
   },
   "problem": {
+    "title": "PROBLEM STRONY-WIZYTÓWKI",
     "text": "Większość stron firmowych wygląda jak wizytówki online. Nie wyjaśniają one jasno oferty, nie zbierają leadów prawidłowo i nie pomagają zespołowi w szybszej obsłudze zapytań. VektaDev buduje strony internetowe i systemy automatyzacji, które łączą marketing, sprzedaż i operacje."
   },
   "use_cases": {
+    "badge": "SPRAWDZONE SCENARIUSZE",
     "title": "Przykładowe wdrożenia",
     "description": "Realne rozwiązania operacyjne łączące marketing, sprzedaż i pracę back-office.",
     "manufacturing": {
@@ -767,9 +772,9 @@
     }
   },
   "cta": {
-    "title": "Gotowy zmodernizować realny proces?",
-    "description": "Umów rozmowę discovery, a wskażemy najszybszy sensowny następny krok.",
-    "button_primary": "Umów discovery",
+    "title": "Gotowy usprawnić realny proces w swojej firmie?",
+    "description": "Umów krótką rozmowę, a pokażemy Ci najprostszy sensowny kolejny krok.",
+    "button_primary": "Umów konsultację",
     "button_secondary": "O nas"
   },
   "footer": {
@@ -805,6 +810,8 @@
     "phone": "Telefon",
     "email": "Email",
     "hours": "Godziny pracy",
+    "office": "Biuro",
+    "business_hours": "Godziny pracy",
     "phones": [
       "+48 537 890 776",
       "+48 733 264 543"
@@ -851,16 +858,17 @@
     }
   },
   "about": {
+    "step": "Krok",
     "title": "Budujemy software gotowy na AI dla realnych operacji",
     "description": "Pomagamy ambitnym firmom z Polski i Europy budować konwertujące strony B2B, usprawniać procesy dzięki automatyzacji biznesu, wdrażać praktycznych asystentów AI oraz tworzyć dedykowane aplikacje webowe, które zamieniają złożone operacje w proste i niezawodne systemy.",
     "value_prop_title": "Dlaczego firmy wybierają VektaDev",
     "value_prop_intro": "Nie jesteśmy generyczną agencją IT. Łączymy analizę biznesową, profesjonalny web engineering i praktyczne wdrożenia AI, aby każdy wdrożony system przynosił mierzalne korzyści biznesowe.",
     "value_prop_points": [
-      "Discovery biznesowe łączące zakres projektu ze wzrostem zapytań ofertowych i oszczędnością czasu",
+      "Analiza biznesowa łącząca zakres projektu ze wzrostem zapytań ofertowych i oszczędnością czasu",
       "Wdrożenia AI osadzone w istniejących procesach, własnych bazach wiedzy i pod nadzorem człowieka",
       "Nowoczesna inżynieria webowa dla portali i stron B2B, które są szybkie, bezpieczne i zoptymalizowane pod konwersję",
-      "Transparentne delivery z jasnym zakresem, regularnymi prezentacjami działających wersji i brakiem ukrytych kosztów",
-      "Zespół z Polski pracujący zgodnie z RODO i europejskimi standardami delivery"
+      "Transparentne wdrożenie z jasnym zakresem, regularnymi prezentacjami działających wersji i brakiem ukrytych kosztów",
+      "Zespół z Polski pracujący zgodnie z RODO i europejskimi standardami realizacji"
     ],
     "story_title": "Nasza historia",
     "story_p1": "VektaDev powstała w 2020 roku z prostej obserwacji: wiele firm potrzebuje profesjonalnych rozwiązań IT, ale nie ma dostępu do zespołów, które rozumieją zarówno technologię, jak i biznes. Zbyt często widzieliśmy projekty, które wyglądały dobrze na papierze, ale nie przynosiły realnych rezultatów.",
@@ -882,7 +890,7 @@
         "description": "Podczas pracy regularnie informujemy o postępach. Masz dostęp do wersji roboczych i możesz zgłaszać uwagi na bieżąco."
       },
       {
-        "title": "Launch i rozwój",
+        "title": "Wdrożenie i rozwój",
         "description": "Po uruchomieniu nie znikamy. Oferujemy wsparcie techniczne i jesteśmy dostępni, gdy pojawią się pytania lub potrzeby rozwoju."
       }
     ],

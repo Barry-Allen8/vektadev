@@ -14,7 +14,7 @@ export default function ProblemSection() {
             <AlertCircle className="h-6 w-6" />
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold uppercase tracking-[0.2em] text-red-400/90">The Online Brochure Problem</h3>
+            <h3 className="text-lg font-semibold uppercase tracking-[0.2em] text-red-400/90">{t("title")}</h3>
             <p className="text-lg md:text-xl leading-relaxed text-slate-300 font-medium">
               {t("text")}
             </p>

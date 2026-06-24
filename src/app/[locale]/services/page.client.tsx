@@ -23,7 +23,7 @@ export default function ServicesPageClient() {
         <div className="container">
           <div className="max-w-4xl">
             <span className="mb-4 inline-flex rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-              Our Expertise
+              {t("badge")}
             </span>
             <h1 className="mb-5 text-5xl text-slate-100 md:text-6xl">{t("title")}</h1>
             <p className="max-w-3xl text-base text-slate-400">{t("description")}</p>

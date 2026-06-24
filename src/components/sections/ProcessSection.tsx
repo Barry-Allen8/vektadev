@@ -31,7 +31,7 @@ export default function ProcessSection() {
               </div>
 
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Step {index + 1}</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{t("step")} {index + 1}</p>
                 <h3 className="mt-1 text-lg font-medium text-slate-100">{t(`steps.${step.key}.title`)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-400">{t(`steps.${step.key}.description`)}</p>
               </div>
