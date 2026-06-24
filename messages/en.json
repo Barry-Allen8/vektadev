@@ -7,7 +7,9 @@
     "about": "About",
     "contact": "Contact",
     "consultation": "Book consultation",
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "switch_language": "Switch language",
+    "toggle_menu": "Toggle menu"
   },
   "seo": {
     "home": {
@@ -858,6 +860,7 @@
     }
   },
   "about": {
+    "badge": "About VektaDev",
     "step": "Step",
     "title": "We Build AI-Ready Software for Real Operations",
     "description": "We help ambitious companies across Poland and Europe build high-converting B2B websites, streamline processes with business automation, deploy practical AI assistants, and develop custom web apps that turn complex operations into simple, reliable software.",

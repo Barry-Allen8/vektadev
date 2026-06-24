@@ -7,7 +7,9 @@
     "about": "O nas",
     "contact": "Kontakt",
     "consultation": "Zamów konsultację",
-    "pricing": "Cennik"
+    "pricing": "Cennik",
+    "switch_language": "Zmień język",
+    "toggle_menu": "Przełącz menu"
   },
   "seo": {
     "home": {
@@ -64,7 +66,7 @@
     }
   },
   "services": {
-    "badge": "NASZA SPECJALIZACJA",
+    "badge": "Nasza specjalizacja",
     "title": "Usługi nastawione na konkretne wyniki",
     "description": "Skoncentrowane rozwiązania stron internetowych, automatyzacji i AI dla firm, które chcą zdobywać więcej zapytań i szybciej obsługiwać klientów.",
     "learn_more": "Dowiedz się więcej",
@@ -219,7 +221,7 @@
       }
     },
     "business_automation": {
-      "title": "Automatyzacja",
+      "title": "Automatyzacja biznesu",
       "description": "Automatyzujemy powtarzalne procesy biznesowe, dzięki czemu Twój zespół spędza mniej czasu na przepisywaniu danych, ręcznym wysyłaniu e-maili i zarządzaniu leadami.",
       "metadata": {
         "title": "Automatyzacja procesów biznesowych i integracje CRM | VektaDev",
@@ -506,7 +508,7 @@
       }
     },
     "web_apps": {
-      "title": "Aplikacje Web",
+      "title": "Aplikacje webowe",
       "description": "Dedykowane aplikacje internetowe i portale dla firm, które potrzebują czegoś więcej niż zwykłej strony WWW.",
       "metadata": {
         "title": "Dedykowane aplikacje webowe i portale klientów | VektaDev",
@@ -650,7 +652,7 @@
     }
   },
   "why_us": {
-    "badge": "WARTOŚĆ DLA BIZNESU",
+    "badge": "Wartość dla biznesu",
     "title": "Dlaczego firmy wybierają VektaDev",
     "description": "Nie tworzymy samych projektów graficznych. Budujemy strony i systemy automatyzacji, które łączą marketing, sprzedaż i operacje w Twojej firmie.",
     "business_focused": {
@@ -698,11 +700,11 @@
     }
   },
   "problem": {
-    "title": "PROBLEM STRONY-WIZYTÓWKI",
+    "title": "Problem strony-wizytówki",
     "text": "Większość stron firmowych wygląda jak wizytówki online. Nie wyjaśniają one jasno oferty, nie zbierają leadów prawidłowo i nie pomagają zespołowi w szybszej obsłudze zapytań. VektaDev buduje strony internetowe i systemy automatyzacji, które łączą marketing, sprzedaż i operacje."
   },
   "use_cases": {
-    "badge": "SPRAWDZONE SCENARIUSZE",
+    "badge": "Sprawdzone scenariusze",
     "title": "Przykładowe wdrożenia",
     "description": "Realne rozwiązania operacyjne łączące marketing, sprzedaż i pracę back-office.",
     "manufacturing": {
@@ -858,6 +860,7 @@
     }
   },
   "about": {
+    "badge": "O VektaDev",
     "step": "Krok",
     "title": "Budujemy software gotowy na AI dla realnych operacji",
     "description": "Pomagamy ambitnym firmom z Polski i Europy budować konwertujące strony B2B, usprawniać procesy dzięki automatyzacji biznesu, wdrażać praktycznych asystentów AI oraz tworzyć dedykowane aplikacje webowe, które zamieniają złożone operacje w proste i niezawodne systemy.",

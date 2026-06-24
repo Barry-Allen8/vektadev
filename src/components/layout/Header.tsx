@@ -168,7 +168,7 @@ export default function Header() {
               <button
                 className="rounded-full border border-slate-600 bg-slate-900/45 px-3.5 py-2 text-xs font-semibold text-slate-200 transition-colors hover:border-slate-400"
                 onClick={() => setLangOpen((open) => !open)}
-                aria-label="Switch language"
+                aria-label={t("switch_language")}
               >
                 {localeLabels[locale]}
               </button>
@@ -198,7 +198,7 @@ export default function Header() {
           <button
             className="lg:hidden rounded-xl border border-slate-600 bg-slate-900/55 p-2.5 text-slate-200"
             onClick={() => setMobileOpen((open) => !open)}
-            aria-label="Toggle menu"
+            aria-label={t("toggle_menu")}
           >
             {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>

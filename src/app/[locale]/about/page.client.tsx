@@ -42,7 +42,7 @@ export default function AboutPageClient() {
         <div className="container">
           <div className="max-w-5xl">
             <span className="mb-4 inline-flex rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-              About VektaDev
+              {t("badge")}
             </span>
             <h1 className="mb-6 text-5xl text-slate-100 md:text-6xl">{t("title")}</h1>
             <p className="max-w-4xl text-base leading-relaxed text-slate-400">{t("description")}</p>
