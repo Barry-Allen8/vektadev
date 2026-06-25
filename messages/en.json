@@ -67,10 +67,10 @@
   },
   "services": {
     "badge": "Our Expertise",
-    "title": "Services built around execution",
+    "title": "Services built around business results",
     "description": "Focused website, automation and AI solutions for companies that want to generate more inquiries and handle clients faster.",
     "learn_more": "Learn more",
-    "order": "Book discovery",
+    "order": "Book a consultation",
     "what_you_get": "What you get",
     "packages": "Engagement options",
     "popular": "Popular",
@@ -774,9 +774,9 @@
     }
   },
   "cta": {
-    "title": "Ready to modernize a real workflow?",
-    "description": "Book a discovery call and we will identify the fastest useful next step.",
-    "button_primary": "Book discovery call",
+    "title": "Ready to improve a real business process?",
+    "description": "Book a short consultation and we’ll show you the fastest useful next step.",
+    "button_primary": "Book a consultation",
     "button_secondary": "About us"
   },
   "footer": {
