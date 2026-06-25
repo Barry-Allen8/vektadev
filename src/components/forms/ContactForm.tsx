@@ -147,7 +147,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
       {/* Honeypot field - hidden from users, visible to bots */}
-      <div className="absolute -left-[9999px] opacity-0" aria-hidden="true">
+      <div className="sr-only opacity-0 pointer-events-none absolute" aria-hidden="true">
         <label htmlFor="b_website">
           Leave this field empty
           <input

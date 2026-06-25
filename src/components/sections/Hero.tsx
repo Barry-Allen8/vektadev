@@ -163,7 +163,7 @@ export default function Hero() {
               </div>
 
               <div className="absolute right-7 top-7 rounded-2xl border border-primary/30 bg-[#081228]/92 px-4 py-3 backdrop-blur-lg">
-                <p className="text-[11px] text-slate-400">Growth Impact</p>
+                <p className="text-[11px] text-slate-400">{t("growth_impact")}</p>
                 <p className="text-xl font-semibold text-primary">+24.8%</p>
               </div>
             </div>

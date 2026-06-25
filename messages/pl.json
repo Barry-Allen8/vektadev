@@ -52,6 +52,7 @@
     "web_apps": "Aplikacje webowe"
   },
   "hero": {
+    "growth_impact": "Wpływ na wzrost",
     "badge": "Strony B2B, asystenci AI i automatyzacja z Polski",
     "title": "Strony internetowe i systemy automatyzacji",
     "title_gradient": "dla firm, które chcą więcej zapytań i mniej pracy ręcznej",
@@ -683,7 +684,7 @@
     "steps": {
       "discovery": {
         "title": "Analiza",
-        "description": "Rozumiemy Twój biznes, obecny proces, klientów i wąskie gardła."
+        "description": "Poznajemy Twój biznes, obecny proces, klientów i wąskie gardła."
       },
       "strategy": {
         "title": "Strategia",
@@ -691,7 +692,7 @@
       },
       "build": {
         "title": "Budowa",
-        "description": "Projektujemy i budujemy stronę, system automatyzacji, asystenta AI lub aplikację."
+        "description": "Projektujemy i budujemy stronę, system automatyzacji, asystenta AI lub aplikację webową."
       },
       "launch_support": {
         "title": "Wdrożenie i rozwój",
@@ -706,7 +707,7 @@
   "use_cases": {
     "badge": "Sprawdzone scenariusze",
     "title": "Przykładowe wdrożenia",
-    "description": "Realne rozwiązania operacyjne łączące marketing, sprzedaż i pracę back-office.",
+    "description": "Przykłady rozwiązań, które łączą marketing, sprzedaż i codzienną pracę operacyjną.",
     "manufacturing": {
       "title": "Firma produkcyjna",
       "description": "Wielojęzyczna strona B2B z podstronami usług, formularzem wyceny i integracją z CRM."
