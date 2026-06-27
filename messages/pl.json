@@ -79,9 +79,9 @@
       "title": "Strony B2B",
       "description": "Nowoczesne strony internetowe dla firm zaprojektowane tak, aby jasno przedstawiać Twoje usługi, budować zaufanie i zamieniać odwiedzających w zapytania.",
       "metadata": {
-        "title": "Tworzenie stron B2B | Profesjonalne strony dla firm | VektaDev",
+        "title": "Strony B2B | Projektowanie i budowa stron dla firm",
         "description": "Projektujemy i budujemy strony B2B o wysokiej konwersji, strony lądowania i serwisy korporacyjne zintegrowane z formularzami, CRM i analityką.",
-        "keywords": "tworzenie stron B2B, strona pozyskująca leady, strona firmowa, strona wielojęzyczna, dedykowane strony internetowe"
+        "keywords": "strony B2B, strona pozyskująca leady, strona firmowa, strona wielojęzyczna, dedykowane strony internetowe"
       },
       "hero_title": "Strony internetowe, które generują realne zapytania",
       "hero_subtitle": "Profesjonalne serwisy firmowe, które budują zaufanie i konwertują ruch w leady.",
@@ -225,7 +225,7 @@
       "title": "Automatyzacja biznesu",
       "description": "Automatyzujemy powtarzalne procesy biznesowe, dzięki czemu Twój zespół spędza mniej czasu na przepisywaniu danych, ręcznym wysyłaniu e-maili i zarządzaniu leadami.",
       "metadata": {
-        "title": "Automatyzacja procesów biznesowych i integracje CRM | VektaDev",
+        "title": "Automatyzacja procesów biznesowych i integracje CRM",
         "description": "Zautomatyzuj przekazywanie leadów, wpisy w CRM, powiadomienia, generowanie dokumentów i powtarzalne zadania dzięki integracjom VektaDev.",
         "keywords": "automatyzacja biznesu, automatyzacja CRM, automatyzacja leadów, integracja Airtable, powiadomienia automatyczne, optymalizacja procesów"
       },
@@ -368,7 +368,7 @@
       "title": "Asystenci AI",
       "description": "Asystenci AI wyszkoleni na danych Twojej firmy, którzy odpowiadają na pytania klientów, kwalifikują leady i wspierają Twój zespół.",
       "metadata": {
-        "title": "Tworzenie chatbotów i asystentów AI dla firm | VektaDev",
+        "title": "Asystenci AI dla firm | Integracja i wdrożenie",
         "description": "Budujemy dedykowanych asystentów AI i chatboty na strony WWW wyszkolone na FAQ i dokumentach firmy, automatyzujące obsługę i kwalifikację leadów.",
         "keywords": "chatbot AI dla firmy, asystent AI na stronę, dedykowany chatbot, obsługa klienta AI, asystent RAG"
       },
@@ -512,7 +512,7 @@
       "title": "Aplikacje webowe",
       "description": "Dedykowane aplikacje internetowe i portale dla firm, które potrzebują czegoś więcej niż zwykłej strony WWW.",
       "metadata": {
-        "title": "Dedykowane aplikacje webowe i portale klientów | VektaDev",
+        "title": "Dedykowane aplikacje webowe i portale klientów",
         "description": "Budujemy panele klienta, systemy rezerwacji, portale kandydatów i panele administracyjne dopasowane do procesów biznesowych.",
         "keywords": "dedykowana aplikacja webowa, tworzenie portali klientów, portal kandydata, system rezerwacji, panel admina, aplikacje React"
       },
@@ -833,10 +833,10 @@
       "service_placeholder": "Wybierz usługę",
       "not_sure": "Nie wiem / Potrzebuję porady",
       "services": {
-        "b2b_websites": "Strona B2B",
+        "b2b_websites": "Strony B2B",
         "business_automation": "Automatyzacja biznesu",
-        "ai_assistants": "Asystent AI / Chatbot",
-        "web_apps": "Aplikacja webowa / Portal klienta"
+        "ai_assistants": "Asystenci AI",
+        "web_apps": "Aplikacje webowe"
       },
       "message": "Wiadomość *",
       "message_placeholder": "Opowiedz o swoim projekcie...",
