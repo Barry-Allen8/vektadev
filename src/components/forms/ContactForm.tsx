@@ -146,18 +146,19 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-      {/* Honeypot field - hidden from users, visible to bots */}
-      <div className="sr-only opacity-0 pointer-events-none absolute" aria-hidden="true">
-        <label htmlFor="b_website">
-          Leave this field empty
-          <input
-            type="text"
-            id="b_website"
-            name="b_website"
-            tabIndex={-1}
-            autoComplete="off"
-          />
-        </label>
+      {/* Honeypot field - hidden from users and assistive technology, visible to bots */}
+      <div
+        className="pointer-events-none absolute -left-[9999px] top-auto h-px w-px overflow-hidden opacity-0"
+        aria-hidden="true"
+      >
+        <input
+          type="text"
+          id="b_website"
+          name="b_website"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
       </div>
 
       <Input
