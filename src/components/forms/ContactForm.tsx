@@ -155,6 +155,7 @@ export default function ContactForm() {
           type="text"
           id="b_website"
           name="b_website"
+          defaultValue=""
           tabIndex={-1}
           autoComplete="off"
           aria-hidden="true"
