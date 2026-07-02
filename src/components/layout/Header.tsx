@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { Menu, X, LayoutGrid, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -12,6 +12,7 @@ import { serviceItems } from "@/data/serviceCatalog";
 const localeLabels: Record<Locale, string> = {
   pl: "PL",
   en: "EN",
+  uk: "UK",
 };
 
 export default function Header() {
@@ -23,13 +24,41 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+
+  const langRef = useRef<HTMLDivElement>(null);
+  const servicesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Node;
+      if (langRef.current && !langRef.current.contains(target)) {
+        setLangOpen(false);
+      }
+      if (servicesRef.current && !servicesRef.current.contains(target)) {
+        setServicesOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const toggleLang = () => {
+    setLangOpen((open) => !open);
+    setServicesOpen(false);
+  };
+
+  const toggleServices = () => {
+    setServicesOpen((open) => !open);
+    setLangOpen(false);
+  };
 
   const services = serviceItems.map((service) => ({
     name: tServices(service.key),
@@ -61,6 +90,7 @@ export default function Header() {
   const switchLocale = (newLocale: Locale) => {
     router.replace(pathWithoutLocale || "/", { locale: newLocale });
     setLangOpen(false);
+    setMobileOpen(false);
   };
 
   return (
@@ -97,24 +127,42 @@ export default function Header() {
             </Link>
 
             {/* Services Dropdown */}
-            <div className="relative group py-2">
+            <div
+              ref={servicesRef}
+              className="relative py-2"
+              onMouseEnter={() => {
+                setServicesOpen(true);
+                setLangOpen(false);
+              }}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
               <button
+                onClick={toggleServices}
                 className={cn(
                   "flex items-center gap-1 transition-colors hover:text-primary",
-                  isServiceActive() ? "text-primary font-medium" : ""
+                  isServiceActive() ? "text-primary font-medium" : "",
+                  servicesOpen ? "text-primary" : ""
                 )}
               >
                 {t("services")}
-                <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180 duration-200" />
+                <ChevronDown className={cn("h-4 w-4 transition-transform duration-200", servicesOpen && "rotate-180")} />
               </button>
 
-              <div className="absolute left-0 top-full mt-2 w-56 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+              <div
+                className={cn(
+                  "absolute left-0 top-full mt-2 w-56 transition-all duration-200 z-50",
+                  servicesOpen
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 translate-y-2 pointer-events-none"
+                )}
+              >
                 <div className="rounded-xl border border-slate-700/60 bg-[#081228]/95 p-2 shadow-2xl shadow-black/45 backdrop-blur-xl space-y-1">
                   {services.map((service) => (
                     <Link
                       key={service.href}
                       href={service.href}
                       locale={locale}
+                      onClick={() => setServicesOpen(false)}
                       className={cn(
                         "block rounded-lg px-3 py-2 text-xs transition-colors",
                         isActive(service.href)
@@ -164,16 +212,26 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <div className="relative">
+            <div className="relative" ref={langRef}>
               <button
-                className="rounded-full border border-slate-600 bg-slate-900/45 px-3.5 py-2 text-xs font-semibold text-slate-200 transition-colors hover:border-slate-400"
-                onClick={() => setLangOpen((open) => !open)}
+                className={cn(
+                  "rounded-full border bg-slate-900/45 px-3.5 py-2 text-xs font-semibold text-slate-200 transition-colors hover:border-slate-400",
+                  langOpen ? "border-slate-400" : "border-slate-600"
+                )}
+                onClick={toggleLang}
                 aria-label={t("switch_language")}
               >
                 {localeLabels[locale]}
               </button>
-              {langOpen ? (
-                <div className="absolute right-0 top-full mt-2 w-24 rounded-xl border border-slate-700/70 bg-[#081228]/95 p-1.5 shadow-xl shadow-black/35">
+              <div
+                className={cn(
+                  "absolute right-0 top-full mt-2 w-24 transition-all duration-200 z-50",
+                  langOpen
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 translate-y-2 pointer-events-none"
+                )}
+              >
+                <div className="rounded-xl border border-slate-700/70 bg-[#081228]/95 p-1.5 shadow-xl shadow-black/35">
                   {locales.map((loc) => (
                     <button
                       key={loc}
@@ -187,7 +245,7 @@ export default function Header() {
                     </button>
                   ))}
                 </div>
-              ) : null}
+              </div>
             </div>
 
             <Button asChild size="sm" className="px-5 py-2.5">

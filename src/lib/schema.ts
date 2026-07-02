@@ -32,7 +32,7 @@ export function getOrganizationSchema() {
       contactType: "customer support",
       email: "vektadev@gmail.com",
       telephone: "+48-537-890-776",
-      availableLanguage: ["en", "pl"],
+      availableLanguage: ["en", "pl", "uk"],
     },
     address: {
       "@type": "PostalAddress",

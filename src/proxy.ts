@@ -16,7 +16,7 @@ export function proxy(request: NextRequest) {
 
   // Handle redirects for removed /courses routes
   // Check for courses path in any locale
-  const coursesPattern = /^\/(?:(pl|en)\/)?courses(\/.*)?$/;
+  const coursesPattern = /^\/(?:(pl|en|uk)\/)?courses(\/.*)?$/;
   const coursesMatch = pathname.match(coursesPattern);
   
   if (coursesMatch) {
@@ -27,7 +27,7 @@ export function proxy(request: NextRequest) {
 
   // Redirect legacy service pages to the new primary service page
   const removedServicesPattern =
-    /^\/(?:(pl|en)\/)?services\/(websites|chatbots|mobile-apps|ai-solutions|cloud|consulting)(\/.*)?$/;
+    /^\/(?:(pl|en|uk)\/)?services\/(websites|chatbots|mobile-apps|ai-solutions|cloud|consulting)(\/.*)?$/;
   const removedServicesMatch = pathname.match(removedServicesPattern);
 
   if (removedServicesMatch) {
