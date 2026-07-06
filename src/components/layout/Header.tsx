@@ -12,7 +12,7 @@ import { serviceItems } from "@/data/serviceCatalog";
 const localeLabels: Record<Locale, string> = {
   pl: "PL",
   en: "EN",
-  uk: "UK",
+  uk: "UA",
 };
 
 export default function Header() {
