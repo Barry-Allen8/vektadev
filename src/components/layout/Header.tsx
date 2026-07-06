@@ -150,7 +150,7 @@ export default function Header() {
 
               <div
                 className={cn(
-                  "absolute left-0 top-full mt-2 w-56 transition-all duration-200 z-50",
+                  "absolute left-0 top-full pt-2 w-56 transition-all duration-200 z-50",
                   servicesOpen
                     ? "opacity-100 translate-y-0 pointer-events-auto"
                     : "opacity-0 translate-y-2 pointer-events-none"
